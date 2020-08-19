@@ -1,0 +1,18 @@
+CS1653 APPLIED CRYPTOGRAPHY AND NETWORK SECURITY
+
+8/19
+Computer Security Properties: Confidentiality, Integrity, Availability
+
+CONFIDENTIALITY: need to conceal information or resources
+  Data: "nobody should know my bank account balance"
+  Existance: "nobody should know I shop at XYZ.com"
+  Configuration: "nobody should know what software I run"
+
+Access control systems preserve data confidentiality
+  -OS knows which users can access a file
+While cryptography preserves data confidentiality, it doesn't provide existence confidentiality
+
+INTEGRITY: trustworthiness of information or resources
+  Data: "Is my account balance correct?"
+  Origin: "Was this application really written by Microsoft?"
+Integrity mechanisms can either prevent or detect breaches
