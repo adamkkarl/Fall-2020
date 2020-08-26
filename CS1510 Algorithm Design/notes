@@ -1,0 +1,19 @@
+CS1510 ALGORITHM DESIGN
+
+8/19
+Problem: relation from input to acceptable output
+Algorithm: a recipe to solve a problem
+Program: a computer implementation to solve a problem
+
+Greedy Algorithms
+are myopic - ex: add 1 piece to solution set, remove any pieces that conflict with that piece from consideration
+
+Formal Direct Proof
+sequence of statements such that for every statement either:
+1. is an assumption
+or 2. logically follows from previous step
+
+Formal Proof by Contradiction
+Thm: X
+Proof: assume X => y => not y. Since y and not y contradict, assumed X must be false
+
