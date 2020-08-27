@@ -1,0 +1,24 @@
+CS1555 DATABASE MANAGEMENT SYSTEMS
+Prof Costa
+
+8/19
+Database: an integrated collection of related data
+  models a real-world enterprise (e.g. university)
+  Entities (students, courses)
+  Relationships (Adam took CS1555)
+
+Data vs Information
+  Bits + Type = Data
+  Date + Semantics = Information
+  Information + Model = Knowledge
+
+Integrated Storage: all data is stored/manipulated in a *uniform way* on a secondary storage
+  too much data for main memory
+  share data across applications
+
+Database Management System (DBMS)
+  software package to conveniently and efficiently store and manage databases
+  Oracle, IBM DB2, SQLServer, MySQL, ...
+  Applications <-> DBMS <-> Database
+  
+
