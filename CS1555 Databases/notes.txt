@@ -21,4 +21,27 @@ Database Management System (DBMS)
   Oracle, IBM DB2, SQLServer, MySQL, ...
   Applications <-> DBMS <-> Database
   
+8/24
+DATA ABSTRACTION
+Data Model: a collection of high-level data description constructs that hides low-level details
+Relational/Object-Relational Model
+  most widely used data model today
+  main construce is a *relation* (table of records)
+  every relation is a *schema*
+    -relation name  -names of fields  -types of fields
+  example Schema: Students(sid:string, name:string, age:integer, gpa:real)
+
+Data Definition Language (DDL)
+  define schema
+  define integrity constraints - ex:unique student ids
+Data Manipulation Language (DML)
+  Query: to ask questions - ex: which students have GPA>3.5
+  to create and modify data
+SQL: most widely used DB language (can do both DDL and DML)
+
+3 levels of abstraction in DBMS
+  1. Conceptual Schema - DDL
+  2. Pysical Schema - SDL
+  3. (multiple) External Schema (Views) VDL: view definition language
+
 
