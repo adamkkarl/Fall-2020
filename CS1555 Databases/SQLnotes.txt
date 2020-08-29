@@ -1,0 +1,85 @@
+Data Definition Language (DDL)
+  define schemas
+  define integrity constraints
+
+Data Manipulation Language (DML)
+  to ask questions = Query
+  to insert, delete, modify data
+
+Datatypes
+INTEGER, SMALLINT (2 bytes)
+FLOAT[precision], REAL, DOUBLE PRECISION //approx numbers 
+DECIMAL(i,j) = DEC(i,j) = NUMERIC(i,j) //formatted numbers
+  i = total num digits
+  j = num fractional digits (default 0)
+
+Strings
+//strings always in single quotes in SQL
+CHAR(n) = CHARACTER(n) //fixed length
+VARCHAR(n) = CHAR VARYING (n) //varying length of max n (no padding)
+Concatenation: ||
+  'abc' || 'XYZ' ==> 'abcXYZ'
+can hole foreign-language chars with NATIONAL (VAR)CHAR(n)
+
+Bit Strings
+binary: B'0101011010'
+hex: X'ff'
+BIT(n)
+VARBIT(n) = BIT VARYING (n)
+
+Date and Time
+DATE  YYYY-MM-DD
+Time  HH:MM:SS
+TIME(i) HH:MM:SS:ddd...d
+
+CAST(string AS DATE)    CAST('2002-02-18' AS DATE)
+MAKEDATE(int year, int month, int day)
+EXTRACT(MONTH/DAY/YEAR FROM <date>)
+YEAR(<date>), MONTH(<date>), DAY(<date>)
+
+operations on dates
+Datetime +/- Interval = Datetime
+Datetime - Datetime = interval
+Interval * or / Number = Interval
+Interval + or - Interval = Interval
+
+Intervals
+results when 2 dates are subtracted
+2 types:
+  Year-Month
+  Day-Time
+
+
+schemas
+  CREATE SCHEMA <db-name>
+  AUTHORIZATION <user-identifier>;
+
+  DROP SCHEMA <db-name> [RESTRICT | CASCADE];
+    restrict: remove schema if db has no data
+    cascade: remove everything, data and definitions
+tables
+  CREATE TABLE <table-name>(
+  <attribute-name><attribute-type>, ...
+  Constraint <constraint-name><constraint-spec>, ...);
+
+  CREATE TABLE Students (
+  sid CHAR(20),
+  name CHAR(20),
+  age INTEGER,
+  gpa REAL,
+  Constraint Student_PK PRIMARY KEY (sid) );
+
+
+
+  DROP TABLE
+  ALTER TABLE
+views
+  CREATE VIEW
+  DROP VIEW
+integrity constraints
+  CREATE IC
+  DROP IC
+domains
+  CREATE DOMAIN
+  DROP DOMAIN
+
