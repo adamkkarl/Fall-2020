@@ -1,0 +1,123 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Homework 4}
+\author{Adam Karl}
+
+\begin{document}
+\maketitle
+
+
+\section{Problem 13 (6 points)}
+\subsection{a}
+
+Goal: My approach is to first mark every uncolored vertex in V as either red or blue in such a way that V will contain an optimal solution when we then iterate over every edge in E and add every edge that connects a red node to a blue node to V. 
+
+
+
+\begin{itemize}
+    \item go through each vertex in V, counting the number of uncolored nodes. Let this number be m
+    \item create an array ARR with 2 rows and m columns
+    \item arbitrarily choose a vertex to be the root node
+    \item Using a depth first search, we are going to fill in the array such that:
+    \begin{itemize}
+        \item ARR[1,i] has the minimum cost of solving the problem on the sub-tree with uncolored node i as the root, assuming that i is marked red
+        \item ARR[2,i] has the same solution, but assuming i is marked blue
+        \item note that neither solution gives any consideration to the parent of node i, only their children
+    \end{itemize}
+    \item this array initially looks like this
+    
+    
+\begin{table}[htb]
+\begin{tabular}{llllll}
+                                                                                      & 1                     & 2                     & 3                     & ...                   & m                     \\ \cline{2-6} 
+\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is red\end{tabular}}  & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
+\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is blue\end{tabular}} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
+\end{tabular}
+\end{table}
+    
+
+    
+\end{itemize}
+
+Starting with the root node, use a depth first search until an uncolored node is found. (Let the first uncolored node we find be "node 1" for the sake of simplicity, then "node 2", "node 3", all the way until the last uncolored node "node m")
+
+\begin{itemize}
+
+    
+    \item if the vertex's parent is uncolored:
+    \begin{itemize}
+        \item for ARR[i, 1] we assume i is colored red. Start with ARR[i, 1] = 0
+        \item for each child of i (if any):
+        \begin{itemize}
+            \item if child is red, do nothing
+            \item if child is blue, add the cost of the edge from i to the child to ARR[i, 1]
+            \item if child is uncolored, add the MIN(cost of assuming child is red, cost of assuming child is blue + cost of removing edge from i to child) to ARR[i, 1]
+        \end{itemize}
+        \item for ARR[i, 1] we assume i is colored blue. Start with ARR[i, 2] = 0
+        \item for each child of i:
+        \begin{itemize}
+            \item if child is red, add the cost of the edge from i to the child to ARR[i, 2]
+            \item if child is blue, do nothing
+            \item if child is uncolored, add the MIN(cost of assuming child is red, cost of assuming child is blue + cost of removing edge from i to child) to ARR[i, 1]
+        \end{itemize}
+        \item NOTE: since we do a depth first search, we can be sure all of i's uncolored children already have values in the array
+        \item here is what an example of this might look like at the start: (note that while 2 only has a single red, blue, and uncolored child, an uncolored node may have any number of red, blue, and uncolored children)
+    \end{itemize}
+    
+\includegraphics{Ex1.png}
+    
+    
+\begin{table}[htb]
+\begin{tabular}{llllll}
+                                                                                      & 1                                                                                                 & 2                                                                                                                                                                                        & 3                     & ...                   & m                     \\ \cline{2-6} 
+\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is red\end{tabular}}  & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}cost to cut edges\\ to blue children\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}cost to cut edges to blue children\\ + min(cost if child is red, \\ cost if child is blue + cost to cut edge to that child)\end{tabular}} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
+\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is blue\end{tabular}} & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}cost to cut edges\\ to red children\end{tabular}}  & \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}cost to cut edges to red children\\ + min(cost if child is red + cost to cut edge to that child,\\ cost if child is blue)\end{tabular}}   & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
+\end{tabular}
+\end{table}
+    
+    
+\begin{table}[htb]
+\begin{tabular}{llllll}
+                                                                                      & 1                      & 2                                                            & 3                     & ...                   & m                     \\ \cline{2-6} 
+\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is red\end{tabular}}  & \multicolumn{1}{l|}{b} & \multicolumn{1}{l|}{d + min(ARR{[}1,1{]}, ARR{[}2,1{]} + e)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
+\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is blue\end{tabular}} & \multicolumn{1}{l|}{a} & \multicolumn{1}{l|}{e + min(ARR{[}1,1{]} + e, ARR{[}2,1{]})} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
+\end{tabular}
+\end{table}
+        
+        
+        
+        
+    \item else: (the vertex's parent is colored)
+        \item in this situation, we are able to definitively mark the current vertex i as red or blue, then follow the algorithm backwards to color any uncolored descendants of i
+        \item first calculate ARR[1,i] and ARR[2,1] the same as before
+        \item now treat i's parent node as though it was a child of i, adding the cost of the edge from i to i's parent to ARR[1,i] if i's parent is blue, or to ARR[2,i] if i's parent is red
+        \item if ARR[1,i] > ARR[2,i] mark node i red. If ARR[1,i] < ARR[2,i] mark node i blue. If ARR[1,i] = ARR[2,i] node i may be arbitrarily either red or blue.
+        \item if i was marked red, do the same MIN calculations used in ARR[1,i]. For each MIN calculation, the minimum indicates the optimal coloring of the child node. For example, if ARR[1,j] was chosen in the minimum, this indicates node j should be colored red (if ARR[2,j] was chosen in the minimum, j should be colored blue). Repeat this process to color the children of j now that j's color is known.
+        \item likewise, if i was marked blue do the same MIN calculations used in ARR[2,i] and mark and repeat the process on to color each of i's children
+\end{itemize}
+        
+When the depth first search is complete:
+        
+\begin{itemize}
+    \item all nodes in the tree are either indicated red or blue
+    \item start with V as the empty set
+    \item for each edge in E, add the edge to V if and only if the edge connects a red node and a blue node
+    \item after iterating through every edge, V now contains the subset of E that minimizes the aggregate cost while ensuring there is no path from any red node to any blue node
+    \item The initial calculation of m was O(E), and the tree traversal visited each node and each edge twice (O(2V+2E)), and the final traversal of all edges was O(E). These steps happened in succession, so they add together to make a linear runtime.
+\end{itemize}
+
