@@ -1,0 +1,28 @@
+Adam Karl
+akk67@pitt.edu
+
++-------------+-----------------+
+|ticket_number|status           |
++-------------+-----------------+
+|567841       |closed_successful|
+|567842       |closed_successful|
+|567844       |closed_successful|
+|567845       |closed_successful|
+|567846       |closed_successful|
+|567847       |closed_successful|
+|567848       |closed_successful|
+|567851       |closed_successful|
+|567852       |closed_successful|
+|567853       |closed_successful|
++-------------+-----------------+
+
++-------------+---------------------------------------------+
+|ticket_number|description                                  |
++-------------+---------------------------------------------+
+|567845       |The mouse responds in a weird way.           |
+|567848       |May I have SigmaPlot installed on my machine?|
+|567849       |Some keys on the keyboard does not function. |
+|567852       |Windows crashed!                             |
+|567853       |can not reach AFS-home directory from home.  |
+|567855       |Windows crashed!                             |
++-------------+---------------------------------------------+

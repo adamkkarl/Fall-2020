@@ -8,9 +8,9 @@
 /* 6 */
 /* a */
 
-SELECT ticket_number, description
-FROM TICKETS
-WHERE date_closed IS NOT NULL;
+SELECT ticket_number, status
+FROM ASSIGNMENTS
+WHERE status='closed_successful';
 
 /* b */
 SELECT ticket_number, description
