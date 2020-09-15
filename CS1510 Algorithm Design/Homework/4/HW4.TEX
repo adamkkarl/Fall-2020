@@ -118,6 +118,16 @@ When the depth first search is complete:
     \item start with V as the empty set
     \item for each edge in E, add the edge to V if and only if the edge connects a red node and a blue node
     \item after iterating through every edge, V now contains the subset of E that minimizes the aggregate cost while ensuring there is no path from any red node to any blue node
-    \item The initial calculation of m was O(E), and the tree traversal visited each node and each edge twice (O(2V+2E)), and the final traversal of all edges was O(E). These steps happened in succession, so they add together to make a linear runtime.
+    \item The initial calculation of m was O(E), and a generic depth first search of the tree is O(2E) (since our implementation adds an additional backtracking possibility, it's technically O(3E)), and the final traversal of all edges was O(E). These steps happened in succession, so they all add together, maintaining a linear runtime.
 \end{itemize}
 
+\subsection{Implementation Notes}
+In order to focus on the core of the algorithm, I chose to skip over some of the finer details that ensure the algorithm runs in linear time.
+
+Before the depth first search, make a pass through all edges in E and add them to an adjacency list (O(E). This ensures that during a generic depth first search, the total runtime is 2E since each edge is added to the adjacency list twice (e.g. A-B and B-A).
+
+In order to make things as clear as possible, I renamed each uncolored node 1 through m so that the array would only have information about uncolored nodes. If this approach is used, we may need to create a hash table that hashes uncolored node number to original node number in constant time. Then, each time an uncolored node was considered we would first hash back to its original node number before checking the adjacency list.
+
+Alternatively, the array may contain columns for ALL nodes in V (not just the uncolored ones), but we would only bother to ever fill in the values ARR[1,i] and ARR[2,i] when i was an uncolored node. Then anytime we looked at a node, first check if it's red/blue or uncolored since the cost to any known color node can be immediately evaluated, so we only need to check the column of ARR when i is uncolored. At the end of the algorithm, ARR would be functionally identical to the ARR with only m columns, but with the columns shuffled around a bit and blank columns added.
+
+\end{document}
