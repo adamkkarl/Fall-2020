@@ -21,13 +21,10 @@
 \begin{document}
 \maketitle
 
-
 \section{Problem 13 (6 points)}
 \subsection{Algorithm Description}
 
 Goal: My approach is to first mark every uncolored vertex in V as either red or blue in such a way that V will contain an optimal solution when we then iterate over every edge in E and add every edge that connects a red node to a blue node to V. 
-
-
 
 \begin{itemize}
     \item go through each vertex in V, counting the number of uncolored nodes. Let this number be m
@@ -41,8 +38,7 @@ Goal: My approach is to first mark every uncolored vertex in V as either red or 
     \end{itemize}
     \item this array initially looks like this
 \end{itemize}
-    
-    
+
 \begin{table}[htb]
 \begin{tabular}{llllll}
                                                                                       & 1                     & 2                     & 3                     & ...                   & m                     \\ \cline{2-6} 
@@ -55,7 +51,7 @@ Goal: My approach is to first mark every uncolored vertex in V as either red or 
 Starting with the root node, use a depth first search until an uncolored node is found. (Let the first uncolored node we find be "node 1" for the sake of simplicity, then "node 2", "node 3", all the way until the last uncolored node "node m")
 
 \begin{itemize}
-    \item if the vertex's parent is uncolored:
+    \item if the vertex has an uncolored parent node:
     \begin{itemize}
         \item for ARR[i, 1] we assume i is colored red. Start with ARR[i, 1] = 0
         \item for each child of i (if any):
@@ -72,13 +68,14 @@ Starting with the root node, use a depth first search until an uncolored node is
             \item if child is uncolored, add the MIN(cost of assuming child is red, cost of assuming child is blue + cost of removing edge from i to child) to ARR[i, 1]
         \end{itemize}
         \item NOTE: since we do a depth first search, we can be sure all of i's uncolored children already have values in the array
-        \item here is what an example of this might look like at the start: (note that while 2 only has a single red, blue, and uncolored child, an uncolored node may have any number of red, blue, and uncolored children)
+        \item here is what an example of this might look like for the first 2 uncolored nodes: (note that both 1 and 2 may have any number of red, blue, and uncolored children and the algorithm still works)
     \end{itemize}
 \end{itemize}
-    
-\includegraphics{Ex1.png}
-    
-    
+
+\begin{center}
+    \includegraphics[scale=0.5]{Ex1.png}
+\end{center}
+
 \begin{table}[htb]
 \begin{tabular}{llllll}
                                                                                       & 1                                                                                                 & 2                                                                                                                                                                                        & 3                     & ...                   & m                     \\ \cline{2-6} 
@@ -91,19 +88,20 @@ Starting with the root node, use a depth first search until an uncolored node is
 \begin{tabular}{llllll}
                                                                                       & 1                      & 2                                                            & 3                     & ...                   & m                     \\ \cline{2-6} 
 \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is red\end{tabular}}  & \multicolumn{1}{l|}{b} & \multicolumn{1}{l|}{d + min(ARR{[}1,1{]}, ARR{[}2,1{]} + e)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
-\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is blue\end{tabular}} & \multicolumn{1}{l|}{a} & \multicolumn{1}{l|}{e + min(ARR{[}1,1{]} + e, ARR{[}2,1{]})} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
+\multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}Assume vertex \\ is blue\end{tabular}} & \multicolumn{1}{l|}{a} & \multicolumn{1}{l|}{c + min(ARR{[}1,1{]} + e, ARR{[}2,1{]})} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-6} 
 \end{tabular}
 \end{table}
 
-.
 \begin{itemize}     
     \item else: (the vertex's parent is colored, or in the case of the root node there is no parent)
+    \begin{itemize}
         \item in this situation, we are able to definitively mark the current vertex i as red or blue, then follow the algorithm backwards to color any uncolored descendants of i
         \item first calculate ARR[1,i] and ARR[2,1] the same as before
         \item now treat i's parent node (if there is one) as though it was a child of i, adding the cost of the edge from i to i's parent to ARR[1,i] if i's parent is blue, or to ARR[2,i] if i's parent is red
         \item if ARR[1,i] > ARR[2,i] mark node i red. If ARR[1,i] < ARR[2,i] mark node i blue. If ARR[1,i] = ARR[2,i] node i may be arbitrarily either red or blue.
         \item if i was marked red, do the same MIN calculations used in ARR[1,i]. For each MIN calculation, the minimum indicates the optimal coloring of the child node. For example, if ARR[1,j] was chosen in the minimum, this indicates node j should be colored red (if ARR[2,j] was chosen in the minimum, j should be colored blue). Repeat this process to color the children of j now that j's color is known.
         \item likewise, if i was marked blue do the same MIN calculations used in ARR[2,i] and mark and repeat the process on to color each of i's children
+    \end{itemize}
 \end{itemize}
         
 When the depth first search is complete:
