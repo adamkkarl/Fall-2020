@@ -131,3 +131,4 @@ In order to make things as clear as possible, I renamed each uncolored node 1 th
 Alternatively, the array may contain columns for ALL nodes in V (not just the uncolored ones), but we would only bother to ever fill in the values ARR[1,i] and ARR[2,i] when i was an uncolored node. Then anytime we looked at a node, first check if it's red/blue or uncolored since the cost to any known color node can be immediately evaluated, so we only need to check the column of ARR when i is uncolored. At the end of the algorithm, ARR would be functionally identical to the ARR with only m columns, but with the columns shuffled around a bit and blank columns added.
 
 \end{document}
+
