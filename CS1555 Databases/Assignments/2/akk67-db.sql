@@ -122,8 +122,8 @@ CREATE TABLE ASSIGNMENTS (
     tech_pplSoft    int,
     date_assigned   date,
     status  varchar(20),
-    CONSTRAINT ASSIGNMENTS_pk PRIMARY KEY (ticket_number),
-    CONSTRAINT ASSIGNMENTS_ticket_fk FOREIGN KEY (ticket_number) REFERENCES TICKETS
+    CONSTRAINT ASSIGNMENTS_pk PRIMARY KEY (ticket_number, status),
+    CONSTRAINT ASSIGNMENTS_ticket_fk FOREIGN KEY (ticket_number) REFERENCES TICKETS (ticket_number)
                           ON UPDATE CASCADE,
     CONSTRAINT ASSIGNMENTS_tech_pplsoft_fk FOREIGN KEY (tech_pplSoft) REFERENCES TECH_PERSONNEL (pplSoft)
                           ON UPDATE CASCADE
@@ -171,7 +171,7 @@ INSERT INTO USERS
 VALUES (5550004, 'Michel', 'Hanna', 'mh1', '412-624-8402');
 
 INSERT INTO CATEGORIES
-VALUES (1, 'Printing Problem', 'problems have to do with printers and printing')
+VALUES (1, 'Printing Problem', 'problems have to do with printers and printing');
 INSERT INTO CATEGORIES
 VALUES (2, 'Network Problem', 'problems have to do with the network and/or internet');
 INSERT INTO CATEGORIES
@@ -288,7 +288,66 @@ VALUES (000000567856, 5550004,
         TO_DATE('1-25-2020', 'MM-DD-YYYY'), NULL,
         NULL, 8, 'java lab machine', 'Can not submit my h/w using the submission site.');
 
-
-
-
-
+INSERT INTO ASSIGNMENTS
+VALUES (000000567841, 1110001, TO_DATE('12-20-2019', 'MM-DD-YYYY'),
+        'delegated');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567841, 1110002, TO_DATE('12-24-2019', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567842, 1110002, TO_DATE('12-20-2019', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567843, 1110001, TO_DATE('12-23-2019', 'MM-DD-YYYY'),
+        'assigned');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567844, 1110003, TO_DATE('12-28-2019', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567845, 1110003, TO_DATE('1-1-2020', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567846, 1110002, TO_DATE('1-2-2020', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567847, 1110001, TO_DATE('1-5-2020', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567848, 1110003, TO_DATE('1-5-2020', 'MM-DD-YYYY'),
+        'delegated');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567848, 1110001, TO_DATE('1-8-2020', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567849, 1110003, TO_DATE('1-13-2020', 'MM-DD-YYYY'),
+        'in_progress');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567850, 1110004, TO_DATE('1-14-2020', 'MM-DD-YYYY'),
+        'in_progress');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567851, 1110001, TO_DATE('1-14-2020', 'MM-DD-YYYY'),
+        'delegated');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567851, 1110002, TO_DATE('1-20-2020', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567852, 1110003, TO_DATE('1-14-2020', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567853, 1110003, TO_DATE('1-15-2020', 'MM-DD-YYYY'),
+        'delegated');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567853, 1110001, TO_DATE('1-18-2020', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567854, 1110001, TO_DATE('1-16-2020', 'MM-DD-YYYY'),
+        'closed_successful');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567855, 1110001, TO_DATE('1-20-2020', 'MM-DD-YYYY'),
+        'assigned');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567856, 1110003, TO_DATE('1-25-2020', 'MM-DD-YYYY'),
+        'delegated');
+INSERT INTO ASSIGNMENTS
+VALUES (000000567856, 1110004, TO_DATE('1-27-2020', 'MM-DD-YYYY'),
+        'assigned');
