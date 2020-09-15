@@ -47,9 +47,9 @@ DROP TABLE IF EXISTS TECH_PERSONNEL;
 
 /* assume first and last name are 20 chars or fewer */
 CREATE TABLE TECH_PERSONNEL (
-    pplSoft int NOT NULL,
-    fname   varchar(20) NOT NULL,
-    lname   varchar(20) NOT NULL,
+    pplSoft int,
+    fname   varchar(20),
+    lname   varchar(20),
     pittID  varchar(10),
     expertise   varchar(20),
     office_phone    char(12),
@@ -59,8 +59,8 @@ CREATE TABLE TECH_PERSONNEL (
 /* assume first and last name are 20 chars or fewer */
 CREATE TABLE USERS (
     pplSoft int NOT NULL,
-    fname   varchar(20) NOT NULL,
-    lname   varchar(20) NOT NULL,
+    fname   varchar(20),
+    lname   varchar(20),
     pittID  varchar(10),
     office_phone    char(12),
     CONSTRAINT USERS_pk PRIMARY KEY (pplSoft)
@@ -68,7 +68,7 @@ CREATE TABLE USERS (
 
 /* assume category names are 30 chars or fewer */
 CREATE TABLE CATEGORIES (
-    category_id int NOT NULL,
+    category_id int,
     category    varchar(30),
     description varchar(280),
     CONSTRAINT CATEGORIES_pk PRIMARY KEY (category_id)
@@ -77,7 +77,7 @@ CREATE TABLE CATEGORIES (
 /* assume location names are 20 chars or fewer */
 /* assume building names are 10 chars or fewer */
 CREATE TABLE LOCATIONS (
-    location_id int NOT NULL,
+    location_id int,
     location    varchar(20),
     building    varchar(10),
     notes   varchar(280),
@@ -90,7 +90,7 @@ CREATE TABLE INVENTORY (
     machine_name    varchar(30),
     ip_address  varchar(20),
     network_port    varchar(10),
-    mac_address varchar(20) NOT NULL,
+    mac_address varchar(20),
     location_id int,
     CONSTRAINT INVENTORY_pk PRIMARY KEY (mac_address),
     CONSTRAINT INVENTORY_loc_fk FOREIGN KEY (location_id) REFERENCES LOCATIONS
@@ -99,18 +99,16 @@ CREATE TABLE INVENTORY (
 
 /* assume machine names are 30 chars or fewer */
 CREATE TABLE TICKETS (
-    ticket_number   int NOT NULL,
-    owner_pplSoft   int NOT NULL,
+    ticket_number   int,
+    owner_pplSoft   int,
     date_submitted  date,
     date_closed date,
     days_worked_on  int,
-    category_id int NOT NULL,
+    category_id int,
     machine_name    varchar(30),
-    location    int, /* =================== */
+    location    int,
     description varchar(280),
     CONSTRAINT TICKETS_pk PRIMARY KEY (ticket_number),
-    CONSTRAINT TICKETS_loc_fk FOREIGN KEY (location) REFERENCES LOCATIONS (location_id)
-                      ON UPDATE CASCADE,
     CONSTRAINT TICKETS_category_fk FOREIGN KEY (category_id) REFERENCES CATEGORIES (category_id)
                       ON UPDATE CASCADE,
     CONSTRAINT TICKETS_owner_fk FOREIGN KEY (owner_pplSoft) REFERENCES USERS (pplSoft)
