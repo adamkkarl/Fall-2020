@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2020-09-17T17:03:09.059000000</meta:creation-date><dc:date>2020-09-17T17:13:47.063000000</dc:date><meta:editing-duration>PT10M37S</meta:editing-duration><meta:editing-cycles>2</meta:editing-cycles><meta:generator>LibreOffice/7.0.0.3$Windows_X86_64 LibreOffice_project/8061b3e9204bef6b321a21033174034a5e2ea88e</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="1" meta:paragraph-count="2" meta:word-count="248" meta:character-count="1514" meta:non-whitespace-character-count="1268"/></office:meta>
+ <office:meta><meta:creation-date>2020-09-17T17:03:09.059000000</meta:creation-date><dc:date>2020-09-18T16:42:02.056000000</dc:date><meta:editing-duration>PT11M8S</meta:editing-duration><meta:editing-cycles>4</meta:editing-cycles><meta:generator>LibreOffice/7.0.0.3$Windows_X86_64 LibreOffice_project/8061b3e9204bef6b321a21033174034a5e2ea88e</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="2" meta:paragraph-count="13" meta:word-count="1190" meta:character-count="7029" meta:non-whitespace-character-count="5826"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
    <config:config-item config:name="ViewAreaTop" config:type="long">0</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">35796</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">16406</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">22419</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">20255</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">9103</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">9804</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">2501</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">2501</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
      <config:config-item config:name="VisibleTop" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">35795</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">16404</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">22417</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">20253</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
-     <config:config-item config:name="ZoomFactor" config:type="short">140</config:config-item>
+     <config:config-item config:name="ZoomFactor" config:type="short">110</config:config-item>
      <config:config-item config:name="IsSelectedFrame" config:type="boolean">false</config:config-item>
      <config:config-item config:name="AnchoredTextOverflowLegacy" config:type="boolean">false</config:config-item>
     </config:config-item-map-entry>
@@ -85,7 +85,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">1169801</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">2470980</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -130,7 +130,9 @@
  </office:settings>
  <office:scripts>
   <office:script script:language="ooo:Basic">
-   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink"/>
+   <ooo:libraries xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <ooo:library-embedded ooo:name="Standard"/>
+   </ooo:libraries>
   </office:script>
  </office:scripts>
  <office:font-face-decls>
@@ -238,11 +240,173 @@
   <style:style style:name="P1" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties officeooo:paragraph-rsid="0011d989"/>
   </style:style>
+  <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="00139bc0"/>
+  </style:style>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0016143b"/>
+  </style:style>
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="0016143b" officeooo:paragraph-rsid="0016143b"/>
+  </style:style>
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="00163490"/>
+  </style:style>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="001ace97"/>
+  </style:style>
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="001da221"/>
+  </style:style>
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="001f1d77"/>
+  </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="001f1d77" officeooo:paragraph-rsid="001f1d77"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0020ce8c"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="002314c0"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0017c807"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="00250471"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="001f1d77"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
    <style:text-properties fo:font-style="italic" style:font-style-asian="italic"/>
   </style:style>
+  <style:style style:name="T2" style:family="text">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="0012128a" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T3" style:family="text">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00139bc0" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T4" style:family="text">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00163490" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T5" style:family="text">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="001b3e63" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T6" style:family="text">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="00214414" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T7" style:family="text">
+   <style:text-properties fo:font-style="italic" officeooo:rsid="002314c0" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T8" style:family="text">
+   <style:text-properties officeooo:rsid="0012128a"/>
+  </style:style>
+  <style:style style:name="T9" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0012128a" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T10" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00139bc0" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T11" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0013efd3" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T12" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0015cb4e" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T13" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0016143b" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T14" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00163490" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T15" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0017c807" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T16" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="001ace97" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T17" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="001b3e63" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T18" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="001da221" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T19" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="001f1d77" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T20" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="001c0087" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T21" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0020ce8c" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T22" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00214414" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T23" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="002314c0" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T24" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00245598" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T25" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00250471" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T26" style:family="text">
+   <style:text-properties fo:font-style="normal" officeooo:rsid="00256f87" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T27" style:family="text">
+   <style:text-properties officeooo:rsid="00139bc0"/>
+  </style:style>
+  <style:style style:name="T28" style:family="text">
+   <style:text-properties officeooo:rsid="0013efd3"/>
+  </style:style>
+  <style:style style:name="T29" style:family="text">
+   <style:text-properties officeooo:rsid="0015cb4e"/>
+  </style:style>
+  <style:style style:name="T30" style:family="text">
+   <style:text-properties officeooo:rsid="0017c807"/>
+  </style:style>
+  <style:style style:name="T31" style:family="text">
+   <style:text-properties officeooo:rsid="0019c6fc"/>
+  </style:style>
+  <style:style style:name="T32" style:family="text">
+   <style:text-properties officeooo:rsid="001ace97"/>
+  </style:style>
+  <style:style style:name="T33" style:family="text">
+   <style:text-properties officeooo:rsid="001b3e63"/>
+  </style:style>
+  <style:style style:name="T34" style:family="text">
+   <style:text-properties officeooo:rsid="001c0087"/>
+  </style:style>
+  <style:style style:name="T35" style:family="text">
+   <style:text-properties officeooo:rsid="001da221"/>
+  </style:style>
+  <style:style style:name="T36" style:family="text">
+   <style:text-properties style:text-position="0% 100%" fo:font-style="normal" officeooo:rsid="001da221" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T37" style:family="text">
+   <style:text-properties officeooo:rsid="001f1d77"/>
+  </style:style>
+  <style:style style:name="T38" style:family="text">
+   <style:text-properties officeooo:rsid="0020ce8c"/>
+  </style:style>
+  <style:style style:name="T39" style:family="text">
+   <style:text-properties officeooo:rsid="00214414"/>
+  </style:style>
+  <style:style style:name="T40" style:family="text">
+   <style:text-properties officeooo:rsid="002314c0"/>
+  </style:style>
+  <style:style style:name="T41" style:family="text">
+   <style:text-properties officeooo:rsid="00245598"/>
+  </style:style>
+  <style:style style:name="T42" style:family="text">
+   <style:text-properties officeooo:rsid="00250471"/>
+  </style:style>
   <style:page-layout style:name="pm1">
-   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:footnote-max-height="0in">
+   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
     <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style/>
@@ -253,7 +417,7 @@
   <style:master-page style:name="Standard" style:page-layout-name="pm1"/>
  </office:master-styles>
  <office:body>
-  <office:text>
+  <office:text text:use-soft-page-breaks="true">
    <text:sequence-decls>
     <text:sequence-decl text:display-outline-level="0" text:name="Illustration"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Table"/>
@@ -261,11 +425,20 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P1">“Science, in its most fundamental definition, is a fruitful mode of inquiry, not a list of enticing conclusions. The conclusions are the consequence, not the essence.”- Stephen Jay Gould</text:p>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1">What if we replace “science” in the above quote with “writing”? For this essay, I’d like you to start by considering how writing might serve as a potential “mode of inquiry” for you, a process of exploration and discovery that (potentially) “expands outward” to further engage you (and your reader) in more than just the fulfilling of an assignment or the completion of a requirement. Looking back at the essays we’ve read, discussed, and written about, see if you can find examples in <text:span text:style-name="T1">at least three </text:span>of these pieces that serve as potential models, examples which illustrate or suggest ways to find a “mode of inquiry” that will enable the sort of productive writing process Gould is arguing for in science. How are those writers teaching you (or showing you) novel approaches to writing? What are they suggesting as the reason(s) for doing so? How do these lessons compare to your previous experience(s) with writing? What, specifically, might you change, alter, or revise in your approach, if you follow their example? After you’ve tried to answer these questions, write an essay that explains how the writers/essays you’ve referenced might allow you to adopt a revised approach to writing where “conclusions are the consequence, not the essence” and seeing writing as “inquiry” can possibly lead to a more enlightened future.</text:p>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
+   <text:p text:style-name="P8"><text:span text:style-name="T37">Adam Karl</text:span></text:p>
+   <text:p text:style-name="P2"/>
+   <text:p text:style-name="P4"><text:tab/>I have a time <text:span text:style-name="T32">obsession</text:span>. <text:span text:style-name="T32">There’s only so much available time in a </text:span><text:span text:style-name="T34">day, and I constantly feel a need to optimize my time such that </text:span><text:span text:style-name="T35">the time spent doing enjoyable things is maximized. List</text:span></text:p>
+   <text:p text:style-name="P3"><text:span text:style-name="T35">There are so many movies that can enthrall me for the entire runtime, so w</text:span><text:span text:style-name="T31">hy </text:span><text:span text:style-name="T35">w</text:span><text:span text:style-name="T31">ould I waste my time with any</text:span><text:span text:style-name="T35">thing </text:span><text:span text:style-name="T31">starring Adam Sandler?</text:span></text:p>
+   <text:p text:style-name="P7"><text:span text:style-name="T33"><text:tab/>Of course, </text:span><text:span text:style-name="T37">constant </text:span><text:span text:style-name="T35">time-appraisal </text:span><text:span text:style-name="T33">becomes far more encumbering when I have</text:span><text:span text:style-name="T17"> to convince myself to do something I don’t want to. </text:span><text:span text:style-name="T33">Is the effort and time spent palletizing totes for the forklift operator to move </text:span><text:span text:style-name="T5">really</text:span><text:span text:style-name="T17"> worth the twenty-two-and-a-half cents QVC will pay me for the next minute of work? Maybe I’ll just take a 5 minute bathroom break afterwards to even things out. </text:span><text:span text:style-name="T18">In the past, the</text:span><text:span text:style-name="T17"> problem </text:span><text:span text:style-name="T18">I’ve had</text:span><text:span text:style-name="T17"> with writing is i</text:span><text:span text:style-name="T18">t’s always been something I didn’t want to do</text:span><text:span text:style-name="T17">. </text:span></text:p>
+   <text:p text:style-name="P7"><text:span text:style-name="T17"><text:tab/></text:span><text:span text:style-name="T18">Perhaps it was the teachers I’ve had in the past. In </text:span><text:span text:style-name="T36">11th grade, I lost 5% of my grade for the class due to an improper citation on my final essay.</text:span><text:span text:style-name="T18"> In Ms. Nichols’ class, she would cap your grade at a 70 if she spotted any contractions. Everything was always focused on the impeccability of the final product.</text:span></text:p>
+   <text:p text:style-name="P11"><text:span text:style-name="T20"><text:tab/></text:span><text:span text:style-name="T22">My first college essay was about the influence of Gandhi on India’s independence movement. </text:span><text:span text:style-name="T23">The requirements were unbearably rigid.</text:span><text:span text:style-name="T22"> I had to use precisely three secondary sources and two primary ones. </text:span><text:span text:style-name="T23">My final product was an immaculately formatted and extensively sourced recounting of Gandhi’s life, death, and influence (from a third-person omniscient point of view, of course). I got a </text:span><text:span text:style-name="T24">good grade</text:span><text:span text:style-name="T23">, but loathed every second of it.</text:span><text:span text:style-name="T22"> </text:span><text:span text:style-name="T20">While writing the Gandhi paper, I had to constantly remind myself: </text:span><text:span text:style-name="T17">I&apos;m writing this essay to get a decent grade to maintain a high GPA to have a to get an interview to land a job that can feed clothe and shelter me while being as enjoyable (or at least as painless as possible). I&apos;m writing to stay alive. But of course that&apos;s ridiculous. There&apos;s no masked sith lord </text:span><text:span text:style-name="T19">waiting</text:span><text:span text:style-name="T17"> to force-choke me to death </text:span><text:span text:style-name="T19">at the first sign of a sub-par report</text:span><text:span text:style-name="T17">. So maybe the stakes aren&apos;t quite that high. More likely, an essay keeps me alive about as much as actually waiting for the cross walk to let me know that it is indeed, finally </text:span><text:span text:style-name="T19">the appropriate </text:span><text:span text:style-name="T17">time to cross </text:span><text:span text:style-name="T19">Forbes Avenue. </text:span><text:span text:style-name="T22">I learned nothing from the Gandhi paper other than how to follow arbitrary rules.</text:span></text:p>
+   <text:p text:style-name="P8"><text:span text:style-name="T27"><text:tab/>In “Sex, Drugs, Disasters, and the Extinction of Dinosaurs,” Gould laments the failure of science writers to convey the </text:span><text:span text:style-name="T3">process</text:span><text:span text:style-name="T10"> of science in favor of </text:span><text:span text:style-name="T11">dramatic interpretations of its conclusions. </text:span><text:span text:style-name="T19">In attempt to appeal to as many readers as possible, they put all the emphasis on making the product as appealing as possible.</text:span><text:span text:style-name="T11"> </text:span><text:span text:style-name="T27">Everybody </text:span><text:span text:style-name="T28">wants to </text:span><text:span text:style-name="T30">read about</text:span><text:span text:style-name="T27"> Jurassic Armageddon, nobody </text:span><text:span text:style-name="T28">cares about </text:span><text:span text:style-name="T31">a comparing iridium concentration</text:span><text:span text:style-name="T37">s</text:span><text:span text:style-name="T31">. </text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="T37"><text:tab/>Of course, this couldn’t be further from reality, and Go</text:span><text:span text:style-name="T27">uld goes on to </text:span><text:span text:style-name="T37">masterfully</text:span><text:span text:style-name="T27"> prove them wrong by writing the compelling narrative of three incompatible </text:span><text:span text:style-name="T28">stories </text:span><text:span text:style-name="T37">for dinosaur extinction, involving sex, drugs, and violence</text:span><text:span text:style-name="T28">. </text:span><text:span text:style-name="T27">The key word is </text:span><text:span text:style-name="T3">compelling, </text:span><text:span text:style-name="T10">as nobody would care about his perceived </text:span><text:span text:style-name="T11">injustice of the scientific process unless he showed that the process is just as interesting and engaging as </text:span><text:span text:style-name="T19">depictions of the conclusion</text:span><text:span text:style-name="T11">.</text:span></text:p>
+   <text:p text:style-name="P10"><text:span text:style-name="T11"><text:tab/></text:span><text:span text:style-name="T14">Gould’s story </text:span><text:span text:style-name="T15">of the Alvarez hypothesis reminds me of the time</text:span><text:span text:style-name="T13"> I </text:span><text:span text:style-name="T15">first</text:span><text:span text:style-name="T13"> understood the big bang theory. </text:span><text:span text:style-name="T14">It was such a profound, yet simple realization that for years following I wanted to be a physicist. Perhaps if </text:span><text:span text:style-name="T19">the math of quantum mechanics</text:span><text:span text:style-name="T14"> made as much sense as the big bang it would have worked out. </text:span></text:p>
+   <text:p text:style-name="P5"><text:span text:style-name="T14"><text:tab/>The highest praise any physicist can give another is that their work is </text:span><text:span text:style-name="T4">elegant</text:span><text:span text:style-name="T14">: </text:span><text:span text:style-name="T15">simple to understand yet bursting with significance. </text:span><text:span text:style-name="T21">Every galaxy in the night sky is tinted blue.</text:span><text:span text:style-name="T15"> </text:span><text:span text:style-name="T14">The</text:span><text:span text:style-name="T21">y</text:span><text:span text:style-name="T14"> </text:span><text:span text:style-name="T21">look </text:span><text:span text:style-name="T14">blue because they’re all </text:span><text:span text:style-name="T21">speeding away from us, literally stretching out the wavelength of the light that reaches Earth</text:span><text:span text:style-name="T14">. If they’re all moving away, in the past they </text:span><text:span text:style-name="T15">must have </text:span><text:span text:style-name="T21">all</text:span><text:span text:style-name="T15"> been close together</text:span><text:span text:style-name="T14">. </text:span><text:span text:style-name="T21">When they </text:span><text:span text:style-name="T21">were close together it must have taken an extremely powerful, explosion-like event to overcome gravitational attraction.</text:span><text:span text:style-name="T14"> </text:span><text:span text:style-name="T15">It all just makes sense. </text:span><text:span text:style-name="T21">An inevitable,</text:span><text:span text:style-name="T15"> e</text:span><text:span text:style-name="T14">legant</text:span><text:span text:style-name="T21"> conclusion.</text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="T15"><text:tab/>Unfortunately, </text:span><text:span text:style-name="T21">the same way I learned writing is the same way most schoolchildren learn </text:span><text:span text:style-name="T23">about the big bang or how the dinosaurs died</text:span><text:span text:style-name="T21">: just focusing on the conclusion, not the process.</text:span></text:p>
+   <text:p text:style-name="P2"><text:soft-page-break/><text:tab/><text:span text:style-name="T38">In “Into The Woods,” Cheryl Strayed abandons her life following her mother’s death to </text:span><text:span text:style-name="T39">hike the Pacific Crest Trail. She doesn’t even fully realize why she’s doing it, </text:span><text:span text:style-name="T40">she just starts before fully grasping </text:span><text:span text:style-name="T41">the commitment she has made</text:span><text:span text:style-name="T40">. </text:span><text:span text:style-name="T41">To an outsider,</text:span><text:span text:style-name="T40"> </text:span><text:span text:style-name="T41">s</text:span><text:span text:style-name="T40">he seems completely insane. </text:span><text:span text:style-name="T41">To me personally, </text:span><text:span text:style-name="T40">her actions couldn’t be more different from how I live, constantly evaluating if everything </text:span><text:span text:style-name="T41">I do is</text:span><text:span text:style-name="T40"> worth my time. </text:span><text:span text:style-name="T41">However, </text:span><text:span text:style-name="T42">by leaping first then evaluating later, I think Strayed</text:span><text:span text:style-name="T41"> stumbled across the essence of writing, which happens to be the same as the essence of life.</text:span><text:line-break/><text:tab/><text:span text:style-name="T39">What’s the essence of writing? </text:span>Every time I stumble upon the word &quot;essence,&quot; I think of tuna sandwiches. Something about a philosophy class and Plato imagining people <text:span text:style-name="T8">with blinders on so they only ever </text:span><text:span text:style-name="T41">see the</text:span><text:span text:style-name="T8"> </text:span><text:span text:style-name="T41">shadows cast on a cave wall rather than the objects themselves. </text:span>If all <text:span text:style-name="T8">they ever see is the shadow, how could they understand what a tree is? </text:span><text:span text:style-name="T39">As the teacher explained, reaching into his lunchbox, it’s the same thing with tuna sandwiches. </text:span><text:span text:style-name="T8">You can eat a tuna sandwich. You can see it, touch it, and describe the </text:span><text:span text:style-name="T27">spot on the underside that </text:span><text:span text:style-name="T39">I</text:span><text:span text:style-name="T3"> </text:span><text:span text:style-name="T10">expected was </text:span><text:span text:style-name="T22">as spot of</text:span><text:span text:style-name="T10"> mold. </text:span><text:span text:style-name="T22">However, </text:span><text:span text:style-name="T24">t</text:span><text:span text:style-name="T8">he true </text:span><text:span text:style-name="T2">essence</text:span><text:span text:style-name="T9"> of a tuna sandwich, what makes a tuna sandwich a tuna sandwich, </text:span><text:span text:style-name="T22">it’s</text:span><text:span text:style-name="T6"> tuna-sandwichity</text:span><text:span text:style-name="T22"> if you will</text:span><text:span text:style-name="T6">,</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T24">is something far more complex</text:span><text:span text:style-name="T9">. </text:span><text:span text:style-name="T8">So, w</text:span>hat&apos;s the essence of writing? <text:span text:style-name="T41">Experiencing. Learning.</text:span><text:line-break/><text:tab/>I think <text:span text:style-name="T40">in the past I’ve missed the essence of writing for the </text:span><text:span text:style-name="T7">product</text:span><text:span text:style-name="T40"> of writing. While the products I’ve worked on creating have been so formulaic to be devoid of any actual thought, </text:span><text:span text:style-name="T41">the</text:span><text:span text:style-name="T29"> read</text:span><text:span text:style-name="T41">ings</text:span><text:span text:style-name="T29"> that I find most interesting always have </text:span><text:span text:style-name="T42">something personal</text:span><text:span text:style-name="T12"> that </text:span><text:span text:style-name="T24">is worth learning at their core. Coates’ “Between The World and Me,” a recounting of his childhood </text:span><text:span text:style-name="T25">experiences on the streets of Baltimore, doesn’t seem at first glance to have anything I can relate to. However, during Coates’ experience of living on the streets, then escaping and becoming a writer he implicitly learned how the same person in two drastically different situations can have very different outlooks on life and society. It’s worth knowing. And through effective writing, he can take readers (like myself) who don’t have the same life experiences on a parallel, reverse journey back to the Baltimore streets of his youth.</text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T12"><text:tab/>If I’m </text:span><text:span text:style-name="T26">writing a</text:span><text:span text:style-name="T12"> piece, how could I expect the reader to pick up something valuable if I don’t learn </text:span><text:span text:style-name="T16">or experience</text:span><text:span text:style-name="T12"> something </text:span><text:span text:style-name="T16">valuable</text:span><text:span text:style-name="T12"> during the process of writing it? Therefore, </text:span><text:span text:style-name="T16">reading something worth reading always follows the author first learning something worth learning. </text:span><text:span text:style-name="T25">That’s the difference between something worth reading and something that isn’t; the reason I hated mechanically recounting the timeline of events in Gandhi’s life. I didn’t learn anything about struggle, about <text:s/>myself, I just regurgitated facts.</text:span><text:line-break/><text:line-break/><text:line-break/><text:line-break/><text:line-break/><text:line-break/><text:line-break/><text:line-break/><text:line-break/></text:p>
   </office:text>
  </office:body>
 </office:document>
