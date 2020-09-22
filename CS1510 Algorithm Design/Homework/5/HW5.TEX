@@ -9,7 +9,7 @@
 
 
 %% Sets page size and margins
-\usepackage[a4paper,top=1cm,bottom=1cm,left=1cm,right=1cm,marginparwidth=1cm]{geometry}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
 
 %% Useful packages
 \usepackage{amsmath}
@@ -79,6 +79,7 @@ This tuple, and the reason there may be several solutions per array element will
 
 
 Initialization:
+We start by filling in solutions along the i=j diagonal, then build up since each A[i,j] element depends on elements in the triangle below and/or left of A[i,j].
 \begin{myEnumerate}
 \item For i from 1 to n:
     \begin{myEnumerate}
@@ -105,7 +106,7 @@ Iterative, Array-based, bottom-up algorithm
                 \begin{myEnumerate}
                 \item // ensures combining these two sub-trees creates a valid AVL tree
                 \item testHeight = 1 + max(leftHeight, rightHeight)
-                \item testExpectedDepth = leftExpectedDepth + rightExpectedDepth + SUM($p_i$ through $p_{pivot-1}$)) + SUM($p_{pivot+1}$ through $p_{j}$))
+                \item testExpectedDepth = leftExpectedDepth + SUM($p_i$ through $p_{pivot-1}$)) + rightExpectedDepth + SUM($p_{pivot+1}$ through $p_{j}$))
                 \item // SUM($p_i$ through $p_{pivot-1}$)) is the "cost" to the expected node depth due to moving the left subtree down by 1 depth.
                 \item // SUM($p_{pivot+1}$ through $p_{j}$) is the "cost" to the expected node depth due to moving the right subtree down by 1 depth.
                 \item if A[i,j] does not contain a tuple with height = testHeight, add tuple (testHeigh, testExpectedDepth) to A[i,j]
@@ -123,12 +124,13 @@ Solution
 \item  find the minimum expected depth of all tuple(s) in A[1,n]. This is the minimum expected depth for a valid AVL tree of all nodes 1 through n.
 \end{myEnumerate}
 
-Implementation note: for this algorithm I imagine each element of A pointing to a linked list of the (height, minimumExpectedDepth) tuples. A linked list is obviously not perfect, but it's an easily implemented way to allow us to keep track of the best valid AVL solutions for each possible height of the subtree
+Implementation note: for this algorithm I imagine each element of A pointing to a linked list of the (height, minimumExpectedDepth) tuples. A linked list is obviously not perfect, but it's an easily implemented way to allow us to keep track of the best valid AVL solutions for each possible height of the subtree.
+
+It may seem strange that even for say, 15 nodes we will consider every node 1 through 15 to be a possible root. However, when we choose many of these roots (say, node 2), the heights for the left subtree and right subtree will never be within 1 of each other. Therefore, they cannot combine into a valid AVL tree (the balance factor of the node would not be -1, 0, or 1) and no solutions for these root nodes will be added to A[i,j].
+This check happens at the step labeled (2) in the algorithm
 
     
-
-    
-\subsection{Potential Changes}
+\subsection{Potential Changes and Improvements}
 We could instead convert 2D array with an unknown number of tuples in each element to a 3D array with a value. We would do this by creating a third dimension for height, where A[i, j, h] would contain the optimal expected depth of a key for the optimal AVL subtree containing trees i through j (inclusive). At the end of building the array we would check the row of A[1, N, h] over all values of h for the optimal solution. The reason I dislike this solution (and the reason I didn't implement it for my solution) is that it creates a LOT of NULL or empty elements in the 3D array, which seems wasteful of space. For instance, obviously A[1, 7, 1] would be impossible, since no AVL tree with 7 elements could have a height of 1. In fact, since an AVL tree with 7 nodes can ONLY have a height of 2 or 3, ALL other values for h other than 2 or 3 would have an empty cell at A[1, 7, h]. 
 Note that this solution IS strictly faster than my solution (since you don't have to traverse a linked list of tuples for each array element), but it would be a tradeoff with wasted space that grows exponentially as the possible AVL tree heights grow.
 
