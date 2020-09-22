@@ -6,6 +6,7 @@
 \usepackage[T1]{fontenc}
 \usepackage{graphicx} 
 \usepackage{outlines}
+\usepackage[table,xcdraw]{xcolor}
 
 
 %% Sets page size and margins
@@ -69,17 +70,17 @@ It is NOT sufficient to simply find the optimal AVL tree for each subproblem, si
 
 Thus, when calculating optimal subtrees/subproblems, we must calculate the optimal solutions FOR EACH POSSIBLE HEIGHT. Then, we are able to only combine 2 subtrees when their heights differ by only 0 or 1.
 
-\subsection{Algorithm Description}
+\subsection{Array Setup and Visualization}
 
 Create an n by n 2D matrix. In A[i, j] we will be storing information about valid AVL tree(s) for nodes i through j (inclusive).
 
 The solutions in each element in the array will be tuples of the form 
-(tree height, expected depth of a key, sum of probabilities for $p_i$ through $p_j$).
+(tree height, expected depth of a key).
 This tuple, and the reason there may be several solutions per array element will make more sense as we get into the finer details of the algorithm.
 
 
 Initialization:
-We start by filling in solutions along the i=j diagonal, then build up since each A[i,j] element depends on elements in the triangle below and/or left of A[i,j].
+We start by filling in solutions along the i=j diagonal, then build up since each A[i,j] element depends on elements in the row to the left of A[i,j], and the elements in the same column below A[i,j].
 \begin{myEnumerate}
 \item For i from 1 to n:
     \begin{myEnumerate}
@@ -87,11 +88,76 @@ We start by filling in solutions along the i=j diagonal, then build up since eac
     \end{myEnumerate}
 \end{myEnumerate}
 
-Iterative, Array-based, bottom-up algorithm
+
+Initialized table:
+\begin{table}[htb]
+\centering
+\begin{tabular}{lllllll}
+                       & 1                          & 2                          & 3                          & 4                          & ...                   & n                          \\ \cline{2-5} \cline{7-7} 
+\multicolumn{1}{l|}{1} & \multicolumn{1}{l|}{(0,0)} & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}      \\ \cline{2-5} \cline{7-7} 
+2                      & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{(0,0)} & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}      \\ \cline{3-5} \cline{7-7} 
+3                      &                            & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{(0,0)} & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}      \\ \cline{4-5} \cline{7-7} 
+4                      &                            &                            & \multicolumn{1}{l|}{}      & \multicolumn{1}{l|}{(0,0)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}      \\ \cline{5-5} \cline{7-7} 
+...                    &                            &                            &                            &                            &                       &                            \\ \cline{7-7} 
+n                      &                            &                            &                            &                            & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{(0,0)} \\ \cline{7-7} 
+\end{tabular}
+\end{table}
+
+
+Imagine we are trying to find the solution to put in A[1,4]. The intuition is the AVL subtree that contains nodes 1 through 4, and minimizes the expected depth of a key. We must consider each possible node as the root, and the left and right subproblems choosing this root depends on:
+
+\begin{itemize}
+    \item root = 1
+    \begin{itemize}
+        \item left subtree: n/a
+        \item right subtree: A[2,4]
+    \end{itemize}
+    \item root = 2
+    \begin{itemize}
+        \item left subtree: A[1,1]
+        \item right subtree: A[3,4]
+    \end{itemize}
+    \item root = 3
+    \begin{itemize}
+        \item left subtree: A[1,2]
+        \item right subtree: A[4,4]
+    \end{itemize}
+    \item root = 4
+    \begin{itemize}
+        \item left subtree: A[1,3]
+        \item right subtree: n/a
+    \end{itemize}
+\end{itemize}
+
+Note that nodes 1 and 4 cannot be the root, as the resulting tree would be too lopsided to be an AVL tree (they would have balance factors of 2 and -2, respectively). Since the heights of the subproblems would have a difference greater than one, our algorithm will not find any viable solutions for these possible root nodes.
+
+Here I have highlighted the target A[1,4] and each element in the array that A[1,4] is dependent on:
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+\begin{table}[htb]
+\centering
+\begin{tabular}{lllllll}
+                       & 1                                                  & 2                                             & 3                                             & 4                                                    & ...                   & n                          \\ \cline{2-5} \cline{7-7} 
+\multicolumn{1}{l|}{1} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFCCC9}(0,0)} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFCCC9}} & \multicolumn{1}{l|}{\cellcolor[HTML]{FFCCC9}} & \multicolumn{1}{l|}{\cellcolor[HTML]{FE0000}(focus)} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}      \\ \cline{2-5} \cline{7-7} 
+2                      & \multicolumn{1}{l|}{}                              & \multicolumn{1}{l|}{(0,0)}                    & \multicolumn{1}{l|}{}                         & \multicolumn{1}{l|}{\cellcolor[HTML]{FFCCC9}}        & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}      \\ \cline{3-5} \cline{7-7} 
+3                      &                                                    & \multicolumn{1}{l|}{}                         & \multicolumn{1}{l|}{(0,0)}                    & \multicolumn{1}{l|}{\cellcolor[HTML]{FFCCC9}}        & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}      \\ \cline{4-5} \cline{7-7} 
+4                      &                                                    &                                               & \multicolumn{1}{l|}{}                         & \multicolumn{1}{l|}{\cellcolor[HTML]{FFCCC9}(0,0)}   & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{}      \\ \cline{5-5} \cline{7-7} 
+...                    &                                                    &                                               &                                               &                                                      &                       &                            \\ \cline{7-7} 
+n                      &                                                    &                                               &                                               &                                                      & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{(0,0)} \\ \cline{7-7} 
+\end{tabular}
+\end{table}
+
+As you can see, each element in A is dependent on the solutions in the column below it, and in the row to the left of it.
+
+We will traverse the array so that when we try to fill in solutions for an element, each of its dependents will already be completed. Left to right, bottom to top.
+
+\subsection{Iterative, Array-based, bottom-up algorithm}
 \begin{myEnumerate}
 \item for i from n-1 to 1:
 \begin{myEnumerate}
-\item for j from i+1 to n: // we will be finding solutions for A[i,j] (subtree of nodes i through j)
+\item for j from i+1 to n: // we will be finding solutions for A[i,j] (subtree of nodes i to j)
 \begin{myEnumerate}
 \item for pivot from i to j:
     \begin{myEnumerate}
@@ -129,15 +195,11 @@ Implementation note: for this algorithm I imagine each element of A pointing to 
 It may seem strange that even for say, 15 nodes we will consider every node 1 through 15 to be a possible root. However, when we choose many of these roots (say, node 2), the heights for the left subtree and right subtree will never be within 1 of each other. Therefore, they cannot combine into a valid AVL tree (the balance factor of the node would not be -1, 0, or 1) and no solutions for these root nodes will be added to A[i,j].
 This check happens at the step labeled (2) in the algorithm
 
-    
 \subsection{Potential Changes and Improvements}
 We could instead convert 2D array with an unknown number of tuples in each element to a 3D array with a value. We would do this by creating a third dimension for height, where A[i, j, h] would contain the optimal expected depth of a key for the optimal AVL subtree containing trees i through j (inclusive). At the end of building the array we would check the row of A[1, N, h] over all values of h for the optimal solution. The reason I dislike this solution (and the reason I didn't implement it for my solution) is that it creates a LOT of NULL or empty elements in the 3D array, which seems wasteful of space. For instance, obviously A[1, 7, 1] would be impossible, since no AVL tree with 7 elements could have a height of 1. In fact, since an AVL tree with 7 nodes can ONLY have a height of 2 or 3, ALL other values for h other than 2 or 3 would have an empty cell at A[1, 7, h]. 
 Note that this solution IS strictly faster than my solution (since you don't have to traverse a linked list of tuples for each array element), but it would be a tradeoff with wasted space that grows exponentially as the possible AVL tree heights grow.
 
 When n is small, the possible AVL trees only have a couple different possible heights, so traversing a linked list with 1 entry for each height is negligible. When n is large, this change would save time, but at the cost of creating a massive (and almost entirely empty) array that wastes a ton of space.
 
-
 Additionally, I initially created an array where the solution for each subtree from nodes i to j also included the sum of probabilities $p_i$ through $p_j$. This made the solution faster as the "cost" to moving the subtree down by 1 depth equates to the previous expected value + this sum of probabilities (no longer had to constantly do O(n) probability additions within the critical loop). However, it had the significant drawback in how easily the algorithm was understood, as now there's 3 things each subtree solution had to keep track of (height, expected depth, sum of probabilities), and the motivation for the third value can be re-calculated at any time (it's not specific to that subtree but to all subtrees of nodes i through j). However, understand-ability aside I do believe this modification makes the algorithm strictly better (it reduces the runtime by a factor of n), although even without it is undoubtedly polytime.
-
-
 \end{document}
