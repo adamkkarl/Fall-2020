@@ -7,6 +7,7 @@
 \usepackage{graphicx} 
 \usepackage{outlines}
 
+
 %% Sets page size and margins
 \usepackage[a4paper,top=1cm,bottom=1cm,left=1cm,right=1cm,marginparwidth=1cm]{geometry}
 
@@ -15,6 +16,20 @@
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\usepackage{enumitem}
+\setlistdepth{9}
+
+\newlist{myEnumerate}{enumerate}{9}
+\setlist[myEnumerate,1]{label=(\arabic*)}
+\setlist[myEnumerate,2]{label=(\Roman*)}
+\setlist[myEnumerate,3]{label=(\Alph*)}
+\setlist[myEnumerate,4]{label=(\roman*)}
+\setlist[myEnumerate,5]{label=(\alph*)}
+\setlist[myEnumerate,6]{label=(\arabic*)}
+\setlist[myEnumerate,7]{label=(\Roman*)}
+\setlist[myEnumerate,8]{label=(\Alph*)}
+\setlist[myEnumerate,9]{label=(\roman*)}
 
 \title{Homework 5}
 \author{Adam Karl}
@@ -64,42 +79,51 @@ This tuple, and the reason there may be several solutions per array element will
 
 
 Initialization:
-\begin{itemize}
+\begin{myEnumerate}
 \item For i from 1 to n:
-    \begin{itemize}
+    \begin{myEnumerate}
     \item set A[i,j] = (0, 0) //"tree" of a single node, so: (height=0, expected depth = 0)
-    \end{itemize}
-\end{itemize}
+    \end{myEnumerate}
+\end{myEnumerate}
 
 Iterative, Array-based, bottom-up algorithm
-\begin{itemize}
+\begin{myEnumerate}
 \item for i from n-1 to 1:
+\begin{myEnumerate}
 \item for j from i+1 to n: // we will be finding solutions for A[i,j] (subtree of nodes i through j)
-\item for pivot from i to j: 
-    \begin{itemize}
-    \item //the pivot may be any node i through j (although many outer nodes may not make valid AVL trees, and i/j can ONLY be the pivot for a subtree of exactly 2 nodes)
+\begin{myEnumerate}
+\item for pivot from i to j:
+    \begin{myEnumerate}
+    \item // the pivot may be any node i through j (although many outer nodes may not make valid AVL trees, and i/j can ONLY be the pivot for a subtree of exactly 2 nodes)
     \item for each tuple in A[i, pivot-1] (if any):
-        \begin{itemize}
+        \begin{myEnumerate}
+        \item // this is the "left tuple," with elements "leftHeight" and "leftExpectedDepth"
         \item for each tuple in A[pivot+1, j] (if any):
-            \begin{itemize}
+            \begin{myEnumerate}
+            \item this is the "right tuple," with elements "rightHeight" and "rightExpectedDepth"
             \item if |rightHeight - leftHeight| $\leq$ 1: 
-                \begin{itemize}
-                \item //ensures combining these two sub-trees creates a valid AVL tree
+                \begin{myEnumerate}
+                \item // ensures combining these two sub-trees creates a valid AVL tree
                 \item testHeight = 1 + max(leftHeight, rightHeight)
                 \item testExpectedDepth = leftExpectedDepth + rightExpectedDepth + SUM($p_i$ through $p_{pivot-1}$)) + SUM($p_{pivot+1}$ through $p_{j}$))
-                \item //  SUM($p_i$ through $p_{pivot-1}$)) is the "cost" to the expected node depth due to moving the left subtree down by 1 depth.
+                \item // SUM($p_i$ through $p_{pivot-1}$)) is the "cost" to the expected node depth due to moving the left subtree down by 1 depth.
                 \item // SUM($p_{pivot+1}$ through $p_{j}$) is the "cost" to the expected node depth due to moving the right subtree down by 1 depth.
                 \item if A[i,j] does not contain a tuple with height = testHeight, add tuple (testHeigh, testExpectedDepth) to A[i,j]
-                \item else compare testExpectedDepth to the expected depth of that tuple. if testExpectedDepth is smaller, replace the tuple with (testHeigh, testExpectedDepth)
-                \end{itemize}
-            \end{itemize}
-        \end{itemize}
-    \end{itemize}
-\end{itemize}
+                \item else compare testExpectedDepth to the expected depth of that tuple. if testExpectedDepth is smaller, replace the tuple in A[i,j] with (testHeight, testExpectedDepth)
+                \end{myEnumerate}
+            \end{myEnumerate}
+        \end{myEnumerate}
+    \end{myEnumerate}
+\end{myEnumerate}
+\end{myEnumerate}
+\end{myEnumerate}
                         
 Solution
- find the minimum expected depth of all tuple(s) in A[1,n]. This is the minimum expected depth for a valid AVL tree of all nodes 1 through n.
+\begin{myEnumerate}
+\item  find the minimum expected depth of all tuple(s) in A[1,n]. This is the minimum expected depth for a valid AVL tree of all nodes 1 through n.
+\end{myEnumerate}
 
+Implementation note: for this algorithm I imagine each element of A pointing to a linked list of the (height, minimumExpectedDepth) tuples. A linked list is obviously not perfect, but it's an easily implemented way to allow us to keep track of the best valid AVL solutions for each possible height of the subtree
 
     
 
