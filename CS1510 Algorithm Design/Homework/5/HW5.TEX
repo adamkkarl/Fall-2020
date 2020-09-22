@@ -56,4 +56,20 @@ Thus, when calculating optimal subtrees/subproblems, we must calculate the optim
 \subsection{Algorithm Description}
 
 
+(tree height, expected depth of a key, sum of probabilities for $p_i$ through $p_j$)
+
+Base Case:
+    If i=j, then set A[i,j] = (0, 0, $p_i$
+    Reason: 
+    
+\subsection{Potential Changes}
+For each element in the 2D array, we store a number of (tree height, expected depth of a key, sum of probabilities for $p_i$ through $p_j$) tuples. The third value in the tuple (sum of probabilities for $p_i$ through $p_j$) is NOT strictly necessary, as we could instead always calculate this O(n) sum every single time. Technically, this would still remain a polynomial-time algorithm, but it would be far less efficient.
+
+Additionally, we could instead convert 2D array with an unknown number of tuples in each element to a 3D array with a single tuple (or value, if the previous change is also done). We would do this by creating a third dimension for height, where A[i, j, h] would contain the optimal expected depth of a key for the optimal AVL subtree containing trees i through j (inclusive). At the end of building the array we would check the row of A[1, N, h] over all values of h for the optimal solution. The reason I dislike this solution (and the reason I didn't implement it for my solution) is that it creates a LOT of NULL or empty elements in the 3D array, which seems wasteful of space. For instance, obviously A[1, 7, 1] would be impossible, since no AVL tree with 7 elements could have a height of 1. In fact, since an AVL tree with 7 nodes can ONLY have a height of 2 or 3, ALL other values for h other than 2 or 3 would have an empty cell at A[1, 7, h].
+Note that this solution IS strictly faster than my solution (since you don't have to traverse a linked list of tuples for each array element), but it would be a tradeoff with wasted space.
+
+When n is small, the possible AVL trees only have a couple different possible heights, so traversing a linked list with 1 entry for each height is negligible. When n is large, this change would save time, but at the cost of creating a massive (and almost entirely empty) array that wastes a ton of space.
+
+
+
 \end{document}
