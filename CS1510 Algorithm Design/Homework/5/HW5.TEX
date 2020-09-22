@@ -24,11 +24,19 @@
 \section{Problem 16 (6 points)}
 \subsection{Motivation}
 
-It is possible for an AVL tree with 7 nodes to have either height 2 or height 3. 
+\begin{figure}
+\centerline{\includegraphics{7AVL.png}}
+\caption{AVL trees with 7 nodes and different heights}
+\label{fig}
+\end{figure}
 
-It is possible for an AVL tree with 14 nodes to have either height 3 or height 4. 
+It is possible for a valid AVL tree of n nodes to have multiple different heights.
+\begin{itemize}
+    \item It is possible for a valid AVL tree with 7 nodes to have either height 2 or height 3. (see figure 1)
+    \item It is possible for a valid AVL tree with 14 nodes to have either height 3 or height 4. 
+\end{itemize}
 
-Therefore, imagine there are 22 total nodes and we are trying to find the best solution that has node 8 as the root, creating two subtrees one with 7 nodes and one with 14 nodes. 
+Therefore, imagine there are 22 total nodes and we are trying to find the best solution that has node 8 as the root. There are two subtrees, one for the 7 nodes to the left of 8 and one for the 14 nodes to the right of 8.
 
 Valid solutions
 \begin{itemize}
@@ -39,11 +47,11 @@ Valid solutions
 
 Invalid solutions
 \begin{itemize}
-    \item 7 nodes => 2 height; 14 nodes => 2 height (balance factor = 2)
+    \item 7 nodes => 2 height; 14 nodes => 4 height (balance factor = 2 INVALID)
 \end{itemize}
 It is NOT sufficient to simply find the optimal AVL tree for each subproblem, since it is possible that the optimal subtree for 7 nodes has a height of 2 and the optimal subtree for 14 nodes has a height of 4. In this case, even though the left subtree is a valid AVL tree and the right subtree is a valid AVL tree, combining them would give the root node an invalid balance factor of 2, thus creating an invalid overall AVL tree.
 
-Thus, when calculating optimal subtrees, we must also 
+Thus, when calculating optimal subtrees/subproblems, we must calculate the optimal solutions FOR EACH POSSIBLE HEIGHT. Then, we are able to only combine 2 subtrees when their heights differ by only 0 or 1.
 
 \subsection{Algorithm Description}
 
