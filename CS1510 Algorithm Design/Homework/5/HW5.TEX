@@ -5,9 +5,10 @@
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage{graphicx} 
+\usepackage{outlines}
 
 %% Sets page size and margins
-\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[a4paper,top=1cm,bottom=1cm,left=1cm,right=1cm,marginparwidth=1cm]{geometry}
 
 %% Useful packages
 \usepackage{amsmath}
@@ -23,16 +24,16 @@
 
 \section{Problem 16 (6 points)}
 \subsection{Motivation}
-
-\begin{figure}
-\centerline{\includegraphics{7AVL.png}}
-\caption{AVL trees with 7 nodes and different heights}
-\label{fig}
-\end{figure}
-
 It is possible for a valid AVL tree of n nodes to have multiple different heights.
 \begin{itemize}
-    \item It is possible for a valid AVL tree with 7 nodes to have either height 2 or height 3. (see figure 1)
+    \item It is possible for a valid AVL tree with 7 nodes to have either height 2 or height 3. (see figure)
+    
+\begin{center}
+    \includegraphics[scale=0.5]{7AVL.png}
+    
+    \caption{valid AVL trees with 7 nodes, yet different heights}
+\end{center}
+
     \item It is possible for a valid AVL tree with 14 nodes to have either height 3 or height 4. 
 \end{itemize}
 
@@ -40,9 +41,9 @@ Therefore, imagine there are 22 total nodes and we are trying to find the best s
 
 Valid solutions
 \begin{itemize}
-    \item 7 nodes => 2 height; 14 nodes => 3 height (balance factor = 1)
-    \item 7 nodes => 3 height; 14 nodes => 3 height (balance factor = 0)
-    \item 7 nodes => 3 height; 14 nodes => 4 height (balance factor = 1)
+    \item 7 nodes => 2 height; 14 nodes => 3 height (balance factor = 1 VALID)
+    \item 7 nodes => 3 height; 14 nodes => 3 height (balance factor = 0 VALID)
+    \item 7 nodes => 3 height; 14 nodes => 4 height (balance factor = 1 VALID)
 \end{itemize}
 
 Invalid solutions
@@ -55,21 +56,62 @@ Thus, when calculating optimal subtrees/subproblems, we must calculate the optim
 
 \subsection{Algorithm Description}
 
+Create an n by n 2D matrix. In A[i, j] we will be storing information about valid AVL tree(s) for nodes i through j (inclusive).
 
-(tree height, expected depth of a key, sum of probabilities for $p_i$ through $p_j$)
+The solutions in each element in the array will be tuples of the form 
+(tree height, expected depth of a key, sum of probabilities for $p_i$ through $p_j$).
+This tuple, and the reason there may be several solutions per array element will make more sense as we get into the finer details of the algorithm.
 
-Base Case:
-    If i=j, then set A[i,j] = (0, 0, $p_i$
-    Reason: 
+
+Initialization:
+\begin{itemize}
+\item For i from 1 to n:
+    \begin{itemize}
+    \item set A[i,j] = (0, 0) //"tree" of a single node, so: (height=0, expected depth = 0)
+    \end{itemize}
+\end{itemize}
+
+Iterative, Array-based, bottom-up algorithm
+\begin{itemize}
+\item for i from n-1 to 1:
+\item for j from i+1 to n: // we will be finding solutions for A[i,j] (subtree of nodes i through j)
+\item for pivot from i to j: 
+    \begin{itemize}
+    \item //the pivot may be any node i through j (although many outer nodes may not make valid AVL trees, and i/j can ONLY be the pivot for a subtree of exactly 2 nodes)
+    \item for each tuple in A[i, pivot-1] (if any):
+        \begin{itemize}
+        \item for each tuple in A[pivot+1, j] (if any):
+            \begin{itemize}
+            \item if |rightHeight - leftHeight| $\leq$ 1: 
+                \begin{itemize}
+                \item //ensures combining these two sub-trees creates a valid AVL tree
+                \item testHeight = 1 + max(leftHeight, rightHeight)
+                \item testExpectedDepth = leftExpectedDepth + rightExpectedDepth + SUM($p_i$ through $p_{pivot-1}$)) + SUM($p_{pivot+1}$ through $p_{j}$))
+                \item //  SUM($p_i$ through $p_{pivot-1}$)) is the "cost" to the expected node depth due to moving the left subtree down by 1 depth.
+                \item // SUM($p_{pivot+1}$ through $p_{j}$) is the "cost" to the expected node depth due to moving the right subtree down by 1 depth.
+                \item if A[i,j] does not contain a tuple with height = testHeight, add tuple (testHeigh, testExpectedDepth) to A[i,j]
+                \item else compare testExpectedDepth to the expected depth of that tuple. if testExpectedDepth is smaller, replace the tuple with (testHeigh, testExpectedDepth)
+                \end{itemize}
+            \end{itemize}
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+                        
+Solution
+ find the minimum expected depth of all tuple(s) in A[1,n]. This is the minimum expected depth for a valid AVL tree of all nodes 1 through n.
+
+
+    
+
     
 \subsection{Potential Changes}
-For each element in the 2D array, we store a number of (tree height, expected depth of a key, sum of probabilities for $p_i$ through $p_j$) tuples. The third value in the tuple (sum of probabilities for $p_i$ through $p_j$) is NOT strictly necessary, as we could instead always calculate this O(n) sum every single time. Technically, this would still remain a polynomial-time algorithm, but it would be far less efficient.
-
-Additionally, we could instead convert 2D array with an unknown number of tuples in each element to a 3D array with a single tuple (or value, if the previous change is also done). We would do this by creating a third dimension for height, where A[i, j, h] would contain the optimal expected depth of a key for the optimal AVL subtree containing trees i through j (inclusive). At the end of building the array we would check the row of A[1, N, h] over all values of h for the optimal solution. The reason I dislike this solution (and the reason I didn't implement it for my solution) is that it creates a LOT of NULL or empty elements in the 3D array, which seems wasteful of space. For instance, obviously A[1, 7, 1] would be impossible, since no AVL tree with 7 elements could have a height of 1. In fact, since an AVL tree with 7 nodes can ONLY have a height of 2 or 3, ALL other values for h other than 2 or 3 would have an empty cell at A[1, 7, h].
-Note that this solution IS strictly faster than my solution (since you don't have to traverse a linked list of tuples for each array element), but it would be a tradeoff with wasted space.
+We could instead convert 2D array with an unknown number of tuples in each element to a 3D array with a value. We would do this by creating a third dimension for height, where A[i, j, h] would contain the optimal expected depth of a key for the optimal AVL subtree containing trees i through j (inclusive). At the end of building the array we would check the row of A[1, N, h] over all values of h for the optimal solution. The reason I dislike this solution (and the reason I didn't implement it for my solution) is that it creates a LOT of NULL or empty elements in the 3D array, which seems wasteful of space. For instance, obviously A[1, 7, 1] would be impossible, since no AVL tree with 7 elements could have a height of 1. In fact, since an AVL tree with 7 nodes can ONLY have a height of 2 or 3, ALL other values for h other than 2 or 3 would have an empty cell at A[1, 7, h]. 
+Note that this solution IS strictly faster than my solution (since you don't have to traverse a linked list of tuples for each array element), but it would be a tradeoff with wasted space that grows exponentially as the possible AVL tree heights grow.
 
 When n is small, the possible AVL trees only have a couple different possible heights, so traversing a linked list with 1 entry for each height is negligible. When n is large, this change would save time, but at the cost of creating a massive (and almost entirely empty) array that wastes a ton of space.
 
+
+Additionally, I initially created an array where the solution for each subtree from nodes i to j also included the sum of probabilities $p_i$ through $p_j$. This made the solution faster as the "cost" to moving the subtree down by 1 depth equates to the previous expected value + this sum of probabilities (no longer had to constantly do O(n) probability additions within the critical loop). However, it had the significant drawback in how easily the algorithm was understood, as now there's 3 things each subtree solution had to keep track of (height, expected depth, sum of probabilities), and the motivation for the third value can be re-calculated at any time (it's not specific to that subtree but to all subtrees of nodes i through j). However, understand-ability aside I do believe this modification makes the algorithm strictly better (it reduces the runtime by a factor of n), although even without it is undoubtedly polytime.
 
 
 \end{document}
