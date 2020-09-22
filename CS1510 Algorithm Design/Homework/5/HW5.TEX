@@ -1,0 +1,51 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Homework 5}
+\author{Adam Karl}
+
+\begin{document}
+\maketitle
+
+\section{Problem 16 (6 points)}
+\subsection{Motivation}
+
+It is possible for an AVL tree with 7 nodes to have either height 2 or height 3. 
+
+It is possible for an AVL tree with 14 nodes to have either height 3 or height 4. 
+
+Therefore, imagine there are 22 total nodes and we are trying to find the best solution that has node 8 as the root, creating two subtrees one with 7 nodes and one with 14 nodes. 
+
+Valid solutions
+\begin{itemize}
+    \item 7 nodes => 2 height; 14 nodes => 3 height (balance factor = 1)
+    \item 7 nodes => 3 height; 14 nodes => 3 height (balance factor = 0)
+    \item 7 nodes => 3 height; 14 nodes => 4 height (balance factor = 1)
+\end{itemize}
+
+Invalid solutions
+\begin{itemize}
+    \item 7 nodes => 2 height; 14 nodes => 2 height (balance factor = 2)
+\end{itemize}
+It is NOT sufficient to simply find the optimal AVL tree for each subproblem, since it is possible that the optimal subtree for 7 nodes has a height of 2 and the optimal subtree for 14 nodes has a height of 4. In this case, even though the left subtree is a valid AVL tree and the right subtree is a valid AVL tree, combining them would give the root node an invalid balance factor of 2, thus creating an invalid overall AVL tree.
+
+Thus, when calculating optimal subtrees, we must also 
+
+\subsection{Algorithm Description}
+
+
+\end{document}
