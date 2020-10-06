@@ -21,7 +21,31 @@
 \begin{document}
 \maketitle
 
-\section{Problem XX (6 points)}
-\subsection{}
+\section{Problem 22 (6 points)}
+\subsection{Setup}
+First, sort all points in ascending order. Then, determine the number of vertices left of the origin (let this value be a) and the number of vertices at or right of the origin (let this value be b). Note that $a + b = n$.
+
+To make the problem easier to work with, rename the vertices left of the origin from $x_{-a}$ to $x_{-1}$ and the vertices right of the origin from $x_1$ to $x_b$. These are the labels we will work with for the rest of the problem.
+
+\begin{center}
+    \includegraphics[scale=.75]{numberLine.png}
+    \caption{renamed number line}
+\end{center}
+
+Construct an array with n rows and n columns. While the rows are numbered 1 to n, the columns will be numbered from -a to -1, then 1 to b. This numbering for the columns (negative indices, no 0 column) is unconventional, but will be useful when filling in the array.
+
+\begin{table}[htb]
+\centering
+\begin{tabular}{lllllllllll}
+                         & -a                    & -a + 1                & ...                   & -2                    & -1                    & 1                     & 2                     & ...                   & b-1                   & b                     \\ \cline{2-11} 
+\multicolumn{1}{l|}{1}   & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-11} 
+\multicolumn{1}{l|}{2}   & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-11} 
+\multicolumn{1}{l|}{3}   & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-11} 
+\multicolumn{1}{l|}{...} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-11} 
+\multicolumn{1}{l|}{n}   & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} & \multicolumn{1}{l|}{} \\ \cline{2-11} 
+\end{tabular}
+\end{table}
+
+A[i,j] describes a path that starts at the origin,  takes i hops, and ends at vertex $x_j$. Note that j can be negative. Inside will be stored the minimum aggregate wait time and corresponding path length.
 
 \end{document}
