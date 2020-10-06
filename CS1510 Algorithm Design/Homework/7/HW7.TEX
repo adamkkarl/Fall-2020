@@ -28,11 +28,12 @@ First, sort all points in ascending order. Then, determine the number of vertice
 To make the problem easier to work with, rename the vertices left of the origin from $x_{-a}$ to $x_{-1}$ and the vertices right of the origin from $x_1$ to $x_b$. These are the labels we will work with for the rest of the problem.
 
 \begin{center}
-    \includegraphics[scale=.75]{numberLine.png}
+    \includegraphics[scale=.5]{numberLine.png}
+    
     \caption{renamed number line}
 \end{center}
 
-Construct an array with n rows and n columns. While the rows are numbered 1 to n, the columns will be numbered from -a to -1, then 1 to b. This numbering for the columns (negative indices, no 0 column) is unconventional, but will be useful when filling in the array.
+Construct array A with n rows and n columns. While the rows are numbered 1 to n, the columns will be numbered from -a to -1, then 1 to b. This numbering for the columns (some negative indices, no 0 column) is unconventional, but will be useful for keeping track of where we are when filling in the array.
 
 \begin{table}[htb]
 \centering
@@ -47,5 +48,39 @@ Construct an array with n rows and n columns. While the rows are numbered 1 to n
 \end{table}
 
 A[i,j] describes a path that starts at the origin,  takes i hops, and ends at vertex $x_j$. Note that j can be negative. Inside will be stored the minimum aggregate wait time and corresponding path length.
+
+\subsection{Algorithm Description}
+
+\begin{itemize}
+    \item fill in A[1,-1] with tuple $(\lvert x_{-1} \rvert, \lvert x_{-1} \rvert)$
+    \begin{itemize}
+        \item 1 hop, ends at $x_{-1}$
+        \item aggregate wait time = path length = $\lvert x_{-1} \rvert$
+    \end{itemize}
+    \item fill in A[1,1] with tuple $(x_{1}, x_{1})$
+    \begin{itemize}
+        \item 1 hop, ends at $x_1$
+        \item aggregate wait time = path length = $x_1$
+    \end{itemize}
+\end{itemize}
+
+\begin{itemize}
+
+
+    \item for i from 2 to n
+    \begin{itemize}
+        \item for j from MAX(-i, -a) to MIN(i, b), skipping over j=0
+        \begin{itemize}
+            \item //essentially, from -i to i unless we've run out of vertices on one side of the origin
+        \end{itemize}
+    \end{itemize}
+\end{itemize}
+
+\subsection{Conclusion and Trace-back}
+The final path will have n hops and end at either $x_{-a}$ or $x_b$. To determine which, find MIN(A[n,-a], A[n,b]) when looking at the first value in each tuple, which is the aggregate waiting time. The average waiting time is this value divided by n.
+
+To trace back the path, the previous new point visited before the endpoint was either the next point in the direction of the origin, or the furthest unvisited point on the other side of the origin (if $x_{-a}$ was the end point, then we consider $x_{-a+1}$ and $x_b$). Note that these are the same points that are considered when calculating the value to store in A[i,j]. Do the same aggregate wait time calculations from each of these points in the previous row of A to see which one matches the value in the current cell. This was the previous point visited.
+
+Repeat this process to trace the solution all the way back to A[1,-1] or A[1,1], the first point visited after leaving the origin. 
 
 \end{document}
