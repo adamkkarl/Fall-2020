@@ -49,6 +49,8 @@ Construct array A with n rows and n columns. While the rows are numbered 1 to n,
 
 A[i,j] describes a path that starts at the origin,  takes i hops, and ends at vertex $x_j$. Note that j can be negative. Inside will be stored the minimum aggregate wait time and corresponding path length. The aggregate wait time is the "main" value used for comparisons, the path length is used in future calculations.
 
+The core intuition of the algorithm is that at any point, the current path makes up a contiguous set of points including the origin, and when extending the path we consider the first point to the right of the current path and the first point to the left of the current path.
+
 \subsection{Algorithm Description}
 
 \begin{itemize}
