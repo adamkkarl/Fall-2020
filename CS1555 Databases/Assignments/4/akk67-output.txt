@@ -11,4 +11,29 @@ a.
 +----------------+
 
 b.
++------+-----+
+|fname |lname|
++------+-----+
+|Michel|Hanna|
+|Thao  |Pham |
++------+-----+
+
+c.
++----------------+-----------+
+|staff           |supervisor |
++----------------+-----------+
+|Bob Hoffman     |NULL       |
+|Samantha Cortes |Bob Hoffman|
+|Rich Health     |Bob Hoffman|
+|Christian Mason |Bob Hoffman|
+|Terry Wood      |Bob Hoffman|
+|Stephanie DeRosa|Bob Hoffman|
++----------------+-----------+
+
+d.
++-------------+
+|owner_pplsoft|
++-------------+
+|5550003      |
++-------------+
 
