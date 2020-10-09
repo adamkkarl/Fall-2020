@@ -7,7 +7,7 @@
 -- PittID: akk67
 ----------------------------------------
 
--- 1
+----- 1
 -- a
 SELECT fname || ' ' || lname AS UserNames
 FROM USERS
@@ -86,6 +86,32 @@ ORDER BY COUNT(TICKETS.ticket_number) DESC
 LIMIT 2;
 
 
+----- 3
+-- a
+CREATE OR REPLACE VIEW TICKET_CATEGORIES
+AS SELECT category_id, COUNT(ticket_number) AS num_tickets
+FROM TICKETS
+WHERE date_submitted BETWEEN TO_DATE('2020/01/01', 'yyyy/mm/dd')
+    AND TO_DATE('2020/01/31', 'yyyy/mm/dd')
+GROUP BY category_id;
 
+SELECT CATEGORIES.category, TICKET_CATEGORIES.num_tickets
+FROM TICKET_CATEGORIES
+JOIN CATEGORIES ON CATEGORIES.category_id = TICKET_CATEGORIES.category_id
+ORDER BY TICKET_CATEGORIES.num_tickets DESC
+LIMIT 2;
+
+
+-- b
+CREATE OR REPLACE VIEW TECH_WORKTIME
+AS SELECT ASSIGNMENT.tech_pplsoft, SUM(TICKETS.days_worked_on) AS Work_Time
+FROM ASSIGNMENT
+JOIN TICKETS ON ASSIGNMENT.ticket_number = TICKETS.ticket_number
+GROUP BY tech_pplsoft;
+
+SELECT fname || ' ' || lname AS TechNames, TECH_WORKTIME.Work_Time AS Work_Time
+FROM TECH_PERSONNEL
+LEFT JOIN TECH_WORKTIME ON TECH_PERSONNEL.pplsoft = TECH_WORKTIME.tech_pplSoft
+ORDER BY TECH_WORKTIME.Work_Time ASC;
 
 

@@ -72,3 +72,26 @@ i.
 |Windows OS problem|2          |
 |Hardware Problem  |2          |
 +------------------+-----------+
+
+3.
+a.
++------------------+-----------+
+|category          |num_tickets|
++------------------+-----------+
+|Windows OS problem|2          |
+|Hardware Problem  |2          |
++------------------+-----------+
+
+b.
+I found the wording on this a bit ambiguous for what exactly was expected (I don't know if you wanted the NULL values or not) so I did my best
++----------------+---------+
+|technames       |work_time|
++----------------+---------+
+|Samantha Cortes |26       |
+|Bob Hoffman     |41       |
+|Rich Health     |59       |
+|Christian Mason |NULL     |
+|Stephanie DeRosa|NULL     |
+|Terry Wood      |NULL     |
++----------------+---------+
+
