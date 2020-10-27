@@ -1,0 +1,66 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Homework 10}
+\author{Adam Karl}
+
+\begin{document}
+\maketitle
+
+\section{Problem 31 (6 points)}
+\subsection{a. clique $\leq$ A}
+To solve Clique (a known NP-hard problem) using A, do:
+
+\begin{itemize}
+    \item Let G be the input graph to Clique
+    \item Let k be the input value to Clique
+    \item Count the number of vertices in G. Let this value be n.
+    
+    \item Create G' as a copy of G
+    
+    \item if $k > 3n/4$:
+    \begin{itemize}
+        \item add $\left\lfloor4k-3n\right\rfloor$ vertices to G'. They have no edges
+        \item This value is derived from k = 3(n + #new vertices)/4
+        \item this is the case where Clique(G,k) is looking for a larger clique than A(G) would, so we have to add vertices (unconnected so that they don't change the size of the largest clique) until A(G') is looking for a clique of exactly size k.
+    \end{itemize}
+    
+    \item else:
+    \begin{itemize}
+        \item add $\left\lfloor3n-4k\right\rfloor$ vertices to G', and connect each of these vertices to all other vertices in G'
+        \item This value is derived from k + #new vertices = 3(n + #new vertices)/4
+        \item this is the case where Clique(G,k) is looking for a smaller clique than A(G) would, so we have to add vertices (connected so that adding 1 new vertex increases the size of the largest clique by 1) to boost the size of the clique until B(G') is returns true if and only if Clique(G,k) should return true.
+    \end{itemize}
+    \item run B(G') and return what it returns
+\end{itemize}
+
+The input transformation is quadratic (in the worst case when adding connected vertices), the output transformation is constant, and A(G') returns true if and only if Clique(G,k) would return true, so Clique $\leq$ A. Since Clique is a known NP-hard problem, B must be as well.
+
+\subsection{b. trivial reduction A $\leq$ B}
+To solve A(G), take G and find the complement graph G' by having all vertices from G in G', then having 2 vertices connected by an edge if and only if they are not connected by an edge in G. Run B(G') and return what it returns.
+
+The input transformation is quadratic, the output transformation is constant, and B(G') returns true if and only if A(G) would return true, so A $\leq$ B. Since A is also NP-hard, B must be as well.
+
+\subsection{c}
+
+\subsection{d}
+
+\subsection{e}
+
+\subsection{f}
+
+\end{document}
