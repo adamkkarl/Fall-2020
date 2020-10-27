@@ -33,14 +33,14 @@ To solve Clique(G,k) (a known NP-hard problem) using an algorithm to solve A, do
     \item if $k > 3n/4$:
     \begin{itemize}
         \item add $\left\lfloor4k-3n\right\rfloor$ vertices to G'. They have no edges
-        \item This value is derived from k = 3(n + #new vertices)/4
+        \item This value is derived from k = 3(n + numNewVertices)/4
         \item this is the case where Clique(G,k) is looking for a larger clique than A(G) would, so we have to add vertices (unconnected so that they don't change the size of the largest clique) until A(G') is looking for a clique of exactly size k.
     \end{itemize}
     
     \item else:
     \begin{itemize}
         \item add $\left\lfloor3n-4k\right\rfloor$ vertices to G', and connect each of these vertices to all other vertices in G'
-        \item This value is derived from k + #new vertices = 3(n + #new vertices)/4
+        \item This value is derived from k + numNewVertices = 3(n + numNewVertices)/4
         \item this is the case where Clique(G,k) is looking for a smaller clique than A(G) would, so we have to add vertices (connected so that adding 1 new vertex increases the size of the largest clique by 1) to boost the size of the clique until B(G') is returns true if and only if Clique(G,k) should return true.
     \end{itemize}
     \item run B(G') and return what it returns
@@ -64,7 +64,7 @@ To solve Clique(G,k) (a known NP-hard problem) using an algorithm to solve C, do
 
 By adding k unconnected vertices to G' we ensure that the second condition (independent set of size k) of C is always satisfied without affecting the first condition (clique of size k). Running C on G' now returns true if and only if Clique(G) has a clique of size k. Thus Clique $\leq$ C.
 
-Since Clique can be reduced to C in polytime, and Cique is a known NP-Hard problem, then C must also be NP-Hard.
+Since Clique can be reduced to C in polytime, and Clique is a known NP-Hard problem, then C must also be NP-Hard.
 
 \subsection{d}
 
@@ -80,6 +80,25 @@ It is not possible for most of the vertices in a graph to be part of a clique, a
 
 Note: depending on the exact definition of clique and independent set, a graph with 1 vertex may satisfy both conditions. If so, it would be the only graph to return true on.
 
-\subsection{f}
+\subsection{f. A $\leq$ F}
+To solve A(G) (which we already proved is NP-hard) using an algorithm to solve F, do:
+
+\begin{itemize}
+    \item create G' as a copy of G
+    \item for each vertex in G':
+    \begin{itemize}
+        \item while the vertex has fewer than n/2 edges:
+        \begin{itemize}
+            \item add an arbitrary edge from connecting the vertex to another vertex (that it isn't already connected to)
+        \end{itemize}
+    \end{itemize}
+    \item run F(G') and return what it returns
+\end{itemize}
+
+By making sure each vertex has at least n/2 edges, we ensure that the second condition of F (independent set of size 3n/4) never returns true, but since $n/2<3n/4$ adding edges this way cannot create a clique of size 3n/4 where there wasn't one before since the vertex needs (3n/4)-1 edges to possibly be in a clique of size 3n/4.
+
+Since F will now return true if and only if A(G) should turn true, and the transformations are polytime, A is polytime reducible to F. Since we already proved A was NP-Hard, F must be as well.
+
+Note that there is an edge case for very few (for instance: 4) vertices where adding n/2 edges CAN actually give a clique of size 3 where there wasn't one before. However, weeding out these edge cases is an implementation detail and $2n+1=3n/4$ cannot happen for larger values of n.
 
 \end{document}
