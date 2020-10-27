@@ -23,11 +23,9 @@
 
 \section{Problem 31 (6 points)}
 \subsection{a. clique $\leq$ A}
-To solve Clique (a known NP-hard problem) using A, do:
+To solve Clique(G,k) (a known NP-hard problem) using an algorithm to solve A, do:
 
 \begin{itemize}
-    \item Let G be the input graph to Clique
-    \item Let k be the input value to Clique
     \item Count the number of vertices in G. Let this value be n.
     
     \item Create G' as a copy of G
@@ -55,11 +53,32 @@ To solve A(G), take G and find the complement graph G' by having all vertices fr
 
 The input transformation is quadratic, the output transformation is constant, and B(G') returns true if and only if A(G) would return true, so A $\leq$ B. Since A is also NP-hard, B must be as well.
 
-\subsection{c}
+\subsection{c. Clique $\leq$ C}
+To solve Clique(G,k) (a known NP-hard problem) using an algorithm to solve C, do:
+
+\begin{itemize}
+    \item create G' as a copy of G
+    \item add k vertices to G' that have no edges
+    \item run C(G',k) and return what it returns
+\end{itemize}
+
+By adding k unconnected vertices to G' we ensure that the second condition (independent set of size k) of C is always satisfied without affecting the first condition (clique of size k). Running C on G' now returns true if and only if Clique(G) has a clique of size k. Thus Clique $\leq$ C.
+
+Since Clique can be reduced to C in polytime, and Cique is a known NP-Hard problem, then C must also be NP-Hard.
 
 \subsection{d}
 
-\subsection{e}
+\subsection{e. polytime algorithm}
+A polytime algorithm for E(G) is:
+\begin{itemize}
+    \item return false
+\end{itemize}
+
+Since this algorithm has a polytime (constant, in fact) solution, it is part of P and cannot be NP-hard.
+
+It is not possible for most of the vertices in a graph to be part of a clique, and for most vertices to be part of an independent set, since there must be overlap between the 2 types of vertices but ones in the clique MUST have $(3n/4) -1$ edges and those in the independent set can have at MOST $(n/4)$ edges (connected to everything except those in the independent set). It is not possible to have at least $(3n/4) -1$ edges AND at most $(n/4)$ edges.
+
+Note: depending on the exact definition of clique and independent set, a graph with 1 vertex may satisfy both conditions. If so, it would be the only graph to return true on.
 
 \subsection{f}
 
