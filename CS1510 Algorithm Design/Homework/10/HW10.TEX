@@ -66,7 +66,34 @@ By adding k unconnected vertices to G' we ensure that the second condition (inde
 
 Since Clique can be reduced to C in polytime, and Clique is a known NP-Hard problem, then C must also be NP-Hard.
 
-\subsection{d}
+\subsection{d. Independent Set $\leq$ d}
+To solve IndependentSet(G,k) (a problem known to be NP-hard, and also trivially reduced from Clique to prove it's NP-hard) using an algorithm to solve D, do:
+
+\begin{itemize}
+    \item if D(G,k) is false:
+    \begin{itemize}
+        \item return false
+    \end{itemize}
+    
+    \item else:
+    \begin{itemize}
+        \item increase k by 1, and run D(G,k) until the first time false is returned. Let k' be the first value for which D(G,k') returns false.
+        \item k' is the first point we can guarantee that the clique half of the or statement is false (when D(G,k) returns true there may or may not be a clique of size k)
+        \item let x = 0
+        \item while D(G, k') returns false:
+        \begin{itemize}
+            \item x++
+            \item add one unconnected vertex to G
+        \end{itemize}
+        \item at this point, the difference between k' and the number of vertices in the largest independent set of the original G is equal to x
+        \item thus, the number of vertices in the largest independent set of the original G is equal to k'-x
+        \item if $k'-x\geq k$ return true. otherwise return false
+    \end{itemize}
+\end{itemize}
+
+This reduction works by finding a point where we can guarantee the first condition of the or statement is false, then iterating on the graph in a way that affects the second statement (which resembles IndependentSet) without affecting that first condition. Then, we are able to calculate the exact number of vertices in the largest independent set of G and compare it to k.
+
+Since this algorithm returns true if and only if IndependentSet(G,k) should return true, and the transformations are polytime (in the worst case, the overall runtime of the algorithm will be O(D)*n), Independent Set is polytime reducible to D. Since Independent Set is NP-hard, D must be NP-hard as well.
 
 \subsection{e. polytime algorithm}
 A polytime algorithm for E(G) is:
