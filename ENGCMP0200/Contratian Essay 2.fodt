@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2020-10-26T13:40:33.770000000</meta:creation-date><dc:date>2020-11-01T23:26:03.249000000</dc:date><meta:editing-duration>P1DT23H24M57S</meta:editing-duration><meta:editing-cycles>8</meta:editing-cycles><meta:generator>LibreOffice/7.0.2.2$Windows_X86_64 LibreOffice_project/8349ace3c3162073abd90d81fd06dcfb6b36b994</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="3" meta:paragraph-count="32" meta:word-count="1749" meta:character-count="10822" meta:non-whitespace-character-count="9073"/></office:meta>
+ <office:meta><meta:creation-date>2020-10-26T13:40:33.770000000</meta:creation-date><dc:date>2020-11-01T23:30:29.527000000</dc:date><meta:editing-duration>P1DT23H29M23S</meta:editing-duration><meta:editing-cycles>9</meta:editing-cycles><meta:generator>LibreOffice/7.0.2.2$Windows_X86_64 LibreOffice_project/8349ace3c3162073abd90d81fd06dcfb6b36b994</meta:generator><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="6" meta:paragraph-count="32" meta:word-count="1753" meta:character-count="10860" meta:non-whitespace-character-count="9103"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">6773</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">148378</config:config-item>
    <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">50114</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">22968</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">24608</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">22729</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">28028</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">15646</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">9218</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">8830</config:config-item>
      <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">6773</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">50112</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">29739</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">148378</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">24606</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">171106</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -258,55 +258,79 @@
    <style:text-properties officeooo:rsid="00094f01" officeooo:paragraph-rsid="00094f01"/>
   </style:style>
   <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="0004b90e"/>
-  </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0004b90e" officeooo:paragraph-rsid="0004b90e"/>
   </style:style>
-  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0004b90e" officeooo:paragraph-rsid="003037df"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties style:font-name="Times New Roman" officeooo:paragraph-rsid="0004b90e"/>
-  </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties style:font-name="Times New Roman" officeooo:paragraph-rsid="0006a7b5"/>
-  </style:style>
-  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002800b8" officeooo:paragraph-rsid="002800b8"/>
   </style:style>
-  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002800b8" officeooo:paragraph-rsid="002800b8"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002800b8" officeooo:paragraph-rsid="0038df88"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00375c11" officeooo:paragraph-rsid="00375c11"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:paragraph-rsid="0004b90e"/>
   </style:style>
   <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard">
-   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00375c11" officeooo:paragraph-rsid="00375c11"/>
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:paragraph-rsid="0006a7b5"/>
   </style:style>
   <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties style:font-name="Times New Roman" officeooo:paragraph-rsid="0038df88"/>
   </style:style>
   <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="0021dc50"/>
+   <style:paragraph-properties fo:line-height="200%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0038df88" officeooo:paragraph-rsid="0038df88"/>
   </style:style>
   <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="0023ab80"/>
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties officeooo:paragraph-rsid="0021dc50"/>
   </style:style>
   <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties officeooo:paragraph-rsid="002b2b77"/>
   </style:style>
   <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="0006a7b5"/>
-  </style:style>
-  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="001b4121"/>
-  </style:style>
-  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties officeooo:paragraph-rsid="002e425c"/>
   </style:style>
-  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties officeooo:paragraph-rsid="0031f748"/>
   </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties officeooo:paragraph-rsid="001b4121"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties officeooo:paragraph-rsid="0023ab80"/>
+  </style:style>
   <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties officeooo:paragraph-rsid="0004b90e"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
+   <style:text-properties officeooo:paragraph-rsid="0006a7b5"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="200%"/>
    <style:text-properties officeooo:paragraph-rsid="0034ee9b"/>
   </style:style>
   <style:style style:name="T1" style:family="text">
@@ -388,85 +412,85 @@
    <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0021dc50"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" fo:font-style="italic" officeooo:rsid="001c9da6" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-style="italic"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0023ab80"/>
+   <style:text-properties style:font-name="Times New Roman" fo:font-style="italic" officeooo:rsid="001c9da6" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002429a9"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0023ab80"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0005d6d4"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002429a9"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0024af7f"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0005d6d4"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0026996b"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0024af7f"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00279416"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0026996b"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00274220"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00279416"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002800b8"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00274220"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00298f59"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002800b8"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002b2b77"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00298f59"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002e425c"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002b2b77"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="000f1991"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002e425c"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="000d5a1d"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="000f1991"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="003037df"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="000d5a1d"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0031f748"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="003037df"/>
   </style:style>
   <style:style style:name="T43" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00135e56"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0031f748"/>
   </style:style>
   <style:style style:name="T44" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0033993b"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00135e56"/>
   </style:style>
   <style:style style:name="T45" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0034ee9b"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0033993b"/>
   </style:style>
   <style:style style:name="T46" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0036d241"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0034ee9b"/>
   </style:style>
   <style:style style:name="T47" style:family="text">
-   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00375c11"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0036d241"/>
   </style:style>
   <style:style style:name="T48" style:family="text">
-   <style:text-properties officeooo:rsid="0017249a"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00375c11"/>
   </style:style>
   <style:style style:name="T49" style:family="text">
-   <style:text-properties officeooo:rsid="00172b99"/>
+   <style:text-properties officeooo:rsid="0017249a"/>
   </style:style>
   <style:style style:name="T50" style:family="text">
-   <style:text-properties officeooo:rsid="0017fa9f"/>
+   <style:text-properties officeooo:rsid="00172b99"/>
   </style:style>
   <style:style style:name="T51" style:family="text">
-   <style:text-properties officeooo:rsid="0019a8a9"/>
+   <style:text-properties officeooo:rsid="0017fa9f"/>
   </style:style>
   <style:style style:name="T52" style:family="text">
-   <style:text-properties officeooo:rsid="001b4121"/>
+   <style:text-properties officeooo:rsid="0019a8a9"/>
   </style:style>
   <style:style style:name="T53" style:family="text">
-   <style:text-properties officeooo:rsid="0026996b"/>
+   <style:text-properties officeooo:rsid="001b4121"/>
   </style:style>
   <style:style style:name="T54" style:family="text">
    <style:text-properties officeooo:rsid="002b2b77"/>
@@ -509,47 +533,52 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P7">Adam Karl</text:p>
-   <text:p text:style-name="P12">Professor </text:p>
-   <text:p text:style-name="P12">ENGCMP0200</text:p>
-   <text:p text:style-name="P12">1 November 2020</text:p>
-   <text:p text:style-name="P13">The Death of Funerals</text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T17"><text:tab/></text:span><text:span text:style-name="T21">What </text:span><text:span text:style-name="T22">are the benefits of choosing a traditional funeral? </text:span><text:span text:style-name="T42">According to a quick search, the</text:span><text:span text:style-name="T22"> formal structure of a funeral service </text:span><text:span text:style-name="T24">fulfills our cultural and religious </text:span><text:span text:style-name="T37">obligation</text:span><text:span text:style-name="T24"> both to the deceased and to our family and community </text:span><text:span text:style-name="T26">(“Five Important Reasons to Have a Funeral Service”). </text:span><text:span text:style-name="T25">Additionally</text:span><text:span text:style-name="T22">, “attending a funeral service is a way to let your subconscious know grieving is allowed,” and attending the ceremony </text:span><text:span text:style-name="T24">gives you time to deal with your emotions and start the healing process (“The Benefits of Attending a Funeral”).</text:span><text:span text:style-name="T22"> </text:span><text:span text:style-name="T23">It’s a good thing everyone knows you can’t just make up pseudoscientific reasons </text:span><text:span text:style-name="T24">to push your service</text:span><text:span text:style-name="T23">, otherwise I’d have to ask </text:span><text:span text:style-name="T24">the obviously impartial </text:span><text:span text:style-name="T26">Benjamin Memorial Home</text:span><text:span text:style-name="T23"> </text:span><text:span text:style-name="T26">and Brunswick Memorial Home</text:span><text:span text:style-name="T23"> for a source on th</text:span><text:span text:style-name="T46">e whole “letting your subconscious know” bit</text:span><text:span text:style-name="T23">.</text:span></text:p>
-   <text:p text:style-name="P17"><text:span text:style-name="T33"><text:tab/>The most obvious</text:span><text:span text:style-name="T34"> drawback of funerals is the cost. According to the National Funeral Director’s Association, in 2019 the median cost of a complete funeral (including viewing, casket, </text:span><text:span text:style-name="T35">and</text:span><text:span text:style-name="T34"> </text:span><text:span text:style-name="T33">vault,</text:span><text:span text:style-name="T34"> </text:span><text:span text:style-name="T35">but </text:span><text:span text:style-name="T36">not including</text:span><text:span text:style-name="T35"> the price of headstone and burial plot</text:span><text:span text:style-name="T34">) was $9,135 </text:span><text:span text:style-name="T35">(“Statistics”)</text:span><text:span text:style-name="T34">. </text:span><text:span text:style-name="T35">The average funeral expense has grown </text:span><text:span text:style-name="T36">an extraordinary</text:span><text:span text:style-name="T35"> </text:span><text:span text:style-name="T36">227% since 1990 (Martin, Anthony), of which less than half (about 97%) can be attributed to inflation (“CPI Inflation Calculator”). Although I’d personally like to be lenient toward funeral homes since 89% are owned by a family or individual, the combination of skyrocketing prices along with a target market of grieving families/spouses is </text:span><text:span text:style-name="T37">certainly</text:span><text:span text:style-name="T36"> enough to </text:span><text:span text:style-name="T37">make me question how much they should be allowed to get away with </text:span><text:span text:style-name="T35">(“Statistics”)</text:span><text:span text:style-name="T37">.</text:span></text:p>
-   <text:p text:style-name="P17"><text:span text:style-name="T37"><text:tab/>As of January 2020, only 41% of Americans say they would be able to cover a $1,000 emergency expense, with the rest either having to take come kind of loan, or altogether not knowing how they would find the money (Leonhardt, Megan). With this context, it’s difficult for me to read Benjamin Memorial Home’s “cultural and religious obligation” as anything other than an obligation to put yourself in serious debt just to fulfill a social norm.</text:span></text:p>
-   <text:p text:style-name="P20"><text:span text:style-name="T37"><text:tab/></text:span><text:span text:style-name="T38">Under such economic pressure, it’s no wonder Americans have turned to alternatives, and cremations became more popular than burials for the first time in 2016, and have remained more popular for each year since (Katz, Brigit). However, even this less expensive route</text:span><text:span text:style-name="T34"> had a median cost of $5,150 </text:span><text:span text:style-name="T38">in 2019</text:span><text:span text:style-name="T34">, </text:span><text:span text:style-name="T38">with the most offensive expense being </text:span><text:span text:style-name="T41">$1,200 for</text:span><text:span text:style-name="T38"> the cremation casket </text:span><text:span text:style-name="T35">(“Statistics”).</text:span></text:p>
-   <text:p text:style-name="P8"><text:tab/><text:span text:style-name="T54">In order to justify a price of five to ten thousand dollars, the social and emotional benefit of a viewing/funeral has to be worth the cost. </text:span><text:span text:style-name="T55">For some people, the benefit may be worth it, but I’m worried that many people don’t even consider forgoing the rituals and ceremonies due to religious and/or social expectations.</text:span></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T9"><text:tab/>Unfortunately, there don’t seem to be any decent sources on the emotional effect that funeral viewings, burials, or other ceremonies have on those that attend. </text:span><text:span text:style-name="T55">Alas, e</text:span><text:span text:style-name="T9">ven if there </text:span><text:span text:style-name="T11">were</text:span><text:span text:style-name="T12"> statistics </text:span><text:span text:style-name="T14">on whether </text:span><text:span text:style-name="T12">having a funeral was worthwhile, I might still find it difficult to take them at face value. </text:span><text:span text:style-name="T13">It’s reasonable to assume</text:span><text:span text:style-name="T12"> some people might confuse the implication that a funeral wasn’t worth the money with the implication that the deceased loved one wasn’t worth the money.</text:span></text:p>
-   <text:p text:style-name="P21"><text:span text:style-name="T41"><text:tab/>For me personally, it’s not worth it. Although the deaths of both of my grandmothers I knew w</text:span><text:span text:style-name="T47">ere</text:span><text:span text:style-name="T41"> coming f</text:span><text:span text:style-name="T47">or months</text:span><text:span text:style-name="T41">, neither of their extravagant ceremonies were as impactful as the “celebration of life” lunch </text:span><text:span text:style-name="T42">held for my favorite aunt after she died unexpectedly</text:span><text:span text:style-name="T47"> and left her body to science</text:span><text:span text:style-name="T42">. Seeing the embalmed bod</text:span><text:span text:style-name="T47">ies at the viewings</text:span><text:span text:style-name="T42"> actually left me more confused </text:span><text:span text:style-name="T47">and disgusted</text:span><text:span text:style-name="T42"> than anything, as </text:span><text:span text:style-name="T47">they</text:span><text:span text:style-name="T42"> hit the uncanny valley between human and wax figure </text:span><text:span text:style-name="T47">and certainly looked nothing like the people I once knew</text:span><text:span text:style-name="T42">.</text:span></text:p>
-   <text:p text:style-name="P9"><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T55">Talking about death always seems to turn people into hollow, tenative versions of themselves. </text:span><text:span text:style-name="T6">Just this Wednesday, </text:span><text:span text:style-name="T7">I received a call that should have gone: “He</text:span><text:span text:style-name="T15">llo Adam</text:span><text:span text:style-name="T7">, the man you were a match to donate bone marrow to died </text:span><text:span text:style-name="T48">yesterday</text:span><text:span text:style-name="T7">, </text:span><text:span text:style-name="T15">so you can clear your schedule.</text:span><text:span text:style-name="T7">” Instead, <text:s/></text:span><text:span text:style-name="T15">I was strung along </text:span><text:soft-page-break/><text:span text:style-name="T15">a five minute conversation full of fluff and consolation delivered in </text:span><text:span text:style-name="T50">a</text:span><text:span text:style-name="T15"> somber tone </text:span><text:span text:style-name="T56">(</text:span><text:span text:style-name="T15">not unlike a funeral director</text:span><text:span text:style-name="T56">)</text:span><text:span text:style-name="T15"> </text:span><text:span text:style-name="T48">before the caller finally got to the point.</text:span></text:p>
-   <text:p text:style-name="P9"><text:span text:style-name="T48"><text:tab/>Quite literally the only things I know about the person was that he was a 62 year old male with leukemia, he lived </text:span><text:span text:style-name="T49">somewhere</text:span><text:span text:style-name="T48"> in the </text:span><text:span text:style-name="T49">contiguous</text:span><text:span text:style-name="T48"> United States, and something </text:span><text:span text:style-name="T49">in our blood was similar enough to match me as a potential donor</text:span><text:span text:style-name="T48">. </text:span><text:span text:style-name="T49">I don’t even know his name. At the risk of sounding heartless, <text:s/></text:span><text:span text:style-name="T50">I care about him as much as any of the other 7,</text:span><text:span text:style-name="T51">5</text:span><text:span text:style-name="T50">00+ Americans that die on any given day </text:span><text:span text:style-name="T51">(National Vital Statistics System)</text:span><text:span text:style-name="T50">.</text:span></text:p>
-   <text:p text:style-name="P9"><text:span text:style-name="T50"><text:tab/></text:span><text:span text:style-name="T51">So, why was the caller from the donor program so careful and consoling when talking to me, despite knowing that donors and </text:span><text:span text:style-name="T52">recipients always have a communication barrier between them? Of course, it’s the same reason that funeral directors always speak with an air of over-sentimentality despite depending on death and grief in order to make a living: when in doubt, it’s best to err on the side of reverence when it comes to death.</text:span></text:p>
-   <text:p text:style-name="P20"><text:span text:style-name="T16"><text:tab/></text:span><text:span text:style-name="T38">Whether when making plans at the funeral home, during the funeral itself, death</text:span><text:span text:style-name="T17"> </text:span><text:span text:style-name="T39">turns people into conservatively-dressed cyborgs stuck repeating “I’m sorry for your loss,” “if you need anything I’m here for you,” </text:span><text:span text:style-name="T42">or “they loved you so much.”</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T38">Funeral eulogies include the almost obligatory </text:span><text:span text:style-name="T17">“</text:span><text:span text:style-name="T38">he/she</text:span><text:span text:style-name="T40"> was loved by many” </text:span><text:span text:style-name="T38">and “was an inspiration to us all.”</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T18">I can certainly empathize with falling back on social cliches when stuck in a situation where I don’t know what to say, but as a society we must be kidding ourselves if we think such overused condolences are really helping anybody.</text:span></text:p>
-   <text:p text:style-name="P19"><text:span text:style-name="T43"><text:tab/>To me, it feels like everyone at a funeral is carefully trying to emulate how they’re “supposed” to be acting rather than doing anything to actually aid the grieving process, or at least have genuine interactions with other people. </text:span><text:span text:style-name="T19">Talking about death is almost always done indirectly, or using euphemism such as “passed,” “drifted away,” “eternal rest,” “at peace,” or “lost his/her battle with [disease].” <text:s/></text:span><text:span text:style-name="T44">At a funeral, it’s taboo to mention any negative interaction with the dead,</text:span><text:span text:style-name="T38"> </text:span><text:span text:style-name="T44">and even asking how they died is enough to earn 9 year old me a swift kick in the leg from my mom.</text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T20"><text:tab/>At the end of my grandmother’s viewing my mom and aunt, who I generally regard as fairly reasonable people, got into a pretty heated argument about whether </text:span><text:span text:style-name="T32">or not</text:span><text:span text:style-name="T20"> it was “disrespectful” to take a picture of my grandmother </text:span><text:span text:style-name="T21">in her casket</text:span><text:span text:style-name="T20">. For the life of me I couldn’t figure out who it might be disrespectful </text:span><text:span text:style-name="T27">to</text:span><text:span text:style-name="T20">. My grandmother? I </text:span><text:span text:style-name="T21">can’t imagine she cared much.</text:span><text:span text:style-name="T20"> The public? </text:span><text:span text:style-name="T26">Of the</text:span><text:span text:style-name="T20"> </text:span><text:span text:style-name="T26">four</text:span><text:span text:style-name="T20"> people in the room, </text:span><text:span text:style-name="T26">on</text:span><text:span text:style-name="T28">e of them was dead</text:span><text:span text:style-name="T26">, and </text:span><text:span text:style-name="T28">another one</text:span><text:span text:style-name="T26"> could </text:span><text:span text:style-name="T28">only</text:span><text:span text:style-name="T26"> think about was </text:span><text:span text:style-name="T28">how many people in America have been so desperate that they’re willing to steal or kill for a smaller sum of money than the stainless steel and sterling casket was worth.</text:span></text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T17"><text:tab/></text:span><text:span text:style-name="T28">Of all the redundant phrases surrounding death and funerals, </text:span><text:span text:style-name="T17">“funerals are for the living” </text:span><text:span text:style-name="T28">is the one I’m willing to give the most consideration to. If someone weighs all the options and decides </text:span><text:span text:style-name="T29">to organize or attend</text:span><text:span text:style-name="T28"> a complete viewing and burial for their loved one, I honestly have no problem with that. For me, the issue arises when either they don’t consider alternatives due to social/</text:span><text:span text:style-name="T31">cultural/</text:span><text:span text:style-name="T28">religious reasons, or the </text:span><text:span text:style-name="T29">reasons they give don’t quite align with their actions.</text:span></text:p>
-   <text:p text:style-name="P6"><text:span text:style-name="T17"><text:tab/></text:span><text:span text:style-name="T29">O</text:span><text:span text:style-name="T30">ften there’s dissonance between why people say they’re there (to help the grieving process) and </text:span><text:span text:style-name="T29">the social posturing that seems to</text:span><text:span text:style-name="T30"> happen at funerals. </text:span><text:span text:style-name="T29">I’ve only been to a half dozen or so funerals, but </text:span><text:span text:style-name="T30">every </text:span><text:span text:style-name="T29">single one</text:span><text:span text:style-name="T30"> has included some kind of list of people who “</text:span><text:span text:style-name="T29">sent their prayers</text:span><text:span text:style-name="T30">” </text:span><text:span text:style-name="T29">or</text:span><text:span text:style-name="T30"> “wished they could be there.” If </text:span><text:span text:style-name="T44">the funeral rituals were the source or emotional</text:span><text:span text:style-name="T30">, then there would be no need </text:span><text:span text:style-name="T44">to account for missing people. If funerals were actually about social grief, then why have the rituals at all?</text:span></text:p>
-   <text:p text:style-name="P10"><text:span text:style-name="T3"><text:tab/>Admittedly, gossip about people not in attendance (especially those not immediately related to the deceased), and when asked they will assuredly reinforce that it’s okay by saying “everyone copes with loss in their own way”. However, the fact that missing people are even mentioned is evidence that their absence is noted, and the reassurance that it’s okay to not </text:span><text:span text:style-name="T4">come</text:span><text:span text:style-name="T3"> is indicative of </text:span><text:span text:style-name="T8">an</text:span><text:span text:style-name="T3"> unspoken </text:span><text:span text:style-name="T4">expectation that they would attend.</text:span></text:p>
-   <text:p text:style-name="P3"><text:span text:style-name="T16"><text:tab/></text:span><text:span text:style-name="T32">Instead there’s social and economic posturing including who attends, who acts properly during service, who showed up with a new wife after not talking to the dead person for a decade, who helps pay for the funeral, how much they pay, who says a eulogy, etc. Everyone seems </text:span><text:span text:style-name="T46">unknowingly</text:span><text:span text:style-name="T32"> caught </text:span><text:soft-page-break/><text:span text:style-name="T32">up making a false equivalence between actions after the person died to how much they cared about the person.</text:span></text:p>
+   <text:p text:style-name="P6">Adam Karl</text:p>
+   <text:p text:style-name="P11">Professor <text:span text:style-name="T60">William Kirchner</text:span></text:p>
+   <text:p text:style-name="P11">ENGCMP0200</text:p>
+   <text:p text:style-name="P11">1 November 2020</text:p>
+   <text:p text:style-name="P15">Funerals: Outliving their Usefulness</text:p>
+   <text:p text:style-name="P16"><text:span text:style-name="T17"><text:tab/></text:span><text:span text:style-name="T21">What </text:span><text:span text:style-name="T22">are the benefits of choosing a traditional funeral? </text:span><text:span text:style-name="T43">According to a quick search, the</text:span><text:span text:style-name="T22"> formal structure of a funeral service </text:span><text:span text:style-name="T24">fulfills our cultural and religious </text:span><text:span text:style-name="T38">obligation</text:span><text:span text:style-name="T24"> both to the deceased and to our family and community </text:span><text:span text:style-name="T26">(“Five Important Reasons to Have a Funeral Service”). </text:span><text:span text:style-name="T25">Additionally</text:span><text:span text:style-name="T22">, “attending a funeral service is a way to let your subconscious know grieving is allowed,” and attending the ceremony </text:span><text:span text:style-name="T24">gives you time to deal with your emotions and start the healing process (“The Benefits of Attending a Funeral”).</text:span><text:span text:style-name="T22"> </text:span><text:span text:style-name="T23">It’s a good thing everyone knows you can’t just make up pseudoscientific reasons </text:span><text:span text:style-name="T24">to push your service</text:span><text:span text:style-name="T23">, otherwise I’d have to ask </text:span><text:span text:style-name="T24">the obviously impartial </text:span><text:span text:style-name="T26">Benjamin Memorial Home</text:span><text:span text:style-name="T23"> </text:span><text:span text:style-name="T26">and Brunswick Memorial Home</text:span><text:span text:style-name="T23"> for a source on th</text:span><text:span text:style-name="T47">e whole “letting your subconscious know” bit</text:span><text:span text:style-name="T23">.</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T34"><text:tab/>The most obvious</text:span><text:span text:style-name="T35"> drawback of funerals is the cost. According to the National Funeral Director’s Association, in 2019 the median cost of a complete funeral (including viewing, casket, </text:span><text:span text:style-name="T36">and</text:span><text:span text:style-name="T35"> </text:span><text:span text:style-name="T34">vault,</text:span><text:span text:style-name="T35"> </text:span><text:span text:style-name="T36">but </text:span><text:span text:style-name="T37">not including</text:span><text:span text:style-name="T36"> the price of headstone and burial plot</text:span><text:span text:style-name="T35">) was $9,135 </text:span><text:span text:style-name="T36">(“Statistics”)</text:span><text:span text:style-name="T35">. </text:span><text:span text:style-name="T36">The average funeral expense has grown </text:span><text:span text:style-name="T37">an extraordinary</text:span><text:span text:style-name="T36"> </text:span><text:span text:style-name="T37">227% since 1990 (Martin, Anthony), of which less than half (about 97%) can be attributed to inflation (“CPI Inflation Calculator”). Although I’d personally like to be lenient toward funeral homes since 89% are owned by a family or individual, the combination of skyrocketing prices along with a target market of grieving families/spouses is </text:span><text:span text:style-name="T38">certainly</text:span><text:span text:style-name="T37"> enough to </text:span><text:span text:style-name="T38">make me question how much they should be allowed to get away with </text:span><text:span text:style-name="T36">(“Statistics”)</text:span><text:span text:style-name="T38">.</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T38"><text:tab/>As of January 2020, only 41% of Americans say they would be able to cover a $1,000 emergency expense, with the rest either having to take come kind of loan, or altogether not knowing how they would find the money (Leonhardt, Megan). With this context, it’s difficult for me to read </text:span><text:soft-page-break/><text:span text:style-name="T38">Benjamin Memorial Home’s “cultural and religious obligation” as anything other than an obligation to put yourself in serious debt just to fulfill a social norm.</text:span></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T38"><text:tab/></text:span><text:span text:style-name="T39">Under such economic pressure, it’s no wonder Americans have turned to alternatives, and cremations became more popular than burials for the first time in 2016, and have remained more popular for each year since (Katz, Brigit). However, even this less expensive route</text:span><text:span text:style-name="T35"> had a median cost of $5,150 </text:span><text:span text:style-name="T39">in 2019</text:span><text:span text:style-name="T35">, </text:span><text:span text:style-name="T39">with the most offensive expense being </text:span><text:span text:style-name="T42">$1,200 for</text:span><text:span text:style-name="T39"> the cremation casket </text:span><text:span text:style-name="T36">(“Statistics”).</text:span></text:p>
+   <text:p text:style-name="P7"><text:tab/><text:span text:style-name="T54">In order to justify a price of five to ten thousand dollars, the social and emotional benefit of a viewing/funeral has to be worth the cost. </text:span><text:span text:style-name="T55">For some people, the benefit may be worth it, but I’m worried that many people don’t even consider forgoing the rituals and ceremonies due to religious and/or social expectations.</text:span></text:p>
+   <text:p text:style-name="P7"><text:span text:style-name="T9"><text:tab/>Unfortunately, there don’t seem to be any decent sources on the emotional effect that funeral viewings, burials, or other ceremonies have on those that attend. </text:span><text:span text:style-name="T55">Alas, e</text:span><text:span text:style-name="T9">ven if there </text:span><text:span text:style-name="T11">were</text:span><text:span text:style-name="T12"> statistics </text:span><text:span text:style-name="T14">on whether </text:span><text:span text:style-name="T12">having a funeral was worthwhile, I might still find it difficult to take them at face value. </text:span><text:span text:style-name="T13">It’s reasonable to assume</text:span><text:span text:style-name="T12"> some people might confuse the implication that a funeral wasn’t worth the money with the implication that the deceased loved one wasn’t worth the money.</text:span></text:p>
+   <text:p text:style-name="P19"><text:span text:style-name="T42"><text:tab/>For me personally, it’s not worth it. Although the deaths of both of my grandmothers I knew w</text:span><text:span text:style-name="T48">ere</text:span><text:span text:style-name="T42"> coming f</text:span><text:span text:style-name="T48">or months</text:span><text:span text:style-name="T42">, neither of their extravagant ceremonies were as impactful as the “celebration of life” lunch </text:span><text:span text:style-name="T43">held for my favorite aunt after she died unexpectedly</text:span><text:span text:style-name="T48"> and left her body to science</text:span><text:span text:style-name="T43">. Seeing the embalmed bod</text:span><text:span text:style-name="T48">ies at the viewings</text:span><text:span text:style-name="T43"> actually left me more confused </text:span><text:span text:style-name="T48">and disgusted</text:span><text:span text:style-name="T43"> than anything, as </text:span><text:span text:style-name="T48">they</text:span><text:span text:style-name="T43"> hit the uncanny valley between human and wax figure </text:span><text:span text:style-name="T48">and certainly looked nothing like the people I once knew</text:span><text:span text:style-name="T43">.</text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T55">Talking about death always seems to turn people into hollow, tenative versions of themselves. </text:span><text:span text:style-name="T6">Just this Wednesday, </text:span><text:span text:style-name="T7">I received a call that should have gone: “He</text:span><text:span text:style-name="T15">llo Adam</text:span><text:span text:style-name="T7">, the man you were a match to donate bone marrow to died </text:span><text:span text:style-name="T49">yesterday</text:span><text:span text:style-name="T7">, </text:span><text:span text:style-name="T15">so you can clear your schedule.</text:span><text:span text:style-name="T7">” Instead, <text:s/></text:span><text:span text:style-name="T15">I was strung along </text:span><text:soft-page-break/><text:span text:style-name="T15">a five minute conversation full of fluff and consolation delivered in </text:span><text:span text:style-name="T51">a</text:span><text:span text:style-name="T15"> somber tone </text:span><text:span text:style-name="T56">(</text:span><text:span text:style-name="T15">not unlike a funeral director</text:span><text:span text:style-name="T56">)</text:span><text:span text:style-name="T15"> </text:span><text:span text:style-name="T49">before the caller finally got to the point.</text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="T49"><text:tab/>Quite literally the only things I know about the person was that he was a 62 year old male with leukemia, he lived </text:span><text:span text:style-name="T50">somewhere</text:span><text:span text:style-name="T49"> in the </text:span><text:span text:style-name="T50">contiguous</text:span><text:span text:style-name="T49"> United States, and something </text:span><text:span text:style-name="T50">in our blood was similar enough to match me as a potential donor</text:span><text:span text:style-name="T49">. </text:span><text:span text:style-name="T50">I don’t even know his name. At the risk of sounding heartless, <text:s/></text:span><text:span text:style-name="T51">I care about him as much as any of the other 7,</text:span><text:span text:style-name="T52">5</text:span><text:span text:style-name="T51">00+ Americans that die on any given day </text:span><text:span text:style-name="T52">(National Vital Statistics System)</text:span><text:span text:style-name="T51">.</text:span></text:p>
+   <text:p text:style-name="P12"><text:span text:style-name="T51"><text:tab/></text:span><text:span text:style-name="T52">So, why was the caller from the donor program so careful and consoling when talking to me, despite knowing that donors and </text:span><text:span text:style-name="T53">recipients always have a communication barrier between them? Of course, it’s the same reason that funeral directors always speak with an air of over-sentimentality despite depending on death and grief in order to make a living: when in doubt, it’s best to err on the side of reverence when it comes to death.</text:span></text:p>
+   <text:p text:style-name="P18"><text:span text:style-name="T16"><text:tab/></text:span><text:span text:style-name="T39">Whether when making plans at the funeral home, during the funeral itself, death</text:span><text:span text:style-name="T17"> </text:span><text:span text:style-name="T40">turns people into conservatively-dressed cyborgs stuck repeating “I’m sorry for your loss,” “if you need anything I’m here for you,” </text:span><text:span text:style-name="T43">or “they loved you so much.”</text:span><text:span text:style-name="T40"> </text:span><text:span text:style-name="T39">Funeral eulogies include the almost obligatory </text:span><text:span text:style-name="T17">“</text:span><text:span text:style-name="T39">he/she</text:span><text:span text:style-name="T41"> was loved by many” </text:span><text:span text:style-name="T39">and “was an inspiration to us all.”</text:span><text:span text:style-name="T40"> </text:span><text:span text:style-name="T18">I can certainly empathize with falling back on social cliches when stuck in a situation where I don’t know what to say, but as a society we must be kidding ourselves if we think such overused condolences are really helping anybody.</text:span></text:p>
+   <text:p text:style-name="P20"><text:span text:style-name="T44"><text:tab/>To me, it feels like everyone at a funeral is carefully trying to emulate how they’re “supposed” to be acting rather than doing anything to actually aid the grieving process, or at least have genuine interactions with other people. </text:span><text:span text:style-name="T19">Talking about death is almost always done indirectly, or using euphemism such as “passed,” “drifted away,” “eternal rest,” “at peace,” or “lost his/her battle with [disease].” <text:s/></text:span><text:span text:style-name="T45">At a funeral, it’s taboo to mention any negative interaction with the dead,</text:span><text:span text:style-name="T39"> </text:span><text:span text:style-name="T45">and even asking how they died is enough to earn 9 year old me a swift kick in the leg from my mom.</text:span></text:p>
+   <text:p text:style-name="P16"><text:soft-page-break/><text:span text:style-name="T20"><text:tab/>At the end of my grandmother’s viewing my mom and aunt, who I generally regard as fairly reasonable people, got into a pretty heated argument about whether </text:span><text:span text:style-name="T33">or not</text:span><text:span text:style-name="T20"> it was “disrespectful” to take a picture of my grandmother </text:span><text:span text:style-name="T21">in her casket</text:span><text:span text:style-name="T20">. For the life of me I couldn’t figure out who it might be disrespectful </text:span><text:span text:style-name="T28">to</text:span><text:span text:style-name="T20">. My grandmother? I </text:span><text:span text:style-name="T21">can’t imagine she cared much.</text:span><text:span text:style-name="T20"> The public? </text:span><text:span text:style-name="T26">Of the</text:span><text:span text:style-name="T20"> </text:span><text:span text:style-name="T26">four</text:span><text:span text:style-name="T20"> people in the room, </text:span><text:span text:style-name="T26">on</text:span><text:span text:style-name="T29">e of them was dead</text:span><text:span text:style-name="T26">, and </text:span><text:span text:style-name="T29">another one</text:span><text:span text:style-name="T26"> could </text:span><text:span text:style-name="T29">only</text:span><text:span text:style-name="T26"> think about was </text:span><text:span text:style-name="T29">how many people in America have been so desperate that they’re willing to steal or kill for a smaller sum of money than the stainless steel and sterling casket was worth.</text:span></text:p>
+   <text:p text:style-name="P21"><text:span text:style-name="T17"><text:tab/></text:span><text:span text:style-name="T29">Of all the redundant phrases surrounding death and funerals, </text:span><text:span text:style-name="T17">“funerals are for the living” </text:span><text:span text:style-name="T29">is the one I’m willing to give the most consideration to. If someone weighs all the options and decides </text:span><text:span text:style-name="T30">to organize or attend</text:span><text:span text:style-name="T29"> a complete viewing and burial for their loved one, I honestly have no problem with that. For me, the issue arises when either they don’t consider alternatives due to social/</text:span><text:span text:style-name="T32">cultural/</text:span><text:span text:style-name="T29">religious reasons, or the </text:span><text:span text:style-name="T30">reasons they give don’t quite align with their actions.</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T17"><text:tab/></text:span><text:span text:style-name="T30">O</text:span><text:span text:style-name="T31">ften there’s dissonance between why people say they’re there (to help the grieving process) and </text:span><text:span text:style-name="T30">the social posturing that seems to</text:span><text:span text:style-name="T31"> happen at funerals. </text:span><text:span text:style-name="T30">I’ve only been to a half dozen or so funerals, but </text:span><text:span text:style-name="T31">every </text:span><text:span text:style-name="T30">single one</text:span><text:span text:style-name="T31"> has included some kind of list of people who “</text:span><text:span text:style-name="T30">sent their prayers</text:span><text:span text:style-name="T31">” </text:span><text:span text:style-name="T30">or</text:span><text:span text:style-name="T31"> “wished they could be there.” If </text:span><text:span text:style-name="T45">the funeral rituals were the source or emotional</text:span><text:span text:style-name="T31">, then there would be no need </text:span><text:span text:style-name="T45">to account for missing people. If funerals were actually about social grief, then why have the rituals at all?</text:span></text:p>
+   <text:p text:style-name="P13"><text:span text:style-name="T3"><text:tab/>Admittedly, gossip about people not in attendance (especially those not immediately related to the deceased), and when asked they will assuredly reinforce that it’s okay by saying “everyone copes with loss in their own way”. However, the fact that missing people are even mentioned is evidence that their absence is noted, and the reassurance that it’s okay to not </text:span><text:span text:style-name="T4">come</text:span><text:span text:style-name="T3"> is indicative of </text:span><text:span text:style-name="T8">an</text:span><text:span text:style-name="T3"> unspoken </text:span><text:span text:style-name="T4">expectation that they would attend.</text:span></text:p>
+   <text:p text:style-name="P23"><text:span text:style-name="T16"><text:tab/></text:span><text:span text:style-name="T33">Instead there’s social and economic posturing including who attends, who acts properly during service, who showed up with a new wife after not talking to the dead person for a decade, who helps pay for the funeral, how much they pay, who says a eulogy, etc. Everyone seems </text:span><text:span text:style-name="T47">unknowingly</text:span><text:span text:style-name="T33"> caught </text:span><text:soft-page-break/><text:span text:style-name="T33">up making a false equivalence between actions after the person died to how much they cared about the person.</text:span></text:p>
    <text:p text:style-name="P14"><text:span text:style-name="T3"><text:tab/></text:span><text:span text:style-name="T57">I don’t particularly plan on attending </text:span><text:span text:style-name="T58">or paying for</text:span><text:span text:style-name="T57"> any funerals in the future, even for my parent</text:span><text:span text:style-name="T58">s. It’s not that I don’t care for them or have a bad relationship with them, rather funerals just have negligible value for me. I’m sure if you asked </text:span><text:span text:style-name="T59">my parents</text:span><text:span text:style-name="T58">, they’d agree that me outliving them both is </text:span><text:span text:style-name="T59">quite literally</text:span><text:span text:style-name="T58"> the best case scenario </text:span><text:span text:style-name="T60">for everyone involved, and anything I feel like I need to say to them I’d rather just say while they’re alive than when they can’t hear me.</text:span><text:span text:style-name="T58"> </text:span></text:p>
-   <text:p text:style-name="P22"><text:span text:style-name="T16"><text:tab/></text:span><text:span text:style-name="T46">Things that don’t indicate how much you care about the dead: prioritizing the financial needs of a dead person over those of a living one, how you talk about the dead, whether or not you attend a ceremony, and how you act at a ceremony. Things that do indicate how much you care about the dead: your relationship with the dead. </text:span><text:span text:style-name="T45">Funerals are not mandatory, </text:span><text:span text:style-name="T47">and considering alternatives shouldn’t be considered disrespectful. </text:span></text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P11">Works Cited</text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P11">“CPI Inflation Calculator.” <text:span text:style-name="T10">U.S. Bureau of Labor Statistics</text:span>, U.S. Bureau of Labor Statistics, www.bls.gov/data/inflation_calculator.htm. </text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P10">Martin, Anthony. “Average Funeral Costs: Pricing Breakdown Of Funeral Expenses (Cremations, Burials, and Services).” <text:span text:style-name="T10">Choice Mutual</text:span>, 15 Dec. 2019, choicemutual.com/funeral-cost/. </text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P10">“The Benefits of Attending a Funeral.” Edited by Michael Kulbacki, <text:span text:style-name="T10">Brunswick Memorial Funeral Home</text:span>, 18 Mar. 2019, www.brunswickmemorialhome.com/the-benefits-of-attending-a-funeral/. </text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P10">Katz, Brigit. “Cremation Rates Reach All-Time High in the U.S.” <text:span text:style-name="T10">Smithsonian.com</text:span>, Smithsonian Institution, 11 Aug. 2017, www.smithsonianmag.com/smart-news/cremation-rates-reach-all-time-high-us-180964478/. </text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P10">“Five Important Reasons to Have a Funeral Service.” <text:span text:style-name="T10">Benjamin Memorial Home</text:span>, coluccifuneralhome.com/49/Five-Reasons-to-Have-a-Funeral.html. </text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P10">Leonhardt, Megan. “41% Of Americans Would Be Able to Cover a $1,000 Emergency with Savings.” <text:span text:style-name="T10">CNBC</text:span>, 22 Jan. 2020, www.cnbc.com/2020/01/21/41-percent-of-americans-would-be-able-to-cover-1000-dollar-emergency-with-savings.html. </text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P10">“Statistics.” <text:span text:style-name="T10">National Funeral Directors Association (NFDA)</text:span>, 18 July 2019, nfda.org/news/statistics. </text:p>
+   <text:p text:style-name="P24"><text:span text:style-name="T16"><text:tab/></text:span><text:span text:style-name="T47">Things that don’t indicate how much you care about the dead: prioritizing the financial needs of a dead person over those of a living one, how you talk about the dead, whether or not you attend a ceremony, and how you act at a ceremony. Things that do indicate how much you care about the dead: your relationship with the dead. </text:span><text:span text:style-name="T46">Funerals are not mandatory, </text:span><text:span text:style-name="T48">and considering alternatives shouldn’t be considered disrespectful. </text:span></text:p>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P13"/>
+   <text:p text:style-name="P9"><text:soft-page-break/>Works Cited</text:p>
+   <text:p text:style-name="P8"/>
+   <text:p text:style-name="P8">“CPI Inflation Calculator.” <text:span text:style-name="T10">U.S. Bureau of Labor Statistics</text:span>, U.S. Bureau of Labor Statistics, <text:tab/>www.bls.gov/data/inflation_calculator.htm. </text:p>
+   <text:p text:style-name="P10">“Five Important Reasons to Have a Funeral Service.” <text:span text:style-name="T10">Benjamin Memorial Home</text:span>, <text:tab/>coluccifuneralhome.com/49/Five-Reasons-to-Have-a-Funeral.html. </text:p>
+   <text:p text:style-name="P10">Katz, Brigit. “Cremation Rates Reach All-Time High in the U.S.” <text:span text:style-name="T10">Smithsonian.com</text:span>, Smithsonian <text:tab/>Institution, 11 Aug. 2017, www.smithsonianmag.com/smart-news/cremation-rates-reach-all-<text:tab/>time-high-us-180964478/. </text:p>
+   <text:p text:style-name="P10">Leonhardt, Megan. “41% Of Americans Would Be Able to Cover a $1,000 Emergency with Savings.” <text:tab/><text:span text:style-name="T10">CNBC</text:span>, 22 Jan. 2020, www.cnbc.com/2020/01/21/41-percent-of-americans-would-be-able-to-<text:tab/>cover-1000-dollar-emergency-with-savings.html. </text:p>
+   <text:p text:style-name="P13">M<text:span text:style-name="T60">a</text:span>rtin, Anthony. “Average Funeral Costs: Pricing Breakdown Of Funeral Expenses (Cremations, <text:tab/>Burials, and Services).” <text:span text:style-name="T10">Choice Mutual</text:span>, 15 Dec. 2019, choicemutual.com/funeral-cost/. </text:p>
+   <text:p text:style-name="P14">“Statistics.” <text:span text:style-name="T10">National Funeral Directors Association (NFDA)</text:span>, 18 July 2019, nfda.org/news/statistics. </text:p>
+   <text:p text:style-name="P13">“The Benefits of Attending a Funeral.” Edited by Michael Kulbacki, <text:span text:style-name="T10">Brunswick Memorial Funeral <text:tab/>Home</text:span>, 18 Mar. 2019, www.brunswickmemorialhome.com/the-benefits-of-attending-a-funeral/.</text:p>
   </office:text>
  </office:body>
 </office:document>
