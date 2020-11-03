@@ -24,8 +24,55 @@
 \section{Problem 34 (6 points)}
 \subsection{Motivation}
 
-\subsection{Algorithm Description}
+\subsection{Transformation Description}
+Example 3SAT input : $(x_1 \vee x_2 \vee \overline{x_3}) \wedge (\overline{x_1} \vee \overline{x_2} \vee \overline{x_3}) \wedge (\overline{x_1} \vee x_2 \vee x_3)$ 
+
+To solve 3SAT using an algorithm for DisjointDirectedPaths, do:
+
+For each variable, create an s-t vertex pair. In the example diagram they are separated horizontally.
+
+For each clause, create an s-t vertex pair. For the diagram, clauses are named A, B, and C, and are separated vertically.
+
+\begin{center}
+    \includegraphics[scale=.5]{hw11-setup.png}
+    
+    \caption{all s-t pairs defined}
+\end{center}
+
+For each variable, find all clauses it appears in and create a vertex for each time it appears. Create a path starting at the variable's s vertex, through each vertex where that variable is not negated for that clause, and ending at the variable's t-vertex. This is depicted as the "high road" in the example, and only goes through the vertex corresponding to clause A because that is the only clause where $x_1$ is not negated.
+
+Then create another path from s and ending at t, passing through all the vertices corresponding to clauses where the variable is negated in the corresponding clause. This is the "low road" in the example diagram.
+
+input: $(x_1 \vee x_2 \vee \overline{x_3}) \wedge (\overline{x_1} \vee \overline{x_2} \vee \overline{x_3}) \wedge (\overline{x_1} \vee x_2 \vee x_3)$ 
+
+\begin{center}
+    \includegraphics[scale=.5]{hw11-1var.png}
+    
+    \caption{one variable added}
+\end{center}
+
+Complete this step for all variables. Note that while there are only 3 variables and 3 clauses in the example, there may be many more of each.
+
+For each clause
+
+\begin{center}
+    \includegraphics[scale=.5]{hw11-1clause.png}
+    
+    \caption{all 3 variables, one clause}
+\end{center}
+
+\begin{center}
+    \includegraphics[scale=.5]{hw11-final.png}
+    
+    \caption{final graph for $(x_1 \vee x_2 \vee \overline{x_3}) \wedge (\overline{x_1} \vee \overline{x_2} \vee \overline{x_3}) \wedge (\overline{x_1} \vee x_2 \vee x_3)$ }
+\end{center}
+
+Run the algorithm for DisjointDirectedPaths on this graph with each pair of s-t vertices as path endpoints, and return what it returns.
 
 \subsection{Conclusion}
+
+Thus, each individual clause will only be able to complete it's s-t path when at least one of the variables of the set satisfies the clause. Across all variables and clauses, it will only be possible to complete all paths if and only if there is a satisfying assignment for the 3SAT problem. Thus, 3SAT $\leq$ DisjointDirectedPaths, and the transformation as described runs in polytime.
+
+Since 3SAT is a known NP-hard problem, and we have shown 3SAT is polytime reducible to DisjointDirectedPaths, DisjointDirectedPaths must also be NP-Hard.
 
 \end{document}
