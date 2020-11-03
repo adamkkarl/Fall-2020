@@ -23,15 +23,16 @@
 
 \section{Problem 34 (6 points)}
 \subsection{Motivation}
+Let this problem be called DisjointDirectedPaths. If we are able to reduce 3SAT to DisjointDirectedPaths using polynomial time transformations such that 3SAT is satisfied if and only if DisjointDirectedPaths returns true, then since 3SAT is a known NP-hard problem DisjointDirectedPaths must be NP-hard as well.
 
 \subsection{Transformation Description}
 Example 3SAT input : $(x_1 \vee x_2 \vee \overline{x_3}) \wedge (\overline{x_1} \vee \overline{x_2} \vee \overline{x_3}) \wedge (\overline{x_1} \vee x_2 \vee x_3)$ 
 
 To solve 3SAT using an algorithm for DisjointDirectedPaths, do:
 
-For each variable, create an s-t vertex pair. In the example diagram they are separated horizontally.
+For each variable, create an s-t vertex pair. In the example diagram they are aligned horizontally.
 
-For each clause, create an s-t vertex pair. For the diagram, clauses are named A, B, and C, and are separated vertically.
+For each clause, create an s-t vertex pair. For the diagram, clauses are named A, B, and C, and are aligned vertically.
 
 \begin{center}
     \includegraphics[scale=.5]{hw11-setup.png}
@@ -48,18 +49,20 @@ input: $(x_1 \vee x_2 \vee \overline{x_3}) \wedge (\overline{x_1} \vee \overline
 \begin{center}
     \includegraphics[scale=.5]{hw11-1var.png}
     
-    \caption{one variable added}
+    \caption{one variable ($x_1$) added}
 \end{center}
 
 Complete this step for all variables. Note that while there are only 3 variables and 3 clauses in the example, there may be many more of each.
 
-For each clause
+For each clause, there are (technically, up to) 3 variables, so there are 3 vertices in the "column" along with the s and t variables for that clause. For each of these 3 variables, add an edge from s to the vertex, and an edge from the vertex to t.
 
 \begin{center}
     \includegraphics[scale=.5]{hw11-1clause.png}
     
-    \caption{all 3 variables, one clause}
+    \caption{all 3 variables, first clause}
 \end{center}
+
+Repeat this process for each clause.
 
 \begin{center}
     \includegraphics[scale=.5]{hw11-final.png}
@@ -70,6 +73,9 @@ For each clause
 Run the algorithm for DisjointDirectedPaths on this graph with each pair of s-t vertices as path endpoints, and return what it returns.
 
 \subsection{Conclusion}
+For this graph, choosing a variable to have an assignment of true would correspond to the bottom path being taken (touching vertices corresponding to clauses where the variable is negated), and an assignment of false would correspond to the top path (touching vertices corresponding to clauses where the variable is not negated) being taken.
+
+The intuition is that for each clause (the vertical paths), it will be possible to create a path from s to t if and only if at least one of the 3 variables is not false, so in the graph at least one of the 3 vertices is not used in a horizontal path.
 
 Thus, each individual clause will only be able to complete it's s-t path when at least one of the variables of the set satisfies the clause. Across all variables and clauses, it will only be possible to complete all paths if and only if there is a satisfying assignment for the 3SAT problem. Thus, 3SAT $\leq$ DisjointDirectedPaths, and the transformation as described runs in polytime.
 
