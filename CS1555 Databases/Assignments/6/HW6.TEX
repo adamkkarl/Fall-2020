@@ -4,17 +4,18 @@
 \usepackage[english]{babel}
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
-\usepackage{graphicx} 
 \usepackage[normalem]{ulem}
+\usepackage[table,xcdraw]{xcolor}
 
 %% Sets page size and margins
-\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+\usepackage[a4paper,top=3cm,bottom=2cm,left=1cm,right=1cm,marginparwidth=1.5cm]{geometry}
 
 %% Useful packages
 \usepackage{amsmath}
 \usepackage{graphicx}
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
 
 \title{Homework 12}
 \author{Adam Karl}
@@ -26,7 +27,7 @@
 \subsection{Synthesis}
 
 \subsection{Decomposition}
-Start
+Initial dependencies
 
 \begin{itemize}
     \item $A \rightarrow B$
@@ -67,7 +68,7 @@ Drop redundant FDs
     \item \sout{$A \rightarrow D$} implied by $A \rightarrow B$ and $B \rightarrow D$
 \end{itemize}
 
-Therefore the canonical cover of R is
+Therefore the canonical cover of R is:
 
 \begin{itemize}
     \item $A \rightarrow B$
@@ -86,5 +87,174 @@ R:(\underline{A},B,C,D)
 A is the only key we need for R.
 
 \subsection{Table Method}
+\begin{table}[htb]
+%\centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+   & PID & Len & Wdth & Hght & Wght & OID & ODate & CID & TotPrice & Addr & City & State & Zip & Phone & PQtty \\ \hline
+R1 &     &     &      &      &      &     &       &     &          &      &      &       &     &       &       \\ \hline
+R2 &     &     &      &      &      &     &       &     &          &      &      &       &     &       &       \\ \hline
+R3 &     &     &      &      &      &     &       &     &          &      &      &       &     &       &       \\ \hline
+\end{tabular}
+\end{table}
+
+Fill in table based on:
+\begin{itemize}
+    \item R1: (ProductID, Length, Width, Height, Weight, OrderID, OrderDate, CustomerID, Total-Price)
+    \item R2: (CustomerID, Address, City, State, ZipCode, PhoneNumber)
+    \item R3: (ProductID, OrderID, ProductQuantity)
+\end{itemize}
+
+\begin{table}[htb]
+%\centering
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+   & PID & Len & Wdth & Hght & Wght & OID & ODate & CID & TotPrice & Addr & City & State & Zip & Phone & PQtty \\ \hline
+R1 & K   & K   & K    & K    & K    & K   & K     & K   & K        & U    & U    & U     & U   & U     & U     \\ \hline
+R2 & U   & U   & U    & U    & U    & U   & U     & K   & U        & K    & K    & K     & K   & K     & U     \\ \hline
+R3 & K   & U   & U    & U    & U    & K   & U     & U   & U        & U    & U    & U     & U   & U     & K     \\ \hline
+\end{tabular}
+\end{table}
+
+Consider
+\begin{itemize}
+    \item FD1: ProductID $\rightarrow$ Length, Width, Height, Weight
+\end{itemize}
+
+
+\begin{table}[htb]
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+   & PID                                              & Len                      & Wdth                     & Hght                     & Wght                     & OID & ODate & CID & TotPrice & Addr & City & State & Zip & Phone & PQtty \\ \hline
+R1 & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & K                        & K                        & K                        & K                        & K   & K     & K   & K        & U    & U    & U     & U   & U     & U     \\ \hline
+R2 & U                                                & U                        & U                        & U                        & U                        & U   & U     & K   & U        & K    & K    & K     & K   & K     & U     \\ \hline
+R3 & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & K   & U     & U   & U        & U    & U    & U     & U   & U     & K     \\ \hline
+\end{tabular}
+\end{table}
+
+Consider
+\begin{itemize}
+    \item FD2: OrderID $\rightarrow$ OrderDate, CustomerID, TotalPrice
+\end{itemize}
+
+
+\begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
+\hline
+   & PID                                              & Len                      & Wdth                     & Hght                     & Wght                     & OID                                              & ODate                    & CID                      & TotPrice                 & Addr & City & State & Zip & Phone & PQtty \\ \hline
+R1 & \cellcolor[HTML]{FFFFFF}{\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & K                        & K                        & K                        & U    & U    & U     & U   & U     & U     \\ \hline
+R2 & {\color[HTML]{000000} U}                         & {\color[HTML]{000000} U} & {\color[HTML]{000000} U} & {\color[HTML]{000000} U} & {\color[HTML]{000000} U} & U                                                & U                        & K                        & U                        & K    & K    & K     & K   & K     & U     \\ \hline
+R3 & \cellcolor[HTML]{FFFFFF}{\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & U    & U    & U     & U   & U     & K     \\ \hline
+\end{tabular}
+
+Consider
+\begin{itemize}
+    \item FD3: CustomerID $\rightarrow$ Address, City, State, ZipCode, PhoneNumber
+\end{itemize}
+
+
+\begin{tabular}{|l|
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFC9E}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |l|l|l|l|}
+\hline
+ &
+  {\color[HTML]{333333} PID} &
+  {\color[HTML]{333333} Len} &
+  {\color[HTML]{333333} Wdth} &
+  {\color[HTML]{333333} Hght} &
+  {\color[HTML]{333333} Wght} &
+  {\color[HTML]{333333} OID} &
+  {\color[HTML]{333333} ODate} &
+  \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} CID} &
+  {\color[HTML]{333333} TotPrice} &
+  {\color[HTML]{333333} Addr} &
+  {\color[HTML]{333333} City} &
+  State &
+  Zip &
+  Phone &
+  PQtty \\ \hline
+R1 &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{FE0000} K} &
+  U \\ \hline
+R2 &
+  {\color[HTML]{333333} U} &
+  {\color[HTML]{333333} U} &
+  {\color[HTML]{333333} U} &
+  {\color[HTML]{333333} U} &
+  {\color[HTML]{333333} U} &
+  {\color[HTML]{333333} U} &
+  {\color[HTML]{333333} U} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{333333} U} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  K &
+  K &
+  K &
+  U \\ \hline
+R3 &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{333333} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{FE0000} K} &
+  {\color[HTML]{FE0000} K} &
+  K \\ \hline
+\end{tabular}
+
+Consider
+\begin{itemize}
+    \item FD4: ProductID, OrderID $\rightarrow$ ProductQuantity
+\end{itemize}
+
+\begin{tabular}{|l|
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |
+>{\columncolor[HTML]{FFFFFF}}l |l|l|l|l|}
+\hline
+ & {\color[HTML]{333333} PID} & {\color[HTML]{333333} Len} & {\color[HTML]{333333} Wdth} & {\color[HTML]{333333} Hght} & {\color[HTML]{333333} Wght} & {\color[HTML]{333333} OID} & {\color[HTML]{333333} ODate} & {\color[HTML]{333333} CID} & {\color[HTML]{333333} TotPrice} & {\color[HTML]{333333} Addr} & {\color[HTML]{333333} City} & State & Zip & Phone & PQtty \\ \hline
+R1 & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & {\color[HTML]{FE0000} K} \\ \hline
+R2 & {\color[HTML]{333333} U} & {\color[HTML]{333333} U} & {\color[HTML]{333333} U} & {\color[HTML]{333333} U} & {\color[HTML]{333333} U} & {\color[HTML]{333333} U} & {\color[HTML]{333333} U} & {\color[HTML]{333333} K} & {\color[HTML]{333333} U} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & U \\ \hline
+R3 & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & K \\ \hline
+\end{tabular}
+
+Since row 1 (also row 3) consists of all known values, \textbf{the decomposition is lossless.}
 
 \end{document}
