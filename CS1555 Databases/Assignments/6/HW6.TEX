@@ -1,0 +1,90 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+\usepackage[normalem]{ulem}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Homework 12}
+\author{Adam Karl}
+
+\begin{document}
+\maketitle
+
+\section{Problem 37 (6 points)}
+\subsection{Synthesis}
+
+\subsection{Decomposition}
+Start
+
+\begin{itemize}
+    \item $A \rightarrow B$
+    \item $B \rightarrow CD$
+    \item $A \rightarrow D$
+    \item $B \rightarrow C$
+    \item $AB \rightarrow CD$
+\end{itemize}
+
+Transform all FDs to canonical form (removing duplicates)
+
+\begin{itemize}
+    \item $A \rightarrow B$
+    \item $B \rightarrow C$
+    \item $B \rightarrow D$
+    \item $A \rightarrow D$
+    \item \sout{$B \rightarrow C$} duplicate
+    \item $AB \rightarrow C$
+    \item $AB \rightarrow D$
+\end{itemize}
+
+Drop extraneous attributes
+
+\begin{itemize}
+    \item $A \rightarrow B$
+    \item $B \rightarrow C$
+    \item $B \rightarrow D$
+    \item $A \rightarrow D$
+    \item \sout{$AB \rightarrow C$} already have $B \rightarrow C$
+    \item \sout{$AB \rightarrow D$} already have $B \rightarrow D$
+\end{itemize}
+
+Drop redundant FDs
+\begin{itemize}
+    \item $A \rightarrow B$
+    \item $B \rightarrow C$
+    \item $B \rightarrow D$
+    \item \sout{$A \rightarrow D$} implied by $A \rightarrow B$ and $B \rightarrow D$
+\end{itemize}
+
+Therefore the canonical cover of R is
+
+\begin{itemize}
+    \item $A \rightarrow B$
+    \item $B \rightarrow C$
+    \item $B \rightarrow D$
+\end{itemize}
+
+Observation: A does not appear in the right hand side of any FDs, so it must appear in any key of R.
+
+$A+: A \rightarrow AB$ (since $A \rightarrow B$) $\rightarrow ABC$ (since $B \rightarrow C$) $\rightarrow ABCD$ (since $B \rightarrow D$)
+
+We don't need to consider any other combination since any other combination containing A is a super key and not minimal.
+
+R:(\underline{A},B,C,D)
+
+A is the only key we need for R.
+
+\subsection{Table Method}
+
+\end{document}
