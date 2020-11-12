@@ -5,6 +5,7 @@
 \usepackage[utf8x]{inputenc}
 \usepackage[T1]{fontenc}
 \usepackage[normalem]{ulem}
+
 \usepackage[table,xcdraw]{xcolor}
 
 %% Sets page size and margins
@@ -16,15 +17,70 @@
 \usepackage[colorinlistoftodos]{todonotes}
 \usepackage[colorlinks=true, allcolors=blue]{hyperref}
 
-
-\title{Homework 12}
+\title{Assignment 6}
 \author{Adam Karl}
 
 \begin{document}
 \maketitle
 
-\section{Problem 37 (6 points)}
+\section{Assignment 6}
 \subsection{Synthesis}
+
+Given FDs:
+
+\begin{itemize}
+    \item f1: $AB \rightarrow E$
+    \item f2: $B \rightarrow DE$
+    \item f3: $E \rightarrow D$
+    \item f4: $DF \rightarrow A$
+    \item f5: $C \rightarrow F$
+    \item f6: $DC \rightarrow A$
+\end{itemize}
+
+Use Decomposition (IR4) on f2 so that all FDs are in canonical form (only 1 dependent in each FD):
+
+\begin{itemize}
+    \item f1: \sout{$AB \rightarrow E$} (from f8 we know $B \rightarrow E$, so A is redundant)
+    \item f7: $B \rightarrow D$
+    \item f8: $B \rightarrow E$
+    \item f3: $E \rightarrow D$
+    \item f4: $DF \rightarrow A$
+    \item f5: $C \rightarrow F$
+    \item f6: $DC \rightarrow A$
+\end{itemize}
+
+then
+
+\begin{itemize}
+    \item f7: \sout{$B \rightarrow D$} (since $B \rightarrow E$ and $E \rightarrow D$, $B \rightarrow D$ is implied so f7 is redundant)
+    \item f8: $B \rightarrow E$
+    \item f3: $E \rightarrow D$
+    \item f4: $DF \rightarrow A$
+    \item f5: $C \rightarrow F$
+    \item f6: $DC \rightarrow A$
+\end{itemize}
+
+Using Pseudotransitivity, Composition (IR6) on f4: $DF \rightarrow A$ and f5: $C \rightarrow F$ yields $DC \rightarrow A$ which is the same as f6, so f6 is redundant. We remove f6 from consideration.
+
+\begin{itemize}
+    \item f8: $B \rightarrow E$
+    \item f3: $E \rightarrow D$
+    \item f4: $DF \rightarrow A$
+    \item f5: $C \rightarrow F$
+\end{itemize}
+
+Now that we have the canonical cover, we would group FDs with same determinant, but in this case there aren't any. Therefore we can construct the relations with one FD each.
+
+\begin{itemize}
+    \item R1(\underline{B},E)
+    \item R2(\underline{E},D)
+    \item R3(A,\underline{D},\underline{F})
+    \item R4(\underline{C},F)
+\end{itemize}
+
+Since we weren't given the key for the original relation, this is our final solution. R1, R2, R3, and R4 are in 3NF and BCNF.
+
+
 
 \subsection{Decomposition}
 Initial dependencies
@@ -49,7 +105,7 @@ Transform all FDs to canonical form (removing duplicates)
     \item $AB \rightarrow D$
 \end{itemize}
 
-Drop extraneous attributes
+Drop extraneous attributes:
 
 \begin{itemize}
     \item $A \rightarrow B$
@@ -60,7 +116,8 @@ Drop extraneous attributes
     \item \sout{$AB \rightarrow D$} already have $B \rightarrow D$
 \end{itemize}
 
-Drop redundant FDs
+Drop redundant FDs:
+
 \begin{itemize}
     \item $A \rightarrow B$
     \item $B \rightarrow C$
