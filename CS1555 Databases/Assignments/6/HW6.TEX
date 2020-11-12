@@ -87,6 +87,9 @@ R:(\underline{A},B,C,D)
 A is the only key we need for R.
 
 \subsection{Table Method}
+
+Our initial table with all columns is:
+
 \begin{table}[htb]
 %\centering
 \begin{tabular}{|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|l|}
@@ -100,7 +103,7 @@ R3 &     &     &      &      &      &     &       &     &          &      &     
 
 Fill in table based on:
 \begin{itemize}
-    \item R1: (ProductID, Length, Width, Height, Weight, OrderID, OrderDate, CustomerID, Total-Price)
+    \item R1: (ProductID, Length, Width, Height, Weight, OrderID, OrderDate, CustomerID, TotalPrice)
     \item R2: (CustomerID, Address, City, State, ZipCode, PhoneNumber)
     \item R3: (ProductID, OrderID, ProductQuantity)
 \end{itemize}
@@ -116,7 +119,6 @@ R3 & K   & U   & U    & U    & U    & K   & U     & U   & U        & U    & U   
 \end{tabular}
 \end{table}
 
-Consider
 \begin{itemize}
     \item FD1: ProductID $\rightarrow$ Length, Width, Height, Weight
 \end{itemize}
@@ -132,7 +134,6 @@ R3 & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K}
 \end{tabular}
 \end{table}
 
-Consider
 \begin{itemize}
     \item FD2: OrderID $\rightarrow$ OrderDate, CustomerID, TotalPrice
 \end{itemize}
@@ -146,7 +147,6 @@ R2 & {\color[HTML]{000000} U}                         & {\color[HTML]{000000} U}
 R3 & \cellcolor[HTML]{FFFFFF}{\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & {\color[HTML]{000000} K} & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & {\color[HTML]{FE0000} K} & U    & U    & U     & U   & U     & K     \\ \hline
 \end{tabular}
 
-Consider
 \begin{itemize}
     \item FD3: CustomerID $\rightarrow$ Address, City, State, ZipCode, PhoneNumber
 \end{itemize}
@@ -231,7 +231,7 @@ R3 &
   K \\ \hline
 \end{tabular}
 
-Consider
+
 \begin{itemize}
     \item FD4: ProductID, OrderID $\rightarrow$ ProductQuantity
 \end{itemize}
@@ -255,6 +255,54 @@ R2 & {\color[HTML]{333333} U} & {\color[HTML]{333333} U} & {\color[HTML]{333333}
 R3 & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & \cellcolor[HTML]{FFFC9E}{\color[HTML]{FE0000} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & {\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & \cellcolor[HTML]{FFFFFF}{\color[HTML]{333333} K} & K \\ \hline
 \end{tabular}
 
-Since row 1 (also row 3) consists of all known values, \textbf{the decomposition is lossless.}
+Since row 1 (also row 3) consists of all known values, \textbf{the decomposition is lossless.} However, we must still check if all dependencies are preserved. To do this, we will find the canonical FDs and check if they span across tables.
 
+Our given FDs are:
+
+\begin{itemize}
+    \item ProductID $\rightarrow$ Length, Width, Height, Weight
+    \item OrderID $\rightarrow$ OrderDate, CustomerID, TotalPrice
+    \item CustomerID $\rightarrow$ Address, City, State, ZipCode, PhoneNumber
+    \item ProductID, OrderID $\rightarrow$ ProductQuantity
+\end{itemize}
+
+Transform all FDs to canonical form:
+
+\begin{enumerate}
+    \item ProductID $\rightarrow$ Length
+    \item ProductID $\rightarrow$ Width
+    \item ProductID $\rightarrow$ Height
+    \item ProductID $\rightarrow$ Weight
+    \item OrderID $\rightarrow$ OrderDate
+    \item OrderID $\rightarrow$ CustomerID
+    \item OrderID $\rightarrow$ TotalPrice
+    \item CustomerID $\rightarrow$ Address
+    \item CustomerID $\rightarrow$ City
+    \item CustomerID $\rightarrow$ State
+    \item CustomerID $\rightarrow$ ZipCode
+    \item CustomerID $\rightarrow$ PhoneNumber
+    \item ProductID, OrderID $\rightarrow$ ProductQuantity
+\end{enumerate}
+
+Remember the given decomposition relations are:
+
+\begin{itemize}
+    \item R1: (\underline{ProductID}, Length, Width, Height, Weight, \underline{OrderID}, OrderDate, CustomerID, TotalPrice)
+    \item R2: (\underline{CustomerID}, Address, City, State, ZipCode, PhoneNumber)
+    \item R3: (\underline{ProductID}, \underline{OrderID}, ProductQuantity)
+\end{itemize}
+
+When considering these canonical dependencies to the given relations:
+
+\begin{itemize}
+    \item the key for FDs 1-7 appear both in R1 and R3, but only have the dependents in R1.
+    \item the key for FDs 8-12 appear in R2 along with each dependent. No issue
+    \item the key for FD 13 appears both in R1 and R3, but only has the dependent in R3.
+\end{itemize}
+
+Since canonical FDs 1-7 and 13 span across tables, this decomposition is non-dependency preserving.
+
+Since we have shown this decomposition is lossless but non-dependency preserving, \textbf{it is an ugly decomposition.}
+
+(Note: simply removing R3 would be sufficient for a good decomposition)
 \end{document}
