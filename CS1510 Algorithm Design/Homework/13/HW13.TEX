@@ -23,5 +23,14 @@
 
 \section{Problem 41 (8 points)}
 \subsection{Motivation}
+During class on Monday 11/16, we created a CREW PRAM algorithm that solves shortest path in $lg^2(n)$ time using $n^3/lg(n)$ processors. Although I will reference this algorithm and use it in my solution, I will not be re-explaining it.
+
+With this in mind, our goal is to reduce Longest Common Subsequence (LCS) $\leq$ ShortestPath such that the input and output transformations are both $O(lg^2(n))$ with a polynomial number of processors. If this is possible (and we have at least $n^3/lg(n)$ processors as is needed to solve ShortestPath in $O(lg^2(n))$ time), then we can combine the reduction with our solution from class in order to solve LCS in $O(lg^2(n))$ time.
+
+\subsection{Transformation Description}
+
+
+\subsection{LCS $\leq$ ShortestPath}
+With at least $n^2$ processors, we have shown that the input and output transformations from LCS to ShortestPath are constant time, and the result from ShortestPath can correctly solve LCS. Therefore, with at least $n^2$ processors, LCS $\leq _{constant time}$ ShortestPath. Since our ShortestPath algorithm from class runs in $lg^2(n)$ time using $n^3/lg(n)$ processors, we can utilize that algorithm along with the described input/output transformations to solve LCS in $lg^2(n)$ time using $n^3/lg(n)$ processors.
 
 \end{document}
