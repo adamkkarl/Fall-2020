@@ -29,6 +29,40 @@ With this in mind, our goal is to reduce Longest Common Subsequence (LCS) $\leq$
 
 \subsection{Transformation Description}
 
+To solve LCS(a,b) using an algorithm for ShortestPath, first:
+
+\begin{itemize}
+    \item Let sequences a and b have lengths n and m, such that n>m.
+    \item Assume at least $nm$ processors.
+\end{itemize}
+
+then:
+
+\begin{itemize}
+    \item Create G with $nm$ vertices, labeled $v_{1 \rightarrow n,1 \rightarrow m}$
+    \begin{itemize}
+        \item (constant time with 1 processor per vertex)
+    \end{itemize}
+    \item Add edges from each vertex to the one with a higher first value, if any (e.g. from $V_{i,j}$ to $V_{i+1,j}$) with a weight of L
+    \begin{itemize}
+        \item Choose L such that it is larger than n. This will make it easy to extract the LCS solution from what ShortestPath returns
+        \item (again, constant time since 1 processor per vertex, each processor adds 1 edge)
+    \end{itemize}
+    \item Add edges from each vertex to the one with a higher second value, if any (e.g. from $V_{i,j}$ to $V_{i,j+1}$) with a weight of L
+    \begin{itemize}
+        \item (again, constant time since 1 processor per vertex, each processor adds 1 edge)
+    \end{itemize}
+    \item At each vertex $V_{i,j}$, compare characters a[i] to b[j] and create an edge to $V_{i+1,j+1}$ if a[i] = b[j]
+    \begin{itemize}
+        \item (again, constant time since 1 processor per vertex, each processor makes 2 reads (unimpeded since CR) then creates 0 or 1 edges)
+    \end{itemize}
+    \item Run the algorithm for ShortestPath on G with start point $V_{1,1}$ and endpoint $V_{n,m}$ and return what it returns mod L.
+\end{itemize}
+
+\subsection{Explanation}
+
+Thus, LCS returns precisely the number of "diagonals" taken in the ShortestPath grid, which corresponds to the number of characters in the longest common subsequence.
+
 
 \subsection{LCS $\leq$ ShortestPath}
 With at least $n^2$ processors, we have shown that the input and output transformations from LCS to ShortestPath are constant time, and the result from ShortestPath can correctly solve LCS. Therefore, with at least $n^2$ processors, LCS $\leq _{constant time}$ ShortestPath. Since our ShortestPath algorithm from class runs in $lg^2(n)$ time using $n^3/lg(n)$ processors, we can utilize that algorithm along with the described input/output transformations to solve LCS in $lg^2(n)$ time using $n^3/lg(n)$ processors.
