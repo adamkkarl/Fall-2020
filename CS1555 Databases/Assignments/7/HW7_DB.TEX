@@ -29,56 +29,73 @@
 \begin{itemize}
     \item \textcolor{green}{MyAuction} facilitates  the  operations  for  an  electronic  auctioning  system
     \item For each \textcolor{blue}{registered user}, \textbf{\underline{ record his/her name, address, email, a unique login-name and password}} 
-    \item For  each  \textcolor{blue}{product}  \textcolor{red}{put  for  auction},  record  its  \textbf{\underline{name,  an  (optional)  description,  one  or several  \textcolor{blue}{categories} that it belongs to (e.g., ‘books-and-records’, ‘software’, ‘automobiles’,‘appliances’, etc)}}.  Each product should have a unique \textbf{\underline{auction-id}}
-    \item Keep track of information about a \textcolor{blue}{product} for auction such as \textbf{\underline{who is selling it, the minimum acceptable valid price, auction starting date and its status (i.e., ‘under auction’,‘sold’, ‘withdrawn’)}}
-    \item Keep track of every \textcolor{blue}{bid} \textcolor{red}{made} by \textcolor{blue}{registered users}, such as the \textbf{\underline{bidder’s name, the date when the bid was made, and the valid amount of the bid, etc.}}
-    \item If a product was \textcolor{red}{sold} successfully, we want to know \textbf{\underline{who bought the product with what bidding price, and when it was sold}}
+    \item For  each  \textcolor{blue}{product}  \textcolor{red}{put  for  auction},  record  its  \textbf{\underline{name,  an  (optional)  description,  one  or several  \textcolor{blue}{categories} that it}} \textbf{\underline{belongs to (e.g., ‘books-and-records’, ‘software’, ‘automobiles’,‘appliances’, etc)}}.  Each product should have a unique \textbf{\underline{auction-id}}
+    \item Keep track of information about a \textcolor{blue}{product} for auction such as \textbf{\underline{who is selling it, the minimum acceptable acc price,}} \textbf{\underline{auction starting date and its status (i.e., ‘under auction’,‘sold’, ‘withdrawn’)}}
+    \item Keep track of every \textcolor{blue}{bid} \textcolor{red}{made} by \textcolor{blue}{registered users}, such as the \textbf{\underline{bidder’s name, the date when the bid was made,}} \textbf{\underline{and the acc amount of the bid, etc.}}
+    \item If a product was \textcolor{red}{sold} successfully, we want to know \textbf{\underline{who bought the product with what bidding price, and}} \textbf{\underline{when it was sold}}
     \item For each product \textcolor{blue}{category}, record its \textbf{\underline{(unique) name}}.  We want to organize the categories into a hierarchical structure such that one category can contain 0 to 10 subcategories.
 \end{itemize}
+
+\begin{center}
+    \includegraphics[scale=.45]{hw_8db.png}
+    
+    \caption{only key attributes shown}
+\end{center}
 
 \noindent
 Entities:
 \begin{itemize}
-    \item Users (name, address, email, \underline{login-name}, password)
+    \item Users (name, address, $\overline{email}$, \underline{login-name}, password)
     \item Product (name, description, categories, \underline{auction-id})
-    \item Auction (seller, min-valid-price, start-date, status, \underline{auction-id})
-    \item Categories (cat-group) - weak entity
-    \item Bid (\underline{auction-id, buyer, price}, date)
+    \item Category (category-name, product, subcategory-names) - weak entity
 \end{itemize}
 
 \noindent
 Relationships:
 \begin{itemize}
-    \item Put up for Auction <Registered\_Users, Product> 1:N PARTIAL/TOTAL
-    \item Place bid <Registered\_Users, Product> N:1 PARTIAL/PARTIAL
-    \item Sold to <Product, Registered\_Users> N:1 PARTIAL/PARTIAL, date, price
-    \item Organized <supercategory-Category, subcategory-Category> 1:(0-10) PARTIAL/PARTIAL;
+    \item Put up for Auction <Registered-Users, Product> 1:N PARTIAL/TOTAL, date, min-acc-price, start-date, status
+    \item Place bid <Registered-Users, Product> N:1 PARTIAL/PARTIAL, date, bid-price
+    \item Sold to <Product, Registered-Users> N:1 PARTIAL/PARTIAL, date, final-price
+    \item Belongs to <subcategory-Category, supercategory-Category> (0-10):1 PARTIAL/TOTAL
+    \item Belongs to <Product, Category> 1:(0-10) PARTIAL/PARTIAL
 \end{itemize}
 
 \noindent
 Assumptions
 \begin{itemize}
     \item A user can bid on an item more than once per day, but cannot bid the same price on the same product more than once
+    \item Prices (including minimum prices) must be positive
+    \item A user may bid less than the maximum bid, as long as their bid is still valid and greater than the minimum acceptable price
+    \item if a product is put up for auction more than once, it will need a new auction-id
 \end{itemize}
 
 \subsection{Relational Schema}
 
 \begin{itemize}
-    \item Registered\_Users (name, address, email, \underline{login-name}, password)
-    \item Product (name, description, categories, \underline{auction-id}, seller, min-valid-price, start-date, status)
+    \item Registered-Users (name, address, $\overline{email}$, \underline{login-name}, password)
+    \item Product (name, description, \underline{auction-id}, seller-login-name, min-acc-price, start-date, status, end-date, buyer-login-name, final-price)
     \begin{itemize}
-        \item FK (seller) $\rightarrow$ Registered\_Users (login-id)
-        \item FK (categories) $\rightarrow$ Categories(c-name)
+        \item FK (seller-login-name) $\rightarrow$ Registered-Users (login-id)
+        \item FK (buyer-login-name) $\rightarrow$ Registered-Users (login-id)
         \item Check(status = 'under auction' or 'sold' or 'withdrawn')
-        \item Check(min-valid-price > 0)
+        \item Check(min-acc-price is valid and > 0)
+        \item Check(final-price is valid and >= min-acc-price)
         \item Check(name is not null)
+        \item Check(end-date, buyer-login-name, final-price should be null whenever status = 'under auction' or 'withdrawn')
     \end{itemize}
-    \item Categories(\underline{c-name})
-    \item Bid (\underline{auction-id, buyer, price}, date)
+    \item Category-Products(\underline{category-name, auction-id})
     \begin{itemize}
         \item FK (auction-id) $\rightarrow$ Product (auction-id)
-        \item FK (buyer) $\rightarrow$ Registered\_Users (login-name)
-        \item Check (price > min-valid-price of product)
+    \end{itemize}
+    \item Category-Subcategories(\underline{category-name, subcategory-name})
+    \begin{itemize}
+        \item Check (category-name != subcategory-name)
+    \end{itemize}
+    \item Bid (\underline{auction-id, bidder-login-name, price}, date)
+    \begin{itemize}
+        \item FK (auction-id) $\rightarrow$ Product (auction-id)
+        \item FK (bidder-login-name) $\rightarrow$ Registered-Users (login-name)
+        \item Check (price is valid and >= product's min-acc price)
     \end{itemize}
 \end{itemize}
 
