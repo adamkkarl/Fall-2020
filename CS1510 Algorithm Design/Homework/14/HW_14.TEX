@@ -1,0 +1,55 @@
+\documentclass[a4paper]{article}
+
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{graphicx} 
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm]{geometry}
+
+%% Useful packages
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage[colorinlistoftodos]{todonotes}
+\usepackage[colorlinks=true, allcolors=blue]{hyperref}
+
+\title{Homework 14}
+\author{Adam Karl}
+
+\begin{document}
+\maketitle
+
+\section{Problem 45 (8 points)}
+\subsection{a.}
+
+
+\subsection{b. Max with priority processors}
+\begin{itemize}
+    \item Create an array A of length n, each index initialized to false
+    \item Create an answer variable to store the maximum value in the sequence
+    \item Place one processor at each number $x_i$
+    \item Each processor at $x_i$ should do:
+    \begin{itemize}
+        \item concurrently write true to A[$x_i$]
+        \item //since each processor is only writing true, it doesn't matter which one writes to A[$x_i$] if there are multiple values of $x_i$ in the sequence
+    \end{itemize}
+    \item Move the processors so that 1 processor is at each index of A, in descending order of priority
+    \begin{itemize}
+        \item //the highest priority processor is at index n, the lowest priority processor is at index 1
+        \item //the runtime of this algorithm is based on the assumption that this step can be done in constant time
+    \end{itemize}
+    \item Each processor at A[i] should do:
+    \begin{itemize}
+        \item if A[i] is true, concurrently write i to the answer variable
+    \end{itemize}
+    \item return the value stored in the answer variable
+    
+\end{itemize}
+
+
+\subsection{c. Max without priority processors}
+
+
+\end{document}
