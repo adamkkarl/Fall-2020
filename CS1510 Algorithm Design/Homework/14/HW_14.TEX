@@ -22,10 +22,51 @@
 \maketitle
 
 \section{Problem 45 (8 points)}
-\subsection{a.}
+\subsection{Motivation}
+Problems (a) and (c) will both be partially dependent on an algorithm we discussed in class that used pairwise comparisons on a CRCW PRAM to find the maximum of n numbers in constant time with n$^2$ processors.
 
+\subsection{a.}
+To solve this problem in lg(lg(n)) time do:
+
+\begin{itemize}
+    \item let k = the number of remaining values
+    \item while (k>1) do:
+    \begin{itemize}
+        \item group the values into k$^2$ groups, each with n/k values
+        \item Run the algorithm from class on each group to find the max
+        \item //since each group has n/k items, each group needs (n/k)$^2$ processors to run in constant time.
+        \item //since there are k$^2$/n groups, the total number of processors needed to complete this iteration in constant time is (n/k)$^2$ * k$^2$/n = n
+        \item //since we have n processors, this iteration completes in constant time.
+    \end{itemize}
+    \item when there is only 1 value remaining, return that value
+\end{itemize}
+
+Since each step takes constant time, our runtime is based on the number of steps that are necessary to solve a sequence of size n.
+
+\begin{table}[htb]
+\centering
+\begin{tabular}{lll}
+step (k) & group size (G)               & output size (I)           \\
+0    & 1                            & n                         \\
+1    & 2                            & n/(2\textasciicircum{}1)  \\
+2    & 4 (=2\textasciicircum{}2)    & n/(2\textasciicircum{}3)  \\
+3    & 16 (=4\textasciicircum{}2)   & n/(2\textasciicircum{}7)  \\
+4    & 256 (=16\textasciicircum{}2) & n/(2\textasciicircum{}15)
+\end{tabular}
+\end{table}
+
+The recurrence relation is:
+\begin{itemize}
+    \item G(2) = 2
+    \item G(k) = (G(k-1))$^2$
+    \item I(1) = n
+    \item I(k+1) = I(k)/G(k)
+\end{itemize}
+
+With this in mind, look at the relation between number of steps and the denominator for output size. The algorithm finishes when the output size is 1, so in 1 step we can solve an input of size n=2, in 2 steps we can handle n=8, in 3 steps n=128, in 4 steps n=32768, etc. The pattern is: in k steps, we are able to handle an input of size n = $2^{(2^k)-1}$. Therefore, (since each step takes constant time) we are able to handle an input of size n in lg(lg(n)) steps (simply take the log of both sides twice). Therefore, our runtime is O(lg(lg(n))).
 
 \subsection{b. Max with priority processors}
+To solve this problem in linear time do:
 \begin{itemize}
     \item Create an array A of length n, each index initialized to false
     \item Create an answer variable to store the maximum value in the sequence
@@ -38,11 +79,12 @@
     \item Move the processors so that 1 processor is at each index of A, in descending order of priority
     \begin{itemize}
         \item //the highest priority processor is at index n, the lowest priority processor is at index 1
-        \item //the runtime of this algorithm is based on the assumption that this step can be done in constant time
+        \item //(the runtime of this algorithm is based on the assumption that this step can be done in constant time)
     \end{itemize}
     \item Each processor at A[i] should do:
     \begin{itemize}
         \item if A[i] is true, concurrently write i to the answer variable
+        \item //due to the prioritization of the processors, only the processor at the maximum true index will write
     \end{itemize}
     \item return the value stored in the answer variable
     
@@ -50,6 +92,37 @@
 
 
 \subsection{c. Max without priority processors}
+To solve this problem in linear time do:
+
+\begin{itemize}
+    \item Create an array A of length n, each index initialized to false
+    \item Create an array B of length sqrt(n), each index initialized to false
+    \item Create an answer variable to store the maximum value in the sequence
+    \item Place one processor at each number $x_i$
+    \item Each processor at $x_i$ should do:
+    \begin{itemize}
+        \item concurrently write true to A[$x_i$]
+        \item //since each processor is only writing true, it doesn't matter which one writes to A[$x_i$] if there are multiple values of $x_i$ in the sequence
+    \end{itemize}
+    \item //here marks where the algorithm deviates from the solution to (b) in the approach used to find the "right-most" true in A
+    \item Place one processor at each index of A
+    \item Each processor at A[i] should do:
+    \begin{itemize}
+        \item if A[i] is true, concurrently write true to B[$\lfloor$i/sqrt(n)$\rfloor$]
+        
+        \item //the idea is that processors at A[1] through A[sqrt(n)] all point to B[1]
+        \item //A[sqrt(n) + 1] through A[2*sqrt(n)] all point to B[2]
+        \item ...
+        \item //A[n-sqrt(n)] through A[n] all point to B[sqrt(n)]
+    \end{itemize}
+    \item Run the algorithm from class to find the max of sqrt(n) numbers in constant time with n processors. The input is each INDEX i of B for which B[i] is true.
+    \begin{itemize}
+        \item //the algorithm returns which sqrt(n)-size "group" of A has the right-most true
+    \end{itemize}
+    \item take the solution to the algorithm (say: z) and go the the z-th group in A.
+    \item Run the algorithm from class again on the z-th group of A (with all n processors) to find the right-most index of A for which A[i] is true. Return this index i as the answer.
+    
+\end{itemize}
 
 
 \end{document}
