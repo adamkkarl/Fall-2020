@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <office:document xmlns:meta="urn:oasis:names:tc:opendocument:xmlns:meta:1.0" xmlns:office="urn:oasis:names:tc:opendocument:xmlns:office:1.0" xmlns:fo="urn:oasis:names:tc:opendocument:xmlns:xsl-fo-compatible:1.0" xmlns:ooo="http://openoffice.org/2004/office" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:style="urn:oasis:names:tc:opendocument:xmlns:style:1.0" xmlns:config="urn:oasis:names:tc:opendocument:xmlns:config:1.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:text="urn:oasis:names:tc:opendocument:xmlns:text:1.0" xmlns:draw="urn:oasis:names:tc:opendocument:xmlns:drawing:1.0" xmlns:dr3d="urn:oasis:names:tc:opendocument:xmlns:dr3d:1.0" xmlns:svg="urn:oasis:names:tc:opendocument:xmlns:svg-compatible:1.0" xmlns:chart="urn:oasis:names:tc:opendocument:xmlns:chart:1.0" xmlns:rpt="http://openoffice.org/2005/report" xmlns:table="urn:oasis:names:tc:opendocument:xmlns:table:1.0" xmlns:number="urn:oasis:names:tc:opendocument:xmlns:datastyle:1.0" xmlns:ooow="http://openoffice.org/2004/writer" xmlns:oooc="http://openoffice.org/2004/calc" xmlns:of="urn:oasis:names:tc:opendocument:xmlns:of:1.2" xmlns:tableooo="http://openoffice.org/2009/table" xmlns:calcext="urn:org:documentfoundation:names:experimental:calc:xmlns:calcext:1.0" xmlns:drawooo="http://openoffice.org/2010/draw" xmlns:loext="urn:org:documentfoundation:names:experimental:office:xmlns:loext:1.0" xmlns:field="urn:openoffice:names:experimental:ooo-ms-interop:xmlns:field:1.0" xmlns:math="http://www.w3.org/1998/Math/MathML" xmlns:form="urn:oasis:names:tc:opendocument:xmlns:form:1.0" xmlns:script="urn:oasis:names:tc:opendocument:xmlns:script:1.0" xmlns:dom="http://www.w3.org/2001/xml-events" xmlns:xforms="http://www.w3.org/2002/xforms" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:formx="urn:openoffice:names:experimental:ooxml-odf-interop:xmlns:form:1.0" xmlns:xhtml="http://www.w3.org/1999/xhtml" xmlns:grddl="http://www.w3.org/2003/g/data-view#" xmlns:css3t="http://www.w3.org/TR/css3-text/" xmlns:officeooo="http://openoffice.org/2009/office" office:version="1.3" office:mimetype="application/vnd.oasis.opendocument.text">
- <office:meta><meta:creation-date>2020-12-03T18:20:20.346000000</meta:creation-date><meta:generator>LibreOffice/7.0.3.1$Windows_X86_64 LibreOffice_project/d7547858d014d4cf69878db179d326fc3483e082</meta:generator><dc:date>2020-12-04T14:29:15.033000000</dc:date><meta:editing-duration>PT29M52S</meta:editing-duration><meta:editing-cycles>3</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="3" meta:paragraph-count="31" meta:word-count="1035" meta:character-count="7206" meta:non-whitespace-character-count="6179"/></office:meta>
+ <office:meta><meta:creation-date>2020-12-03T18:20:20.346000000</meta:creation-date><meta:generator>LibreOffice/7.0.3.1$Windows_X86_64 LibreOffice_project/d7547858d014d4cf69878db179d326fc3483e082</meta:generator><dc:date>2020-12-05T11:59:07.432000000</dc:date><meta:editing-duration>PT1H19M3S</meta:editing-duration><meta:editing-cycles>7</meta:editing-cycles><meta:document-statistic meta:table-count="0" meta:image-count="0" meta:object-count="0" meta:page-count="15" meta:paragraph-count="104" meta:word-count="9140" meta:character-count="55720" meta:non-whitespace-character-count="46571"/></office:meta>
  <office:settings>
   <config:config-item-set config:name="ooo:view-settings">
-   <config:config-item config:name="ViewAreaTop" config:type="long">118</config:config-item>
-   <config:config-item config:name="ViewAreaLeft" config:type="long">175</config:config-item>
-   <config:config-item config:name="ViewAreaWidth" config:type="long">22419</config:config-item>
-   <config:config-item config:name="ViewAreaHeight" config:type="long">20255</config:config-item>
+   <config:config-item config:name="ViewAreaTop" config:type="long">240841</config:config-item>
+   <config:config-item config:name="ViewAreaLeft" config:type="long">0</config:config-item>
+   <config:config-item config:name="ViewAreaWidth" config:type="long">45558</config:config-item>
+   <config:config-item config:name="ViewAreaHeight" config:type="long">20879</config:config-item>
    <config:config-item config:name="ShowRedlineChanges" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InBrowseMode" config:type="boolean">false</config:config-item>
    <config:config-item-map-indexed config:name="Views">
     <config:config-item-map-entry>
      <config:config-item config:name="ViewId" config:type="string">view2</config:config-item>
-     <config:config-item config:name="ViewLeft" config:type="long">5076</config:config-item>
-     <config:config-item config:name="ViewTop" config:type="long">12725</config:config-item>
-     <config:config-item config:name="VisibleLeft" config:type="long">175</config:config-item>
-     <config:config-item config:name="VisibleTop" config:type="long">118</config:config-item>
-     <config:config-item config:name="VisibleRight" config:type="long">22592</config:config-item>
-     <config:config-item config:name="VisibleBottom" config:type="long">20371</config:config-item>
+     <config:config-item config:name="ViewLeft" config:type="long">17923</config:config-item>
+     <config:config-item config:name="ViewTop" config:type="long">258470</config:config-item>
+     <config:config-item config:name="VisibleLeft" config:type="long">0</config:config-item>
+     <config:config-item config:name="VisibleTop" config:type="long">240841</config:config-item>
+     <config:config-item config:name="VisibleRight" config:type="long">45556</config:config-item>
+     <config:config-item config:name="VisibleBottom" config:type="long">261719</config:config-item>
      <config:config-item config:name="ZoomType" config:type="short">0</config:config-item>
      <config:config-item config:name="ViewLayoutColumns" config:type="short">1</config:config-item>
      <config:config-item config:name="ViewLayoutBookMode" config:type="boolean">false</config:config-item>
@@ -85,7 +85,7 @@
    <config:config-item config:name="UnxForceZeroExtLeading" config:type="boolean">false</config:config-item>
    <config:config-item config:name="UseOldPrinterMetrics" config:type="boolean">false</config:config-item>
    <config:config-item config:name="TabAtLeftIndentForParagraphsInList" config:type="boolean">false</config:config-item>
-   <config:config-item config:name="Rsid" config:type="int">3334949</config:config-item>
+   <config:config-item config:name="Rsid" config:type="int">4320150</config:config-item>
    <config:config-item config:name="MsWordCompTrailingBlanks" config:type="boolean">false</config:config-item>
    <config:config-item config:name="MathBaselineAlignment" config:type="boolean">true</config:config-item>
    <config:config-item config:name="InvertBorderSpacing" config:type="boolean">false</config:config-item>
@@ -137,11 +137,11 @@
   </office:script>
  </office:scripts>
  <office:font-face-decls>
-  <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;, Georgia, serif"/>
-  <style:font-face style:name="inherit" svg:font-family="inherit"/>
+  <style:font-face style:name="Times New Roman1" svg:font-family="&apos;Times New Roman&apos;, Georgia, serif"/>
   <style:font-face style:name="serif" svg:font-family="serif"/>
   <style:font-face style:name="Arial1" svg:font-family="Arial" style:font-family-generic="swiss"/>
   <style:font-face style:name="Liberation Serif" svg:font-family="&apos;Liberation Serif&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
+  <style:font-face style:name="Times New Roman" svg:font-family="&apos;Times New Roman&apos;" style:font-family-generic="roman" style:font-pitch="variable"/>
   <style:font-face style:name="Liberation Sans" svg:font-family="&apos;Liberation Sans&apos;" style:font-family-generic="swiss" style:font-pitch="variable"/>
   <style:font-face style:name="Arial" svg:font-family="Arial" style:font-family-generic="system" style:font-pitch="variable"/>
   <style:font-face style:name="Microsoft YaHei" svg:font-family="&apos;Microsoft YaHei&apos;" style:font-family-generic="system" style:font-pitch="variable"/>
@@ -150,7 +150,7 @@
  <office:styles>
   <style:default-style style:family="graphic">
    <style:graphic-properties svg:stroke-color="#3465a4" draw:fill-color="#729fcf" fo:wrap-option="no-wrap" draw:shadow-offset-x="0.1181in" draw:shadow-offset-y="0.1181in" draw:start-line-spacing-horizontal="0.1114in" draw:start-line-spacing-vertical="0.1114in" draw:end-line-spacing-horizontal="0.1114in" draw:end-line-spacing-vertical="0.1114in" style:flow-with-text="false"/>
-   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:writing-mode="lr-tb" style:font-independent-line-spacing="false">
+   <style:paragraph-properties style:text-autospace="ideograph-alpha" style:line-break="strict" style:font-independent-line-spacing="false">
     <style:tab-stops/>
    </style:paragraph-properties>
    <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="NSimSun" style:font-size-asian="10.5pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
@@ -255,178 +255,621 @@
    <style:text-properties officeooo:rsid="0016b1b2" officeooo:paragraph-rsid="0016b1b2"/>
   </style:style>
   <style:style style:name="P2" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:rsid="0016fed2" officeooo:paragraph-rsid="0016fed2"/>
-  </style:style>
-  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:rsid="0018c210" officeooo:paragraph-rsid="0018c210"/>
-  </style:style>
-  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:rsid="0019ca4c" officeooo:paragraph-rsid="0019ca4c"/>
-  </style:style>
-  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:rsid="0019ca4c" officeooo:paragraph-rsid="001cde6d"/>
-  </style:style>
-  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties officeooo:paragraph-rsid="001b6b55"/>
   </style:style>
-  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="001d7909"/>
+  <style:style style:name="P3" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0019ca4c"/>
   </style:style>
-  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P4" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties officeooo:paragraph-rsid="002259f3"/>
   </style:style>
-  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P5" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties officeooo:paragraph-rsid="001cde6d"/>
   </style:style>
-  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:rsid="002642d9" officeooo:paragraph-rsid="002642d9"/>
+  <style:style style:name="P6" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="002642d9"/>
   </style:style>
-  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:rsid="00265f40" officeooo:paragraph-rsid="00265f40"/>
-  </style:style>
-  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="00265f40"/>
-  </style:style>
-  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="0027f647"/>
-  </style:style>
-  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard">
-   <style:text-properties officeooo:paragraph-rsid="0029a2a8"/>
-  </style:style>
-  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P7" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties officeooo:paragraph-rsid="003082dd"/>
   </style:style>
-  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Standard">
+  <style:style style:name="P8" style:family="paragraph" style:parent-style-name="Standard">
    <style:text-properties officeooo:paragraph-rsid="0031dbad"/>
   </style:style>
+  <style:style style:name="P9" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="00378a70"/>
+  </style:style>
+  <style:style style:name="P10" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:rsid="0038fa88" officeooo:paragraph-rsid="0038fa88"/>
+  </style:style>
+  <style:style style:name="P11" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0039e31b" officeooo:paragraph-rsid="0039e31b"/>
+  </style:style>
+  <style:style style:name="P12" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="003cfa13"/>
+  </style:style>
+  <style:style style:name="P13" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="003d5b9d"/>
+  </style:style>
+  <style:style style:name="P14" style:family="paragraph" style:parent-style-name="Standard">
+   <style:text-properties officeooo:paragraph-rsid="0016b1b2"/>
+  </style:style>
+  <style:style style:name="P15" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="003ecd05" officeooo:paragraph-rsid="003ecd05"/>
+  </style:style>
+  <style:style style:name="P16" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="002259f3" officeooo:paragraph-rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="P17" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0004b90e" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P18" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00375c11" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P19" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0038df88" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P20" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002800b8" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P21" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002800b8" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P22" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P23" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:rsid="00114e41" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P24" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:rsid="001265ae" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P25" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:rsid="0016b1b2" officeooo:paragraph-rsid="0016b1b2"/>
+  </style:style>
+  <style:style style:name="P26" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:rsid="0016b1b2" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P27" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="0039e31b" officeooo:paragraph-rsid="0039e31b"/>
+  </style:style>
+  <style:style style:name="P28" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0016b1b2"/>
+  </style:style>
+  <style:style style:name="P29" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="003cfa13"/>
+  </style:style>
+  <style:style style:name="P30" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="002642d9"/>
+  </style:style>
+  <style:style style:name="P31" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="003d5b9d"/>
+  </style:style>
+  <style:style style:name="P32" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0019ca4c"/>
+  </style:style>
+  <style:style style:name="P33" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="001cde6d"/>
+  </style:style>
+  <style:style style:name="P34" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0031dbad"/>
+  </style:style>
+  <style:style style:name="P35" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="003082dd"/>
+  </style:style>
+  <style:style style:name="P36" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="001b6b55"/>
+  </style:style>
+  <style:style style:name="P37" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="00378a70"/>
+  </style:style>
+  <style:style style:name="P38" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="002259f3"/>
+  </style:style>
+  <style:style style:name="P39" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P40" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:justify-single-word="false"/>
+   <style:text-properties officeooo:rsid="003ecd05" officeooo:paragraph-rsid="003ecd05"/>
+  </style:style>
+  <style:style style:name="P41" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="001265ae" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P42" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P43" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0041eb96" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P44" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Liberation Serif" fo:font-style="normal" officeooo:paragraph-rsid="0041eb96" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="P45" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Liberation Serif" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P46" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Liberation Serif" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P47" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P48" style:family="paragraph" style:parent-style-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="center" style:justify-single-word="false" style:writing-mode="lr-tb"/>
+   <style:text-properties officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P49" style:family="paragraph" style:parent-style-name="Standard" style:master-page-name="Standard">
+   <style:paragraph-properties fo:line-height="100%" fo:text-align="start" style:justify-single-word="false" style:page-number="auto" style:writing-mode="lr-tb"/>
+   <style:text-properties style:font-name="Liberation Serif" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P50" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties fo:font-weight="normal" officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
+  <style:style style:name="P51" style:family="paragraph" style:parent-style-name="Text_20_body">
+   <style:paragraph-properties fo:line-height="100%"/>
+   <style:text-properties officeooo:paragraph-rsid="0041eb96"/>
+  </style:style>
   <style:style style:name="T1" style:family="text">
-   <style:text-properties officeooo:rsid="0019ca4c"/>
+   <style:text-properties officeooo:rsid="0016b1b2"/>
   </style:style>
   <style:style style:name="T2" style:family="text">
-   <style:text-properties officeooo:rsid="001b6b55"/>
+   <style:text-properties officeooo:rsid="0018c210"/>
   </style:style>
   <style:style style:name="T3" style:family="text">
-   <style:text-properties officeooo:rsid="001c8cfc"/>
+   <style:text-properties officeooo:rsid="0019ca4c"/>
   </style:style>
   <style:style style:name="T4" style:family="text">
-   <style:text-properties officeooo:rsid="001cde6d"/>
+   <style:text-properties officeooo:rsid="001b6b55"/>
   </style:style>
   <style:style style:name="T5" style:family="text">
-   <style:text-properties officeooo:rsid="001d7909"/>
+   <style:text-properties officeooo:rsid="001c8cfc"/>
   </style:style>
   <style:style style:name="T6" style:family="text">
-   <style:text-properties officeooo:rsid="001f01a5"/>
+   <style:text-properties officeooo:rsid="001cde6d"/>
   </style:style>
   <style:style style:name="T7" style:family="text">
-   <style:text-properties style:font-name="serif" fo:font-size="12pt"/>
+   <style:text-properties officeooo:rsid="001d7909"/>
   </style:style>
   <style:style style:name="T8" style:family="text">
-   <style:text-properties style:font-name="serif" fo:font-size="12pt" officeooo:rsid="00208ccb"/>
+   <style:text-properties officeooo:rsid="001f01a5"/>
   </style:style>
   <style:style style:name="T9" style:family="text">
-   <style:text-properties officeooo:rsid="00208ccb"/>
+   <style:text-properties style:font-name="serif" fo:font-size="12pt"/>
   </style:style>
   <style:style style:name="T10" style:family="text">
-   <style:text-properties officeooo:rsid="0021275c"/>
+   <style:text-properties style:font-name="serif" fo:font-size="12pt" officeooo:rsid="00208ccb"/>
   </style:style>
   <style:style style:name="T11" style:family="text">
-   <style:text-properties officeooo:rsid="002259f3"/>
+   <style:text-properties officeooo:rsid="00208ccb"/>
   </style:style>
   <style:style style:name="T12" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="002259f3" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="0021275c"/>
   </style:style>
   <style:style style:name="T13" style:family="text">
-   <style:text-properties fo:font-weight="bold" officeooo:rsid="002c9e4c" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
+   <style:text-properties officeooo:rsid="002259f3"/>
   </style:style>
   <style:style style:name="T14" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="bold" officeooo:rsid="002c9e4c" style:font-weight-asian="bold" style:font-weight-complex="bold"/>
   </style:style>
   <style:style style:name="T15" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="002c9e4c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T16" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="002e800c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T17" style:family="text">
-   <style:text-properties fo:font-weight="normal" officeooo:rsid="0031dbad" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="002c9e4c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T18" style:family="text">
-   <style:text-properties officeooo:rsid="00230eff"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="002e800c" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T19" style:family="text">
-   <style:text-properties officeooo:rsid="00250114"/>
+   <style:text-properties fo:font-weight="normal" officeooo:rsid="0031dbad" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T20" style:family="text">
-   <style:text-properties officeooo:rsid="002642d9"/>
+   <style:text-properties officeooo:rsid="00230eff"/>
   </style:style>
   <style:style style:name="T21" style:family="text">
-   <style:text-properties officeooo:rsid="00265f40"/>
+   <style:text-properties officeooo:rsid="00250114"/>
   </style:style>
   <style:style style:name="T22" style:family="text">
-   <style:text-properties officeooo:rsid="0027f647"/>
+   <style:text-properties officeooo:rsid="002642d9"/>
   </style:style>
   <style:style style:name="T23" style:family="text">
-   <style:text-properties officeooo:rsid="0028e72b"/>
+   <style:text-properties officeooo:rsid="00265f40"/>
   </style:style>
   <style:style style:name="T24" style:family="text">
-   <style:text-properties officeooo:rsid="0029a2a8"/>
+   <style:text-properties officeooo:rsid="0027f647"/>
   </style:style>
   <style:style style:name="T25" style:family="text">
-   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties officeooo:rsid="0028e72b"/>
   </style:style>
   <style:style style:name="T26" style:family="text">
-   <style:text-properties fo:font-style="italic" officeooo:rsid="002c9e4c" style:font-style-asian="italic" style:font-style-complex="italic"/>
+   <style:text-properties officeooo:rsid="0029a2a8"/>
   </style:style>
   <style:style style:name="T27" style:family="text">
-   <style:text-properties fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="002259f3" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="italic"/>
   </style:style>
   <style:style style:name="T28" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="0029a2a8" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T29" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="002ace87" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="002c9e4c" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T30" style:family="text">
-   <style:text-properties fo:font-style="normal" officeooo:rsid="003082dd" style:font-style-asian="normal" style:font-style-complex="normal"/>
+   <style:text-properties fo:font-style="italic" officeooo:rsid="0014d3bb" style:font-style-asian="italic" style:font-style-complex="italic"/>
   </style:style>
   <style:style style:name="T31" style:family="text">
-   <style:text-properties officeooo:rsid="002ace87"/>
+   <style:text-properties fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="002259f3" style:font-style-asian="italic" style:font-weight-asian="normal" style:font-style-complex="italic" style:font-weight-complex="normal"/>
   </style:style>
   <style:style style:name="T32" style:family="text">
-   <style:text-properties officeooo:rsid="002c7a89"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0029a2a8" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T33" style:family="text">
-   <style:text-properties officeooo:rsid="002c9e4c"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="002ace87" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T34" style:family="text">
-   <style:text-properties officeooo:rsid="002e0ea2"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003082dd" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T35" style:family="text">
-   <style:text-properties officeooo:rsid="002e800c"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0038fa88" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T36" style:family="text">
-   <style:text-properties officeooo:rsid="002f91de"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0039dd2c" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T37" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003d5b9d" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T38" style:family="text">
-   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" fo:letter-spacing="normal" fo:font-weight="normal" officeooo:rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="003ecd05" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T39" style:family="text">
-   <style:text-properties fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="0014d3bb" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T40" style:family="text">
-   <style:text-properties officeooo:rsid="003082dd"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="002d05c6" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T41" style:family="text">
-   <style:text-properties officeooo:rsid="0031dbad"/>
+   <style:text-properties fo:font-style="normal" officeooo:rsid="001e2089" style:font-style-asian="normal" style:font-style-complex="normal"/>
   </style:style>
   <style:style style:name="T42" style:family="text">
-   <style:text-properties officeooo:rsid="0032e325"/>
+   <style:text-properties fo:font-style="normal" fo:font-weight="bold" officeooo:rsid="0038fa88" style:font-style-asian="normal" style:font-weight-asian="bold" style:font-style-complex="normal" style:font-weight-complex="bold"/>
+  </style:style>
+  <style:style style:name="T43" style:family="text">
+   <style:text-properties officeooo:rsid="002ace87"/>
+  </style:style>
+  <style:style style:name="T44" style:family="text">
+   <style:text-properties officeooo:rsid="002c7a89"/>
+  </style:style>
+  <style:style style:name="T45" style:family="text">
+   <style:text-properties officeooo:rsid="002c9e4c"/>
+  </style:style>
+  <style:style style:name="T46" style:family="text">
+   <style:text-properties officeooo:rsid="002e0ea2"/>
+  </style:style>
+  <style:style style:name="T47" style:family="text">
+   <style:text-properties officeooo:rsid="002e800c"/>
+  </style:style>
+  <style:style style:name="T48" style:family="text">
+   <style:text-properties officeooo:rsid="002f91de"/>
+  </style:style>
+  <style:style style:name="T49" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman1" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="T50" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman1" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T51" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman1" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003ecd05" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T52" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman1" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="003cfa13"/>
+  </style:style>
+  <style:style style:name="T53" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman1" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="normal" fo:font-weight="normal" officeooo:rsid="0038fa88"/>
+  </style:style>
+  <style:style style:name="T54" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" fo:letter-spacing="normal"/>
+  </style:style>
+  <style:style style:name="T55" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" fo:letter-spacing="normal" fo:font-weight="normal" officeooo:rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T56" style:family="text">
+   <style:text-properties fo:font-variant="normal" fo:text-transform="none" fo:color="#323232" loext:opacity="100%" fo:letter-spacing="normal" officeooo:rsid="003cfa13"/>
+  </style:style>
+  <style:style style:name="T57" style:family="text">
+   <style:text-properties fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman1" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="italic" fo:font-weight="normal"/>
+  </style:style>
+  <style:style style:name="T58" style:family="text">
+   <style:text-properties fo:color="#323232" loext:opacity="100%" style:font-name="Times New Roman1" fo:font-size="12pt" fo:letter-spacing="normal" fo:font-style="italic" fo:font-weight="normal" officeooo:rsid="002259f3" style:font-weight-asian="normal" style:font-weight-complex="normal"/>
+  </style:style>
+  <style:style style:name="T59" style:family="text">
+   <style:text-properties officeooo:rsid="0031dbad"/>
+  </style:style>
+  <style:style style:name="T60" style:family="text">
+   <style:text-properties officeooo:rsid="0034d671"/>
+  </style:style>
+  <style:style style:name="T61" style:family="text">
+   <style:text-properties officeooo:rsid="00358d0c"/>
+  </style:style>
+  <style:style style:name="T62" style:family="text">
+   <style:text-properties officeooo:rsid="003760d2"/>
+  </style:style>
+  <style:style style:name="T63" style:family="text">
+   <style:text-properties officeooo:rsid="00377a43"/>
+  </style:style>
+  <style:style style:name="T64" style:family="text">
+   <style:text-properties officeooo:rsid="00378a70"/>
+  </style:style>
+  <style:style style:name="T65" style:family="text">
+   <style:text-properties officeooo:rsid="00381f3f"/>
+  </style:style>
+  <style:style style:name="T66" style:family="text">
+   <style:text-properties officeooo:rsid="0038fa88"/>
+  </style:style>
+  <style:style style:name="T67" style:family="text">
+   <style:text-properties officeooo:rsid="0039dd2c"/>
+  </style:style>
+  <style:style style:name="T68" style:family="text">
+   <style:text-properties officeooo:rsid="003a4e7e"/>
+  </style:style>
+  <style:style style:name="T69" style:family="text">
+   <style:text-properties officeooo:rsid="003b8bcc"/>
+  </style:style>
+  <style:style style:name="T70" style:family="text">
+   <style:text-properties officeooo:rsid="003cfa13"/>
+  </style:style>
+  <style:style style:name="T71" style:family="text">
+   <style:text-properties officeooo:rsid="003d5b9d"/>
+  </style:style>
+  <style:style style:name="T72" style:family="text">
+   <style:text-properties officeooo:rsid="003ec039"/>
+  </style:style>
+  <style:style style:name="T73" style:family="text">
+   <style:text-properties officeooo:rsid="003ecd05"/>
+  </style:style>
+  <style:style style:name="T74" style:family="text">
+   <style:text-properties officeooo:rsid="00405234"/>
+  </style:style>
+  <style:style style:name="T75" style:family="text">
+   <style:text-properties officeooo:rsid="0038df88"/>
+  </style:style>
+  <style:style style:name="T76" style:family="text">
+   <style:text-properties style:font-name="Times New Roman"/>
+  </style:style>
+  <style:style style:name="T77" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0004b90e"/>
+  </style:style>
+  <style:style style:name="T78" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="001e2089"/>
+  </style:style>
+  <style:style style:name="T79" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="001e2aae"/>
+  </style:style>
+  <style:style style:name="T80" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0031f748"/>
+  </style:style>
+  <style:style style:name="T81" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0020b407"/>
+  </style:style>
+  <style:style style:name="T82" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002b2b77"/>
+  </style:style>
+  <style:style style:name="T83" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0021dc50"/>
+  </style:style>
+  <style:style style:name="T84" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00215c46"/>
+  </style:style>
+  <style:style style:name="T85" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="001fdae5"/>
+  </style:style>
+  <style:style style:name="T86" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0036d241"/>
+  </style:style>
+  <style:style style:name="T87" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="003b2fb7"/>
+  </style:style>
+  <style:style style:name="T88" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00279416"/>
+  </style:style>
+  <style:style style:name="T89" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00274220"/>
+  </style:style>
+  <style:style style:name="T90" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00398c0b"/>
+  </style:style>
+  <style:style style:name="T91" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002800b8"/>
+  </style:style>
+  <style:style style:name="T92" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00298f59"/>
+  </style:style>
+  <style:style style:name="T93" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002e425c"/>
+  </style:style>
+  <style:style style:name="T94" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="003037df"/>
+  </style:style>
+  <style:style style:name="T95" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00375c11"/>
+  </style:style>
+  <style:style style:name="T96" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="000f1991"/>
+  </style:style>
+  <style:style style:name="T97" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="000d5a1d"/>
+  </style:style>
+  <style:style style:name="T98" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00100680"/>
+  </style:style>
+  <style:style style:name="T99" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="00135e56"/>
+  </style:style>
+  <style:style style:name="T100" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0017249a"/>
+  </style:style>
+  <style:style style:name="T101" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0033993b"/>
+  </style:style>
+  <style:style style:name="T102" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="001c9da6"/>
+  </style:style>
+  <style:style style:name="T103" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0026996b"/>
+  </style:style>
+  <style:style style:name="T104" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-style="italic"/>
+  </style:style>
+  <style:style style:name="T105" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" fo:font-style="italic" officeooo:rsid="001c9da6" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T106" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0023ab80"/>
+  </style:style>
+  <style:style style:name="T107" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="002429a9"/>
+  </style:style>
+  <style:style style:name="T108" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0024af7f"/>
+  </style:style>
+  <style:style style:name="T109" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0005d6d4"/>
+  </style:style>
+  <style:style style:name="T110" style:family="text">
+   <style:text-properties style:font-name="Times New Roman" officeooo:rsid="0034ee9b"/>
+  </style:style>
+  <style:style style:name="T111" style:family="text">
+   <style:text-properties officeooo:rsid="002b2b77"/>
+  </style:style>
+  <style:style style:name="T112" style:family="text">
+   <style:text-properties officeooo:rsid="002d05c6"/>
+  </style:style>
+  <style:style style:name="T113" style:family="text">
+   <style:text-properties officeooo:rsid="0014d3bb"/>
+  </style:style>
+  <style:style style:name="T114" style:family="text">
+   <style:text-properties officeooo:rsid="0004b90e"/>
+  </style:style>
+  <style:style style:name="T115" style:family="text">
+   <style:text-properties officeooo:rsid="00100680"/>
+  </style:style>
+  <style:style style:name="T116" style:family="text">
+   <style:text-properties officeooo:rsid="0011f74b"/>
+  </style:style>
+  <style:style style:name="T117" style:family="text">
+   <style:text-properties officeooo:rsid="00168599"/>
+  </style:style>
+  <style:style style:name="T118" style:family="text">
+   <style:text-properties officeooo:rsid="0017249a"/>
+  </style:style>
+  <style:style style:name="T119" style:family="text">
+   <style:text-properties officeooo:rsid="0017fa9f"/>
+  </style:style>
+  <style:style style:name="T120" style:family="text">
+   <style:text-properties officeooo:rsid="002e425c"/>
+  </style:style>
+  <style:style style:name="T121" style:family="text">
+   <style:text-properties officeooo:rsid="00172b99"/>
+  </style:style>
+  <style:style style:name="T122" style:family="text">
+   <style:text-properties officeooo:rsid="0019a8a9"/>
+  </style:style>
+  <style:style style:name="T123" style:family="text">
+   <style:text-properties officeooo:rsid="001b4121"/>
+  </style:style>
+  <style:style style:name="T124" style:family="text">
+   <style:text-properties officeooo:rsid="003b2fb7"/>
+  </style:style>
+  <style:style style:name="T125" style:family="text">
+   <style:text-properties officeooo:rsid="0006a7b5"/>
+  </style:style>
+  <style:style style:name="T126" style:family="text">
+   <style:text-properties officeooo:rsid="0007c821"/>
+  </style:style>
+  <style:style style:name="T127" style:family="text">
+   <style:text-properties officeooo:rsid="00135e56"/>
+  </style:style>
+  <style:style style:name="T128" style:family="text">
+   <style:text-properties officeooo:rsid="0033993b"/>
+  </style:style>
+  <style:style style:name="T129" style:family="text">
+   <style:text-properties officeooo:rsid="0034ee9b"/>
+  </style:style>
+  <style:style style:name="T130" style:family="text">
+   <style:text-properties officeooo:rsid="0036d241"/>
+  </style:style>
+  <style:style style:name="T131" style:family="text">
+   <style:text-properties style:font-name="Liberation Serif"/>
+  </style:style>
+  <style:style style:name="T132" style:family="text">
+   <style:text-properties style:font-name="Liberation Serif" fo:font-style="normal" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T133" style:family="text">
+   <style:text-properties style:font-name="Liberation Serif" fo:font-style="normal" officeooo:rsid="001bd630" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T134" style:family="text">
+   <style:text-properties style:font-name="Liberation Serif" fo:font-style="italic" style:font-style-asian="italic" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T135" style:family="text">
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" fo:font-style="normal" style:letter-kerning="true" style:font-name-asian="NSimSun" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="normal" style:font-name-complex="Arial" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T136" style:family="text">
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" fo:font-style="italic" style:letter-kerning="true" style:font-name-asian="NSimSun" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-style-asian="italic" style:font-name-complex="Arial" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN" style:font-style-complex="italic"/>
+  </style:style>
+  <style:style style:name="T137" style:family="text">
+   <style:text-properties style:use-window-font-color="true" loext:opacity="0%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:language="en" fo:country="US" style:letter-kerning="true" style:font-name-asian="NSimSun" style:font-size-asian="12pt" style:language-asian="zh" style:country-asian="CN" style:font-name-complex="Arial" style:font-size-complex="12pt" style:language-complex="hi" style:country-complex="IN"/>
+  </style:style>
+  <style:style style:name="T138" style:family="text">
+   <style:text-properties style:text-position="0% 100%" style:font-name="Liberation Serif" fo:font-size="12pt" fo:font-style="normal" style:font-size-asian="12pt" style:font-style-asian="normal" style:font-style-complex="normal"/>
+  </style:style>
+  <style:style style:name="T139" style:family="text">
+   <style:text-properties officeooo:rsid="001bd630"/>
+  </style:style>
+  <style:style style:name="T140" style:family="text">
+   <style:text-properties officeooo:rsid="001265ae"/>
+  </style:style>
+  <style:style style:name="T141" style:family="text">
+   <style:text-properties officeooo:rsid="00114e41"/>
+  </style:style>
+  <style:style style:name="T142" style:family="text">
+   <style:text-properties officeooo:rsid="0041eb96"/>
   </style:style>
   <style:page-layout style:name="pm1">
-   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:footnote-max-height="0in">
+   <style:page-layout-properties fo:page-width="8.5in" fo:page-height="11in" style:num-format="1" style:print-orientation="portrait" fo:margin-top="0.7874in" fo:margin-bottom="0.7874in" fo:margin-left="0.7874in" fo:margin-right="0.7874in" style:writing-mode="lr-tb" style:layout-grid-color="#c0c0c0" style:layout-grid-lines="20" style:layout-grid-base-height="0.278in" style:layout-grid-ruby-height="0.139in" style:layout-grid-mode="none" style:layout-grid-ruby-below="false" style:layout-grid-print="false" style:layout-grid-display="false" style:footnote-max-height="0in">
     <style:footnote-sep style:width="0.0071in" style:distance-before-sep="0.0398in" style:distance-after-sep="0.0398in" style:line-style="solid" style:adjustment="left" style:rel-width="25%" style:color="#000000"/>
    </style:page-layout-properties>
    <style:header-style/>
@@ -445,73 +888,155 @@
     <text:sequence-decl text:display-outline-level="0" text:name="Drawing"/>
     <text:sequence-decl text:display-outline-level="0" text:name="Figure"/>
    </text:sequence-decls>
-   <text:p text:style-name="P1">Adam Karl</text:p>
-   <text:p text:style-name="P1">4 Dec 2020</text:p>
-   <text:p text:style-name="P1">Professor William Kirchner</text:p>
-   <text:p text:style-name="P1">ENGCMP0200</text:p>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P3">During the annual count on a night in January 2020, 887 homeless people were counted in Allegheny County</text:p>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P10">DOMESTIC VIOLENCE</text:p>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P11">In 2005, half of U.S. cities </text:p>
-   <text:p text:style-name="P11">According to the ACLU, </text:p>
-   <text:p text:style-name="P12"><text:span text:style-name="T21">The ACLU also cites a few independent studies that </text:span><text:span text:style-name="T22">indicate 44-46% of homeless women had delayed leaving a relationshi</text:span><text:span text:style-name="T36">p</text:span><text:span text:style-name="T22"> because they had nowhere else to go, and half of U.S. cities </text:span><text:span text:style-name="T36">that ran studies</text:span><text:span text:style-name="T22"> (Pittsburgh unfortunately not among the group) reported domestic violence as a primary cause of homelessness.</text:span><text:span text:style-name="T42">s</text:span></text:p>
-   <text:p text:style-name="P15"><text:span text:style-name="T21">(</text:span><text:span text:style-name="T14">“Domestic Violence and Homelessness.”</text:span><text:span text:style-name="T21">)</text:span></text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P13"><text:span text:style-name="T22">It would stand to reason that a the existence and awareness of decent short-term housing would also encourage people in similar abusive households </text:span></text:p>
-   <text:p text:style-name="P11"/>
-   <text:p text:style-name="P10"/>
-   <text:p text:style-name="P1">https://joinpdx.org/domestic-violence-contributes-to-homelessness-among-women/</text:p>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P1"/>
-   <text:p text:style-name="P2">Investing in this kind of short-term shelters for the non-chronic homeless has the added benefit of </text:p>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P10">PRISONERS</text:p>
-   <text:p text:style-name="P2">https://www.voa.org/homelessness-and-prisoner-reentry</text:p>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P2"/>
-   <text:p text:style-name="P4">In July 2017, Allegheny County published a five year strategy to decrease the homeless population.</text:p>
-   <text:p text:style-name="P4"/>
-   <text:p text:style-name="P9"><text:span text:style-name="T1"><text:tab/>Part of the </text:span><text:span text:style-name="T2">plan involved </text:span><text:span text:style-name="T19">increased support of the</text:span><text:span text:style-name="T2"> Allegheny County Homeless Advisory Board (HAB) </text:span><text:span text:style-name="T19">which includes</text:span><text:span text:style-name="T2"> different private and public organizations </text:span><text:span text:style-name="T4">including the regional Continuum of Care (CoC), part of a nationwide homeless assistance group. </text:span><text:span text:style-name="T2"><text:s/></text:span><text:span text:style-name="T4">The CoC-HAB board was meant </text:span><text:span text:style-name="T2">to coordinate </text:span><text:span text:style-name="T3">research into </text:span><text:span text:style-name="T4">Allegheny County</text:span><text:span text:style-name="T3"> homelessness along with implementing solutions, </text:span><text:span text:style-name="T32">and 46% of the funding dispersed by the 2017 plan.</text:span></text:p>
-   <text:p text:style-name="P5"><text:soft-page-break/></text:p>
-   <text:p text:style-name="P5"/>
-   <text:p text:style-name="P5"><text:span text:style-name="T3">The board is meant to meet for two hours once every two months, but </text:span></text:p>
-   <text:p text:style-name="P4"/>
-   <text:p text:style-name="P16"><text:span text:style-name="T2"><text:tab/>The minutes of their March 21, </text:span><text:span text:style-name="T4">2020 </text:span><text:span text:style-name="T18">meeting</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T3">depict a frustrating</text:span><text:span text:style-name="T2"> lack of progress. </text:span><text:span text:style-name="T3">Since the previous meeting, the only measurable update was creating three hygeine stations, </text:span><text:span text:style-name="T19">including </text:span><text:span text:style-name="T3">mobile bathrooms and handwashing. </text:span><text:span text:style-name="T5">Most of the meeting discussed a </text:span><text:span text:style-name="T6">previously-discussed</text:span><text:span text:style-name="T5"> plan </text:span><text:span text:style-name="T6">to utilize Pittsburgh hotels as quarantine facilities to mitigate the spread of COVID-19 and other contagious diseases. However, the plan fell through as “o</text:span><text:span text:style-name="T7">utreach </text:span><text:span text:style-name="T8">[was]</text:span><text:span text:style-name="T7"> done with hotels across the area, but many declined participation due to the individuals that would be served.</text:span><text:span text:style-name="T6">” </text:span><text:span text:style-name="T41">(“HAB/CoC Bi-Monthly Meeting.”)</text:span></text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T20"><text:tab/>While obviously it would be nice if more businesses would charitably contribute to the cause, </text:span><text:span text:style-name="T19">I’m </text:span><text:span text:style-name="T20">personally</text:span><text:span text:style-name="T19"> </text:span><text:span text:style-name="T20">far more </text:span><text:span text:style-name="T19">disappointed to find that a supposedly county-backed committee is reduced to hardly more than politely asking </text:span><text:span text:style-name="T20">for help. </text:span><text:span text:style-name="T18">That meeting in March </text:span><text:span text:style-name="T19">2020</text:span><text:span text:style-name="T18"> was the last documented meeting of the CoC-HAB. An agenda for a scheduled May meeting </text:span><text:span text:style-name="T19">was posted, but since then has been the largest gap in updates since the board formed in 2011. It is safe to assume the pandemic has had some impact on the group’s functionality, but since the March meeting was already virtual I don’t believe it’s reasonable to attribute the board’s silence entirely on COVID-19. </text:span></text:p>
-   <text:p text:style-name="P16"><text:span text:style-name="T6"><text:tab/>The board also worked with the Urban Redevelopment Authority to launch the Housing Stabilization Program, </text:span><text:span text:style-name="T9">a form of short-term affordable housing </text:span><text:span text:style-name="T10">for those in crisis</text:span><text:span text:style-name="T9">. However, the project was once again immediately interrupted, as the </text:span><text:span text:style-name="T10">number of applicants in the first week overwhelmed the system so much that new applications had to be refused until the backlog was dealt with </text:span><text:span text:style-name="T20">(</text:span><text:span text:style-name="T41">HAB/CoC Bi-Monthly Meeting.”</text:span><text:span text:style-name="T20">)</text:span><text:span text:style-name="T10">. Nearly nine months later, the application process is still closed, and the website has not been updated since the end of August </text:span><text:span text:style-name="T9">(“Housing Opportunity Fund Programs”).</text:span></text:p>
-   <text:p text:style-name="P6"/>
-   <text:p text:style-name="P15"><text:tab/><text:span text:style-name="T24">At face value, Allegheny Count</text:span><text:span text:style-name="T31">y</text:span><text:span text:style-name="T24">’s </text:span><text:span text:style-name="T31">July</text:span><text:span text:style-name="T24"> 2017 plan seems decently comprehensive, </text:span><text:span text:style-name="T31">nuanced,</text:span><text:span text:style-name="T24"> and adequate. Perhaps I would mildly criticize it for focusing too heavily on chronic homeless over short-term crisis sheltering, especially when such programs actually </text:span><text:span text:style-name="T26">decreased</text:span><text:span text:style-name="T28"> shelter beds from 2016 to 2017 (</text:span><text:span text:style-name="T30">Deto</text:span><text:span text:style-name="T28">). A plan to </text:span><text:span text:style-name="T29">assist both</text:span><text:span text:style-name="T28"> types of homelessness is necessary, but </text:span><text:span text:style-name="T29">it has historically been difficult to make long-term progress</text:span><text:span text:style-name="T28"> </text:span><text:span text:style-name="T29"><text:s/>with the</text:span><text:span text:style-name="T28"> chronic homeless </text:span><text:span text:style-name="T29">without addressing the serious mental illnesses and/or addictions that define much of the demographic</text:span><text:span text:style-name="T28"> </text:span><text:span text:style-name="T29">(</text:span><text:span text:style-name="T28">“The Homeless Mentally Ill”</text:span><text:span text:style-name="T29">).</text:span></text:p>
-   <text:p text:style-name="P14"><text:span text:style-name="T29"/></text:p>
-   <text:p text:style-name="P14"><text:span text:style-name="T29"><text:tab/>However, </text:span></text:p>
-   <text:p text:style-name="P6"/>
-   <text:p text:style-name="P6"><text:tab/><text:span text:style-name="T21">If Allegheny County </text:span><text:span text:style-name="T22">is serious about</text:span><text:span text:style-name="T21"> combat</text:span><text:span text:style-name="T22">ing</text:span><text:span text:style-name="T21"> homelessness, it is crucial that </text:span><text:span text:style-name="T22">we prioritize research into the </text:span><text:span text:style-name="T23">causes and extensiveness of homelessness in Pittsburgh, </text:span><text:span text:style-name="T35">as well as the short and long term effects of existing homeless programs</text:span><text:span text:style-name="T23">. </text:span><text:span text:style-name="T22">Several times throughout this paper I have been forced to </text:span><text:span text:style-name="T23">appropriate</text:span><text:span text:style-name="T22"> national statistics </text:span><text:span text:style-name="T23">to guess about the Pittsburgh homeless population, as no serious studies have been done in Pittsburgh in at least the last 30 years. </text:span><text:span text:style-name="T33">The </text:span><text:span text:style-name="T13">only</text:span><text:span text:style-name="T15"> homelessness statistic</text:span><text:span text:style-name="T33"> the county tracks is the total number of homeless in the city, which is calculated once a year on a night in January. </text:span><text:span text:style-name="T35">With such a lack of information, it is simply not possible to predict with certainty whether the most effective investment is in food short-term crisis housing, long-term affordable housing, veteran programs, soup kitchens, or psychiatric care.</text:span></text:p>
-   <text:p text:style-name="P6"/>
-   <text:p text:style-name="P7"><text:span text:style-name="T5"><text:tab/>Additionally, I would like to advocate for the funding of a m</text:span><text:span text:style-name="T32">eager</text:span><text:span text:style-name="T5"> advertising campaign to raise awareness of </text:span><text:span text:style-name="T32">the services available to Pittsburgh residents at</text:span><text:span text:style-name="T5"> local homeless shelters and </text:span><text:span text:style-name="T32">centers</text:span><text:span text:style-name="T5">. </text:span><text:span text:style-name="T20">Even the most basic informational posters on bus stops could be enough to just make more people aware that such services exist, and could be sought after should the need arise. </text:span><text:span text:style-name="T32">This could help redirect people to these services, and as previously discussed, </text:span><text:span text:style-name="T34">encourage</text:span><text:span text:style-name="T32"> people remain trapped in abusive relationships </text:span><text:soft-page-break/><text:span text:style-name="T34">to look to the shelters as an alternative. Thus, g</text:span><text:span text:style-name="T5">reater awareness of temporary and/or emergency s</text:span><text:span text:style-name="T32">e</text:span><text:span text:style-name="T34">rvices</text:span><text:span text:style-name="T5"> </text:span><text:span text:style-name="T34">could potentially</text:span><text:span text:style-name="T32"> result in a </text:span><text:span text:style-name="T33">brief uptick in the number of </text:span><text:span text:style-name="T34">non-chronic, transitional homeless as more people utilize them. This is precisely another reason that more research should be done into the effectiveness of homeless programs in the county; the current system could only perceive the uptick as failed policy leading to increased homelessness, while no rational person would </text:span><text:span text:style-name="T35">criticize a program that temporarily shelters people from abuse while they transition to independent living.</text:span></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T11"><text:tab/>The people, organizations, and plans are all already in place to effectively combat homelessness; the only thing they are missing is </text:span><text:span text:style-name="T35">the research and</text:span><text:span text:style-name="T11"> the funding. Even a modest investment in homeless services (and awareness of those services) could serve to reduce the homeless population in Allegheny County </text:span><text:span text:style-name="T14">as well as </text:span><text:span text:style-name="T17">assist</text:span><text:span text:style-name="T14"> of people stuck in abusive households and reduce incarceration </text:span><text:span text:style-name="T16">(or re-incarceration)</text:span><text:span text:style-name="T14"> rate.</text:span></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T14"/></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T14"/></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T14"/></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T14"/></text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T14"/></text:p>
-   <text:p text:style-name="P8">Deto, Ryan. “How Pittsburgh Is Attempting to Lower and Help Its Homeless Population.” <text:span text:style-name="T25">Pittsburgh <text:tab/>City Paper</text:span>, Pittsburgh City Paper, 16 Nov. 2020, www.pghcitypaper.com/pittsburgh/how-<text:tab/>pittsburgh-is-attempting-to-lower-and-help-its-homeless-population/.</text:p>
-   <text:p text:style-name="P8"><text:span text:style-name="T14">“Domestic Violence and Homelessness.” </text:span><text:span text:style-name="T27">American Civil Liberties Union</text:span><text:span text:style-name="T14">, 2020, <text:tab/>www.aclu.org/other/domestic-violence-and-homelessness</text:span><text:span text:style-name="T14">.</text:span></text:p>
-   <text:p text:style-name="P8">“HAB/CoC Bi-Monthly Meeting.” <text:span text:style-name="T25">Continuum of Care/Homeless Advisory Board</text:span>, 30 Mar. 2020, <text:tab/>www.alleghenycounty.us/Human-Services/About/Advisory-Bodies/HA/Meeting-Minutes.aspx.</text:p>
-   <text:p text:style-name="P8">“Housing Opportunity Fund Programs.” <text:span text:style-name="T25">The Urban Redevelopment Authority</text:span>, <text:tab/>www.ura.org/pages/housing-opportunity-fund-programs.</text:p>
-   <text:p text:style-name="P8">“The Homeless Mentally Ill.” <text:span text:style-name="T25">Harvard Health</text:span>, Harvard Health Publishing, Mar. 2014, <text:tab/>www.health.harvard.edu/newsletter_article/The_homeless_mentally_ill.</text:p>
-   <text:p text:style-name="P8"/>
+   <text:p text:style-name="P25">Adam Karl</text:p>
+   <text:p text:style-name="P26">Professor William Kirchner</text:p>
+   <text:p text:style-name="P26">ENGCMP0200</text:p>
+   <text:p text:style-name="P25">4 Dec<text:span text:style-name="T142">ember</text:span> 2020</text:p>
+   <text:p text:style-name="P27"><text:span text:style-name="T73">Combating </text:span>Homelessness in Allegheny County</text:p>
+   <text:p text:style-name="P25"/>
+   <text:p text:style-name="P25"/>
+   <text:p text:style-name="P28"><text:span text:style-name="T1"><text:tab/></text:span><text:span text:style-name="T71">It’s not possible to walk </text:span><text:span text:style-name="T72">down Forbes Avenue without seeing homeless people. </text:span><text:span text:style-name="T2">During </text:span><text:span text:style-name="T71">a </text:span><text:span text:style-name="T73">single night</text:span><text:span text:style-name="T2"> </text:span><text:span text:style-name="T68">count </text:span><text:span text:style-name="T2">in January 2020, 887 homeless people were </text:span><text:span text:style-name="T68">accounted for</text:span><text:span text:style-name="T2"> in Allegheny County </text:span><text:span text:style-name="T73">(</text:span><text:span text:style-name="T55">“</text:span><text:span text:style-name="T50">Allegheny County Point-in-Time Homelessness Data, 2020.”</text:span><text:span text:style-name="T51">)</text:span><text:span text:style-name="T2">. </text:span><text:span text:style-name="T73">On a personal level I find it distressing to see so many people in need with no real way to help them. </text:span><text:span text:style-name="T74">Instead of focusing on the empathetic motivations behind helping the homeless, I will examine the types of homelessness and shortcomings in local plans before concluding that aiding the homeless would additionally aid other social issues in Allegheny County.</text:span></text:p>
+   <text:p text:style-name="P29"><text:span text:style-name="T22"><text:tab/></text:span><text:span text:style-name="T60">Domestic violence and emotional abuse victims make up a considerable portion of the homeless population. </text:span><text:span text:style-name="T69">According to the National Coalition Against Domestic Violence, </text:span><text:span text:style-name="T70">37.7% of Pennsylvania </text:span><text:span text:style-name="T69"><text:s/>women and </text:span><text:span text:style-name="T70">27.5% of Pennsylvania</text:span><text:span text:style-name="T69"> men will experience severe physical violence from their partner in their lifetime </text:span><text:span text:style-name="T70">(</text:span><text:span text:style-name="T56">“</text:span><text:span text:style-name="T52">State-by-State Statistics on Domestic Violence”</text:span><text:span text:style-name="T70">)</text:span><text:span text:style-name="T69">. </text:span><text:span text:style-name="T70">The</text:span><text:span text:style-name="T69"> American Civil Liberties Union (ACLU) </text:span><text:span text:style-name="T70">states that</text:span><text:span text:style-name="T69"> abusers often exercise control over their partners and </text:span><text:span text:style-name="T70">isolate them from support networks, so victims often feel trapped between an abusive partner and living on the streets. They cite</text:span><text:span text:style-name="T23"> a few independent studies that </text:span><text:span text:style-name="T24">indicate 44-46% of homeless women had delayed leaving a relationshi</text:span><text:span text:style-name="T48">p</text:span><text:span text:style-name="T24"> because they had nowhere else to go, and half of U.S. cities </text:span><text:span text:style-name="T48">that ran studies</text:span><text:span text:style-name="T24"> (Pittsburgh unfortunately not among the group) reported domestic violence as a primary cause of homelessness. </text:span><text:span text:style-name="T23">(</text:span><text:span text:style-name="T16">“Domestic Violence and Homelessness.”</text:span><text:span text:style-name="T23">)</text:span></text:p>
+   <text:p text:style-name="P30"><text:span text:style-name="T22"><text:tab/></text:span><text:span text:style-name="T65">Every year 9 million people are released from jail in the United States, and another 700,</text:span><text:span text:style-name="T67">000</text:span><text:span text:style-name="T65"> from state prisons. </text:span><text:span text:style-name="T66">Of these people, </text:span><text:span text:style-name="T42">ten percent </text:span><text:span text:style-name="T35">experience homelessness before and/or after their incarceration. </text:span><text:span text:style-name="T38">Mental health issues are very common among the homeless population, and twenty percent of </text:span><text:span text:style-name="T37">ex-offenders</text:span><text:span text:style-name="T35"> with additional mental health issues </text:span><text:span text:style-name="T38">will experience similar homelessness before or after incarceration</text:span><text:span text:style-name="T35">. </text:span><text:span text:style-name="T65">(</text:span><text:span text:style-name="T49">McKernan, Patricia</text:span><text:span text:style-name="T65">)</text:span></text:p>
+   <text:p text:style-name="P31"><text:span text:style-name="T66"><text:tab/>The U.S. Department of Housing and Urban Development defines “chronically homeless” as anyone who has been homeless for over a year, or who has been homeless on at least four separate occurrences over the last three years (</text:span><text:span text:style-name="T53">McKernan, Patricia</text:span><text:span text:style-name="T66">). </text:span><text:span text:style-name="T71">Under this definition, domestic violence and abuse victims are unlikely to classify as chronic homeless, while ex-offenders and/or those with mental health issues are more likely to classify as chronically homeless. Different strategies are necessary to understand and combat each kind of homelessness in Allegheny County.</text:span></text:p>
+   <text:p text:style-name="P32"><text:span text:style-name="T3"><text:tab/>In July 2017, Allegheny County published a five year strategy to decrease the homeless population. </text:span><text:span text:style-name="T71">A large p</text:span><text:span text:style-name="T3">art of the </text:span><text:span text:style-name="T4">plan involved </text:span><text:span text:style-name="T21">increased support of the</text:span><text:span text:style-name="T4"> Allegheny County Homeless Advisory Board (HAB) </text:span><text:span text:style-name="T21">which includes</text:span><text:span text:style-name="T4"> different private and public organizations </text:span><text:span text:style-name="T6">including the regional Continuum of Care (CoC), part of a nationwide homeless assistance group. </text:span><text:span text:style-name="T4"><text:s/></text:span><text:span text:style-name="T6">The CoC-HAB board was meant </text:span><text:span text:style-name="T4">to coordinate </text:span><text:span text:style-name="T5">research into </text:span><text:span text:style-name="T6">Allegheny County</text:span><text:span text:style-name="T5"> homelessness along with implementing solutions, </text:span><text:span text:style-name="T44">and 46% of the funding dispersed by the 2017 plan.</text:span></text:p>
+   <text:p text:style-name="P33"><text:span text:style-name="T5"><text:tab/>The board is meant to meet for two hours once every two months, but </text:span><text:span text:style-name="T73">has recently been struggling to make headway. </text:span><text:span text:style-name="T4">The minutes of their March 21, </text:span><text:span text:style-name="T6">2020 </text:span><text:span text:style-name="T20">meeting</text:span><text:span text:style-name="T4"> </text:span><text:span text:style-name="T5">depict a frustrating</text:span><text:span text:style-name="T4"> lack of progress. </text:span><text:span text:style-name="T5">Since the previous meeting, the only measurable update was creating three hygeine stations, </text:span><text:span text:style-name="T21">including </text:span><text:span text:style-name="T5">mobile bathrooms and handwashing. </text:span><text:span text:style-name="T7">Most of the meeting discussed a </text:span><text:span text:style-name="T8">previously-discussed</text:span><text:span text:style-name="T7"> plan </text:span><text:span text:style-name="T8">to utilize Pittsburgh hotels as quarantine facilities to mitigate the spread of COVID-19 and other contagious diseases. However, the plan fell through as “o</text:span><text:span text:style-name="T9">utreach </text:span><text:span text:style-name="T10">[was]</text:span><text:span text:style-name="T9"> done with hotels across the area, but many declined participation due to the individuals that would be served.</text:span><text:span text:style-name="T8">” </text:span><text:span text:style-name="T59">(“HAB/CoC Bi-Monthly Meeting.”)</text:span></text:p>
+   <text:p text:style-name="P34"><text:soft-page-break/><text:span text:style-name="T22"><text:tab/>While obviously it would be nice if more businesses would charitably contribute to the cause, </text:span><text:span text:style-name="T21">I’m </text:span><text:span text:style-name="T22">personally</text:span><text:span text:style-name="T21"> </text:span><text:span text:style-name="T22">far more </text:span><text:span text:style-name="T21">disappointed to find that a supposedly county-backed committee is reduced to hardly more than politely asking </text:span><text:span text:style-name="T22">for help. </text:span><text:span text:style-name="T20">That meeting in March </text:span><text:span text:style-name="T21">2020</text:span><text:span text:style-name="T20"> was the last documented meeting of the CoC-HAB. An agenda for a scheduled May meeting </text:span><text:span text:style-name="T21">was posted, but since then has been the largest gap in updates since the board formed in 2011. It is safe to assume the pandemic has had some impact on the group’s functionality, but since the March meeting was already virtual I don’t believe it’s reasonable to attribute the board’s silence entirely on COVID-19. </text:span></text:p>
+   <text:p text:style-name="P34"><text:span text:style-name="T8"><text:tab/>The board also worked with the Urban Redevelopment Authority to launch the Housing Stabilization Program, </text:span><text:span text:style-name="T11">a form of short-term affordable housing </text:span><text:span text:style-name="T12">for those in crisis</text:span><text:span text:style-name="T11">. However, the project was once again immediately interrupted, as the </text:span><text:span text:style-name="T12">number of applicants in the first week overwhelmed the system so much that new applications had to be refused until the backlog was dealt with </text:span><text:span text:style-name="T22">(</text:span><text:span text:style-name="T59">HAB/CoC Bi-Monthly Meeting.”</text:span><text:span text:style-name="T22">)</text:span><text:span text:style-name="T12">. Nearly nine months later, the application process is still closed, and the website has not been updated since the end of August </text:span><text:span text:style-name="T11">(“Housing Opportunity Fund Programs”).</text:span></text:p>
+   <text:p text:style-name="P35"><text:tab/><text:span text:style-name="T26">At face value, Allegheny Count</text:span><text:span text:style-name="T43">y</text:span><text:span text:style-name="T26">’s </text:span><text:span text:style-name="T43">July</text:span><text:span text:style-name="T26"> 2017 plan seem</text:span><text:span text:style-name="T67">ed</text:span><text:span text:style-name="T26"> decently comprehensive, </text:span><text:span text:style-name="T43">nuanced,</text:span><text:span text:style-name="T26"> and adequate. Perhaps I would mildly criticize it for focusing too heavily on chronic homeless over short-term crisis sheltering, especially when such programs actually </text:span><text:span text:style-name="T29">decreased</text:span><text:span text:style-name="T32"> shelter beds from 2016 to 2017 (</text:span><text:span text:style-name="T34">Deto</text:span><text:span text:style-name="T32">). A plan to </text:span><text:span text:style-name="T33">assist both</text:span><text:span text:style-name="T32"> types of homelessness is necessary, but </text:span><text:span text:style-name="T33">it has historically been difficult to make long-term progress</text:span><text:span text:style-name="T32"> </text:span><text:span text:style-name="T33"><text:s/>with the</text:span><text:span text:style-name="T32"> chronic homeless </text:span><text:span text:style-name="T33">without addressing the serious mental illnesses and/or addictions that define much of the demographic</text:span><text:span text:style-name="T32"> </text:span><text:span text:style-name="T33">(</text:span><text:span text:style-name="T32">“The Homeless Mentally Ill”</text:span><text:span text:style-name="T33">). However, </text:span><text:span text:style-name="T35">the 2017 plan failed to produce any kind of research into Allegheny homeless, and the </text:span><text:span text:style-name="T36">organizations it planned to fund are left starved for support, and reduced to asking local businesses nicely for help.</text:span></text:p>
+   <text:p text:style-name="P36"><text:tab/><text:span text:style-name="T23">If Allegheny County </text:span><text:span text:style-name="T24">is serious about</text:span><text:span text:style-name="T23"> combat</text:span><text:span text:style-name="T24">ing</text:span><text:span text:style-name="T23"> homelessness, it is crucial that </text:span><text:span text:style-name="T24">we prioritize research into the </text:span><text:span text:style-name="T25">causes and extensiveness of homelessness in Pittsburgh, </text:span><text:span text:style-name="T47">as well as the short and long term effects of existing homeless programs</text:span><text:span text:style-name="T25">. </text:span><text:span text:style-name="T24">Several times throughout this paper I have been forced to </text:span><text:span text:style-name="T25">appropriate</text:span><text:span text:style-name="T24"> national statistics </text:span><text:span text:style-name="T25">to guess about the Pittsburgh homeless population, as no serious studies have been done in Pittsburgh in at least the last 30 years. </text:span><text:span text:style-name="T45">The </text:span><text:span text:style-name="T14">only</text:span><text:span text:style-name="T17"> homelessness statistic</text:span><text:span text:style-name="T45"> the county tracks is the total number of homeless in the city, which is calculated </text:span><text:span text:style-name="T60">only</text:span><text:span text:style-name="T45"> once </text:span><text:span text:style-name="T60">per</text:span><text:span text:style-name="T45"> year, </text:span><text:span text:style-name="T60">each</text:span><text:span text:style-name="T45"> January. </text:span><text:span text:style-name="T47">With such a lack of information, it is simply not possible to predict with certainty whether the most effective investment is in food short-term crisis housing, long-term affordable housing, veteran programs, soup kitchens, or psychiatric care. </text:span><text:span text:style-name="T60">Studies could also pinpoint the shelter and housing programs that are effective long-term, and prevent the cases where a homeless person is assisted, is able to find a long-term housing solution, but ultimately winds up homeless a few months or years later.</text:span></text:p>
+   <text:p text:style-name="P37"><text:tab/><text:span text:style-name="T64">The results of these studies, along with funding from the county, should be utilized by groups such as the regional </text:span><text:span text:style-name="T6">Continuum of Care, </text:span><text:span text:style-name="T64">Homeless Advisory Board, and Urban Redevelopment Authority to effectively maintain and create new solutions for short-term crisis housing, long-term affordable housing, and </text:span><text:span text:style-name="T67">whatever other services would be most effective. The county could also work with them to provide tax credit for businesses that assist them, which might’ve given them some leverage over the hotels they wanted to use to quarantine sick people.</text:span></text:p>
+   <text:p text:style-name="P36"><text:tab/><text:span text:style-name="T61">By far my most controversial suggestion is to aid </text:span><text:span text:style-name="T62">ex-offenders in re-entering the work force. This could be done by either providing tax incentives for companies hiring ex-offenders, or by classifying criminal history as protected information </text:span><text:span text:style-name="T67">under Equal Employment Opportunity</text:span><text:span text:style-name="T63">. I have worked several mediocre manual labor jobs (such as at warehouses), and it’s always absurd to me that people are routinely denied applications to stack boxes, or pack contents to ship, because they’re deemed unworthy due to some incident in their past. </text:span><text:span text:style-name="T65">These c</text:span><text:span text:style-name="T64">ompanies already get sizable tax breaks for hiring </text:span><text:span text:style-name="T65">disabled Americans, and increasing the reason to hire ex-offenders could cut down on a large portion of the homeless population.</text:span><text:span text:style-name="T63"> I’m willing to concede that some serious crimes such as embezzlement </text:span><text:span text:style-name="T64">should</text:span><text:span text:style-name="T63"> make an ex-convict </text:span><text:span text:style-name="T64">incapable of holding certain powerful positions, but for the </text:span><text:soft-page-break/><text:span text:style-name="T64">vast majority of offenses and jobs this simply isn’t the case. Homelessness is a nuanced topic, but it would be an injustice to not target the cause at one of its roots.</text:span></text:p>
+   <text:p text:style-name="P29"><text:span text:style-name="T7"><text:tab/></text:span><text:span text:style-name="T60">Finall</text:span><text:span text:style-name="T7">y, I would like to advocate for the funding of a m</text:span><text:span text:style-name="T44">eager</text:span><text:span text:style-name="T7"> advertising campaign to raise awareness of </text:span><text:span text:style-name="T44">the services available to Pittsburgh residents at</text:span><text:span text:style-name="T7"> local homeless shelters and </text:span><text:span text:style-name="T44">centers</text:span><text:span text:style-name="T7">. </text:span><text:span text:style-name="T22">Even the most basic informational posters on bus stops could be enough to just make more people aware that such services exist, and could be sought after should the need arise. </text:span><text:span text:style-name="T44">This could help redirect people to these services, and as previously discussed, </text:span><text:span text:style-name="T46">encourage</text:span><text:span text:style-name="T44"> people remain trapped in abusive relationships </text:span><text:span text:style-name="T46">to look to the shelters as an alternative. </text:span><text:span text:style-name="T24">It would stand to reason that a the existence and awareness of decent short-term, </text:span><text:span text:style-name="T69">transitional</text:span><text:span text:style-name="T24"> housing would also encourage people in similar abusive households </text:span><text:span text:style-name="T60">to leave their abusive partner</text:span><text:span text:style-name="T69">s.</text:span><text:span text:style-name="T46"> Thus, g</text:span><text:span text:style-name="T7">reater awareness of temporary and/or emergency s</text:span><text:span text:style-name="T44">e</text:span><text:span text:style-name="T46">rvices</text:span><text:span text:style-name="T7"> </text:span><text:span text:style-name="T46">could potentially</text:span><text:span text:style-name="T44"> result in a </text:span><text:span text:style-name="T45">brief uptick in the number of </text:span><text:span text:style-name="T46">non-chronic, transitional homeless as more people utilize them. This is precisely another reason that more research should be done into the effectiveness of homeless programs in the county; the current system could only perceive the uptick as failed policy leading to increased homelessness, while no rational person would </text:span><text:span text:style-name="T47">criticize a program that temporarily shelters people from abuse while they transition to independent living.</text:span></text:p>
+   <text:p text:style-name="P38"><text:span text:style-name="T13"><text:tab/>The people, organizations, and plans are all already in place to effectively combat homelessness; the only thing they are missing is </text:span><text:span text:style-name="T47">the research and</text:span><text:span text:style-name="T13"> funding. Even a modest investment in homeless services (and awareness of those services) could serve to reduce the homeless population in Allegheny County </text:span><text:span text:style-name="T16">as well as </text:span><text:span text:style-name="T19">assist</text:span><text:span text:style-name="T16"> of people stuck in abusive households and reduce incarceration </text:span><text:span text:style-name="T18">(or re-incarceration)</text:span><text:span text:style-name="T16"> rate.</text:span></text:p>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P16"/>
+   <text:p text:style-name="P40"><text:span text:style-name="T16">W</text:span><text:span text:style-name="T15">orks Cited</text:span></text:p>
+   <text:p text:style-name="P38"><text:span text:style-name="T55">“</text:span><text:span text:style-name="T50">Allegheny County Point-in-Time Homelessness Data, 2020.” </text:span><text:span text:style-name="T58">Allegheny County Analytics</text:span><text:span text:style-name="T50">, Allegheny <text:tab/>County Department of Human Services, 17 Aug. 2020, www.alleghenycountyanalytics.us/index.php/2020/08/17/allegheny-county-point-in-time-homelessness-data-2020/.</text:span><text:span text:style-name="T16"> </text:span></text:p>
+   <text:p text:style-name="P38">Deto, Ryan. “How Pittsburgh Is Attempting to Lower and Help Its Homeless Population.” <text:span text:style-name="T28">Pittsburgh <text:tab/>City Paper</text:span>, Pittsburgh City Paper, 16 Nov. 2020, www.pghcitypaper.com/pittsburgh/how-<text:tab/>pittsburgh-is-attempting-to-lower-and-help-its-homeless-population/.</text:p>
+   <text:p text:style-name="P38"><text:span text:style-name="T16">“Domestic Violence and Homelessness.” </text:span><text:span text:style-name="T31">American Civil Liberties Union</text:span><text:span text:style-name="T16">, 2020, <text:tab/>www.aclu.org/other/domestic-violence-and-homelessness</text:span><text:span text:style-name="T16">.</text:span></text:p>
+   <text:p text:style-name="P38">“HAB/CoC Bi-Monthly Meeting.” <text:span text:style-name="T28">Continuum of Care/Homeless Advisory Board</text:span>, 30 Mar. 2020, <text:tab/>www.alleghenycounty.us/Human-Services/About/Advisory-Bodies/HA/Meeting-Minutes.aspx.</text:p>
+   <text:p text:style-name="P38">“Housing Opportunity Fund Programs.” <text:span text:style-name="T28">The Urban Redevelopment Authority</text:span>, <text:tab/>www.ura.org/pages/housing-opportunity-fund-programs.</text:p>
+   <text:p text:style-name="P38">McKernan, Patricia. “Homelessness and Prisoner Re-Entry.” <text:span text:style-name="T28">Volunteers of America</text:span>, <text:tab/>www.voa.org/homelessness-and-prisoner-reentry.</text:p>
+   <text:p text:style-name="P38">“The Homeless Mentally Ill.” <text:span text:style-name="T28">Harvard Health</text:span>, Harvard Health Publishing, Mar. 2014, <text:tab/>www.health.harvard.edu/newsletter_article/The_homeless_mentally_ill.</text:p>
+   <text:p text:style-name="P38"><text:span text:style-name="T54">“</text:span><text:span text:style-name="T49">State-by-State Statistics on Domestic Violence.” </text:span><text:span text:style-name="T57">National Coalition Against Domestic Violence</text:span><text:span text:style-name="T49">, <text:tab/>ncadv.org/state-by-state.</text:span> </text:p>
+   <text:p text:style-name="P38"/>
+   <text:p text:style-name="P38"/>
+   <text:p text:style-name="P39"><text:soft-page-break/><text:span text:style-name="T77">Adam Karl</text:span></text:p>
+   <text:p text:style-name="P18">Professor <text:span text:style-name="T75">William Kirchner</text:span></text:p>
+   <text:p text:style-name="P18">ENGCMP0200</text:p>
+   <text:p text:style-name="P18">1 November 2020</text:p>
+   <text:p text:style-name="P19">Funerals: Outliving their Usefulness</text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T77"><text:tab/></text:span><text:span text:style-name="T78">What </text:span><text:span text:style-name="T79">are the benefits of choosing a traditional funeral? </text:span><text:span text:style-name="T80">According to a quick search, the</text:span><text:span text:style-name="T79"> formal structure of a funeral service </text:span><text:span text:style-name="T81">fulfills our cultural and religious </text:span><text:span text:style-name="T82">obligation</text:span><text:span text:style-name="T81"> both to the deceased and to our family and community </text:span><text:span text:style-name="T83">(“Five Important Reasons to Have a Funeral Service”). </text:span><text:span text:style-name="T84">Additionally</text:span><text:span text:style-name="T79">, “attending a funeral service is a way to let your subconscious know grieving is allowed,” and attending the ceremony </text:span><text:span text:style-name="T81">gives you time to deal with your emotions and start the healing process (“The Benefits of Attending a Funeral”).</text:span><text:span text:style-name="T79"> </text:span><text:span text:style-name="T85">It’s a good thing everyone knows you can’t just make up pseudoscientific reasons </text:span><text:span text:style-name="T81">to push your service</text:span><text:span text:style-name="T85">, otherwise I’d have to ask </text:span><text:span text:style-name="T81">the obviously impartial </text:span><text:span text:style-name="T83">Benjamin Memorial Home</text:span><text:span text:style-name="T85"> </text:span><text:span text:style-name="T83">and Brunswick Memorial Home</text:span><text:span text:style-name="T85"> for a source on th</text:span><text:span text:style-name="T86">e whole “letting your subconscious know” bit</text:span><text:span text:style-name="T85">.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T85"><text:tab/></text:span><text:span text:style-name="T87">My hope is that sharing some information about the funeral industry along with my personal views on funeral ceremonies will encourage the reader to reevaluate how meaningful funeral services are to them. Although ultimately funerals have negligible emotional value to me, I don’t expect to (or for that matter, really particularly want to) convince people to adopt my position. Rather, my goal is a personal reappraisal of the socially mandated norm. In my opinion, if everyone was more aware of choices they make (especially when they don’t perceive any alternatives) the world would be a more reasonable place.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T88"><text:tab/>The most obvious</text:span><text:span text:style-name="T89"> drawback of funerals is the cost, </text:span><text:span text:style-name="T90">which isn’t mentioned in any of the marketing materials</text:span><text:span text:style-name="T89">. According to the National Funeral Director’s Association, in 2019 the median cost of a complete funeral (including viewing, casket, </text:span><text:span text:style-name="T91">and</text:span><text:span text:style-name="T89"> </text:span><text:span text:style-name="T88">vault,</text:span><text:span text:style-name="T89"> </text:span><text:span text:style-name="T91">but </text:span><text:span text:style-name="T92">not including</text:span><text:span text:style-name="T91"> the price of headstone and burial plot</text:span><text:span text:style-name="T89">) was $9,135 </text:span><text:span text:style-name="T91">(“Statistics”)</text:span><text:span text:style-name="T89">. </text:span><text:span text:style-name="T91">The average funeral expense has grown </text:span><text:span text:style-name="T92">an extraordinary</text:span><text:span text:style-name="T91"> </text:span><text:span text:style-name="T92">227% since 1990 (Martin, Anthony), of which less than half (about 97%) can be attributed to inflation (“CPI Inflation Calculator”). Although I’d personally like to be lenient toward funeral homes since 89% are owned by a family or individual, the combination of skyrocketing prices along with a target market of grieving families/spouses is </text:span><text:span text:style-name="T82">certainly</text:span><text:span text:style-name="T92"> enough to </text:span><text:span text:style-name="T82">make me question how much they should be allowed to get away with </text:span><text:span text:style-name="T91">(“Statistics”)</text:span><text:span text:style-name="T82">.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T82"><text:tab/>As of January 2020, only 41% of Americans say they would be able to cover a $1,000 emergency expense, with the rest either having to take come kind of loan, or altogether not knowing how they would find the money (Leonhardt, Megan). With this context, it’s difficult for me to read Benjamin Memorial Home’s “cultural and religious obligation” as anything other than an obligation to put yourself in serious debt just to fulfill a social norm.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T82"><text:tab/></text:span><text:span text:style-name="T93">Under such economic pressure, it’s no wonder Americans have turned to alternatives. </text:span><text:span text:style-name="T90">C</text:span><text:span text:style-name="T93">remations became more popular than burials for the first time in 2016, and have remained more popular for each year since (Katz, Brigit). However, even this less expensive route</text:span><text:span text:style-name="T89"> had a median cost of $5,150 </text:span><text:span text:style-name="T93">in 2019</text:span><text:span text:style-name="T89">, </text:span><text:span text:style-name="T93">with the most offensive expense being </text:span><text:span text:style-name="T94">$1,200 for</text:span><text:span text:style-name="T93"> the cremation casket </text:span><text:span text:style-name="T91">(“Statistics”).</text:span></text:p>
+   <text:p text:style-name="P17"><text:tab/><text:span text:style-name="T111">In order to justify a price of five to ten thousand dollars, the social and emotional benefit of a viewing/funeral has to be worth the cost. </text:span><text:span text:style-name="T112">For some people, the benefit may be worth it, but I’m worried that many people don’t even consider forgoing the rituals and ceremonies due to religious and/or social expectations.</text:span></text:p>
+   <text:p text:style-name="P17"><text:span text:style-name="T113"><text:tab/>Unfortunately, there don’t seem to be any decent sources on the emotional effect that funeral viewings, burials, or other ceremonies have on those that attend. </text:span><text:span text:style-name="T112">Alas, e</text:span><text:span text:style-name="T113">ven if there </text:span><text:span text:style-name="T30">were</text:span><text:span text:style-name="T39"> statistics </text:span><text:span text:style-name="T40">on whether </text:span><text:span text:style-name="T39">having a funeral was worthwhile, I might still find it difficult to take them at face value. </text:span><text:span text:style-name="T41">It’s reasonable to assume</text:span><text:span text:style-name="T39"> some people might confuse the implication that a funeral wasn’t worth the money with the implication that the deceased loved one wasn’t worth the money.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T94"><text:tab/>For me personally, it’s not worth it. Although the deaths of both of my grandmothers I knew w</text:span><text:span text:style-name="T95">ere</text:span><text:span text:style-name="T94"> coming f</text:span><text:span text:style-name="T95">or months</text:span><text:span text:style-name="T94">, neither of their extravagant ceremonies were as impactful as the “celebration </text:span><text:soft-page-break/><text:span text:style-name="T94">of life” lunch </text:span><text:span text:style-name="T80">held for my favorite aunt after she died unexpectedly</text:span><text:span text:style-name="T95"> and left her body to science</text:span><text:span text:style-name="T80">. Seeing the embalmed bod</text:span><text:span text:style-name="T95">ies at the viewings</text:span><text:span text:style-name="T80"> actually left me more confused </text:span><text:span text:style-name="T95">and disgusted</text:span><text:span text:style-name="T80"> than anything, as </text:span><text:span text:style-name="T95">they</text:span><text:span text:style-name="T80"> hit the uncanny valley between human and wax figure </text:span><text:span text:style-name="T95">and certainly looked nothing like the people I once knew</text:span><text:span text:style-name="T80">.</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T114"><text:tab/></text:span><text:span text:style-name="T112">Talking about death always seems to turn people into hollow, tenative versions of themselves. </text:span><text:span text:style-name="T115">Just this Wednesday, </text:span><text:span text:style-name="T116">I received a call that should have gone: “He</text:span><text:span text:style-name="T117">llo Adam</text:span><text:span text:style-name="T116">, the man you were a match to donate bone marrow to died </text:span><text:span text:style-name="T118">yesterday</text:span><text:span text:style-name="T116">, </text:span><text:span text:style-name="T117">so you can clear your schedule.</text:span><text:span text:style-name="T116">” Instead, <text:s/></text:span><text:span text:style-name="T117">I was strung along a five minute conversation full of fluff and consolation delivered in </text:span><text:span text:style-name="T119">a</text:span><text:span text:style-name="T117"> somber tone </text:span><text:span text:style-name="T120">(</text:span><text:span text:style-name="T117">not unlike a funeral director</text:span><text:span text:style-name="T120">)</text:span><text:span text:style-name="T117"> </text:span><text:span text:style-name="T118">before the caller finally got to the point.</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T118"><text:tab/>Quite literally the only things I know about the person was that he was a 62 year old male with leukemia, he lived </text:span><text:span text:style-name="T121">somewhere</text:span><text:span text:style-name="T118"> in the </text:span><text:span text:style-name="T121">contiguous</text:span><text:span text:style-name="T118"> United States, and something </text:span><text:span text:style-name="T121">in our blood was similar enough to match me as a potential donor</text:span><text:span text:style-name="T118">. </text:span><text:span text:style-name="T121">I don’t even know his name. At the risk of sounding heartless, <text:s/></text:span><text:span text:style-name="T119">I care about him as much as any of the other 7,</text:span><text:span text:style-name="T122">5</text:span><text:span text:style-name="T119">00+ Americans that die on any given day </text:span><text:span text:style-name="T122">(National Vital Statistics System)</text:span><text:span text:style-name="T119">.</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T119"><text:tab/></text:span><text:span text:style-name="T122">So, why was the caller from the donor program so careful and consoling when talking to me, despite knowing that donors and </text:span><text:span text:style-name="T123">recipients always have a communication barrier between them? </text:span><text:span text:style-name="T124">She knew I had never known the man’s name, much less meet him or interact long enough to form an opinion of him.</text:span><text:span text:style-name="T123"> Of course, it’s the same reason that funeral directors always speak with an air of over-sentimentality despite depending on death and grief in order to make a living: when in doubt, it’s best to err on the side of reverence when it comes to death.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T76"><text:tab/></text:span><text:span text:style-name="T93">Whether when making plans at the funeral home, during the funeral itself, death</text:span><text:span text:style-name="T77"> </text:span><text:span text:style-name="T96">turns people into conservatively-dressed cyborgs stuck repeating “I’m sorry for your loss,” “if you need anything I’m here for you,” </text:span><text:span text:style-name="T80">or “they loved you so much.”</text:span><text:span text:style-name="T96"> </text:span><text:span text:style-name="T93">Funeral eulogies include the almost obligatory </text:span><text:span text:style-name="T77">“</text:span><text:span text:style-name="T93">he/she</text:span><text:span text:style-name="T97"> was loved by many” </text:span><text:span text:style-name="T93">and “was an inspiration to us all.”</text:span><text:span text:style-name="T96"> </text:span><text:span text:style-name="T98">I can certainly empathize with falling back on social cliches when stuck in a situation where I don’t know what to say, but as a society we must be kidding ourselves if we think such overused condolences are really helping anybody.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T99"><text:tab/>To me, it feels like everyone at a funeral is carefully trying to emulate how they’re “supposed” to be acting rather than doing anything to actually aid the grieving process, or at least have genuine interactions with other people. </text:span><text:span text:style-name="T100">Talking about death is almost always done indirectly, or using euphemism such as “passed,” “drifted away,” “eternal rest,” “at peace,” or “lost his/her battle with [disease].” <text:s/></text:span><text:span text:style-name="T101">At a funeral, it’s taboo to mention any negative interaction with the dead,</text:span><text:span text:style-name="T93"> </text:span><text:span text:style-name="T101">and even asking how they died is enough to earn 9 year old me a swift kick in the leg from my mom.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T102"><text:tab/>At the end of my grandmother’s viewing my mom and aunt, who I generally regard as fairly reasonable people, got into a pretty heated argument about whether </text:span><text:span text:style-name="T103">or not</text:span><text:span text:style-name="T102"> it was “disrespectful” to take a picture of my grandmother </text:span><text:span text:style-name="T78">in her casket</text:span><text:span text:style-name="T102">. For the life of me I couldn’t figure out who it might be disrespectful </text:span><text:span text:style-name="T105">to</text:span><text:span text:style-name="T102">. My grandmother? I </text:span><text:span text:style-name="T78">can’t imagine she cared much.</text:span><text:span text:style-name="T102"> The public? </text:span><text:span text:style-name="T83">Of the</text:span><text:span text:style-name="T102"> </text:span><text:span text:style-name="T83">four</text:span><text:span text:style-name="T102"> people in the room, </text:span><text:span text:style-name="T83">on</text:span><text:span text:style-name="T106">e of them was dead</text:span><text:span text:style-name="T83">, and </text:span><text:span text:style-name="T106">another one</text:span><text:span text:style-name="T83"> could </text:span><text:span text:style-name="T106">only</text:span><text:span text:style-name="T83"> think about was </text:span><text:span text:style-name="T106">how many people in America have been so desperate that they’re willing to steal or kill for a smaller sum of money than the stainless steel and sterling casket was worth.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T77"><text:tab/></text:span><text:span text:style-name="T106">Of all the redundant phrases surrounding death and funerals, </text:span><text:span text:style-name="T77">“funerals are for the living” </text:span><text:span text:style-name="T106">is the one I’m willing to give the most consideration to. If someone weighs all the options and decides </text:span><text:span text:style-name="T107">to organize or attend</text:span><text:span text:style-name="T106"> a complete viewing and burial for their loved one, I honestly have no problem with that. For me, the issue arises when either they don’t consider alternatives due to social/</text:span><text:span text:style-name="T108">cultural/</text:span><text:span text:style-name="T106">religious reasons, or the </text:span><text:span text:style-name="T107">reasons they give don’t quite align with their actions.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T77"><text:tab/></text:span><text:span text:style-name="T107">O</text:span><text:span text:style-name="T109">ften there’s dissonance between why people say they’re there (to help the grieving process) and </text:span><text:span text:style-name="T107">the social posturing that seems to</text:span><text:span text:style-name="T109"> happen at funerals. </text:span><text:span text:style-name="T107">I’ve only been to a half dozen or so funerals, but </text:span><text:span text:style-name="T109">every </text:span><text:span text:style-name="T107">single one</text:span><text:span text:style-name="T109"> has included some kind of list of people who “</text:span><text:span text:style-name="T107">sent their prayers</text:span><text:span text:style-name="T109">” </text:span><text:span text:style-name="T107">or</text:span><text:span text:style-name="T109"> “wished they could be there.” If </text:span><text:span text:style-name="T101">the funeral rituals were the source or emotional</text:span><text:span text:style-name="T109">, then there would be no need </text:span><text:span text:style-name="T101">to account for missing people. If funerals were actually about social grief, then why have the rituals at all?</text:span></text:p>
+   <text:p text:style-name="P22"><text:soft-page-break/><text:span text:style-name="T125"><text:tab/>Admittedly, gossip about people not in attendance (especially those not immediately related to the deceased), and when asked they will assuredly reinforce that it’s okay by saying “everyone copes with loss in their own way”. However, the fact that missing people are even mentioned is evidence that their absence is noted, and the reassurance that it’s okay to not </text:span><text:span text:style-name="T126">come</text:span><text:span text:style-name="T125"> is indicative of </text:span><text:span text:style-name="T127">an</text:span><text:span text:style-name="T125"> unspoken </text:span><text:span text:style-name="T126">expectation that they would attend.</text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T76"><text:tab/></text:span><text:span text:style-name="T103">Instead there’s social and economic posturing including who attends, who acts properly during service, who showed up with a new wife after not talking to the dead person for a decade, who helps pay for the funeral, how much they pay, who says a eulogy, etc. Everyone seems </text:span><text:span text:style-name="T86">unknowingly</text:span><text:span text:style-name="T103"> caught up making a false equivalence between actions after the person died to how much they cared about the person.</text:span></text:p>
+   <text:p text:style-name="P22"><text:span text:style-name="T125"><text:tab/></text:span><text:span text:style-name="T128">I don’t particularly plan on attending </text:span><text:span text:style-name="T129">or paying for</text:span><text:span text:style-name="T128"> any funerals in the future, even for my parent</text:span><text:span text:style-name="T129">s. It’s not that I don’t care for them or have a bad relationship with them, rather funerals just have negligible value for me. I’m sure if you asked </text:span><text:span text:style-name="T130">my parents</text:span><text:span text:style-name="T129">, they’d agree that me outliving them both is </text:span><text:span text:style-name="T130">quite literally</text:span><text:span text:style-name="T129"> the best case scenario </text:span><text:span text:style-name="T75">for everyone involved, and anything I feel like I need to say to them I’d rather just say while they’re alive than when they can’t hear me.</text:span><text:span text:style-name="T129"> </text:span></text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T76"><text:tab/></text:span><text:span text:style-name="T86">Things that don’t indicate how much you care about the dead: prioritizing the financial needs of a dead person over those of a living one, how you talk about the dead, whether or not you attend a ceremony, and how you act at a ceremony. Things that do indicate how much you care about the dead: your relationship with the dead. </text:span><text:span text:style-name="T110">Funerals are not mandatory, </text:span><text:span text:style-name="T95">and considering alternatives shouldn’t be considered disrespectful. </text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P20">Works Cited</text:p>
+   <text:p text:style-name="P21"/>
+   <text:p text:style-name="P21">“CPI Inflation Calculator.” <text:span text:style-name="T27">U.S. Bureau of Labor Statistics</text:span>, U.S. Bureau of Labor Statistics, <text:tab/>www.bls.gov/data/inflation_calculator.htm. </text:p>
+   <text:p text:style-name="P21">“Five Important Reasons to Have a Funeral Service.” <text:span text:style-name="T27">Benjamin Memorial Home</text:span>, <text:tab/>coluccifuneralhome.com/49/Five-Reasons-to-Have-a-Funeral.html. </text:p>
+   <text:p text:style-name="P21">Katz, Brigit. “Cremation Rates Reach All-Time High in the U.S.” <text:span text:style-name="T27">Smithsonian.com</text:span>, Smithsonian <text:tab/>Institution, 11 Aug. 2017, www.smithsonianmag.com/smart-news/cremation-rates-reach-all-<text:tab/>time-high-us-180964478/. </text:p>
+   <text:p text:style-name="P21">Leonhardt, Megan. “41% Of Americans Would Be Able to Cover a $1,000 Emergency with Savings.” <text:tab/><text:span text:style-name="T27">CNBC</text:span>, 22 Jan. 2020, www.cnbc.com/2020/01/21/41-percent-of-americans-would-be-able-to-<text:tab/>cover-1000-dollar-emergency-with-savings.html. </text:p>
+   <text:p text:style-name="P22">M<text:span text:style-name="T75">a</text:span>rtin, Anthony. “Average Funeral Costs: Pricing Breakdown Of Funeral Expenses (Cremations, <text:tab/>Burials, and Services).” <text:span text:style-name="T27">Choice Mutual</text:span>, 15 Dec. 2019, choicemutual.com/funeral-cost/. </text:p>
+   <text:p text:style-name="P22">“Statistics.” <text:span text:style-name="T27">National Funeral Directors Association (NFDA)</text:span>, 18 July 2019, nfda.org/news/statistics. </text:p>
+   <text:p text:style-name="P39"><text:span text:style-name="T76">“The Benefits of Attending a Funeral.” Edited by Michael Kulbacki, </text:span><text:span text:style-name="T104">Brunswick Memorial Funeral <text:tab/>Home</text:span><text:span text:style-name="T76">, 18 Mar. 2019, www.brunswickmemorialhome.com/the-benefits-of-attending-a-funeral/</text:span><text:span text:style-name="T76">.</text:span></text:p>
+   <text:p text:style-name="P22"/>
+   <text:p text:style-name="P49">Adam Karl</text:p>
+   <text:p text:style-name="P45">23 September 2020</text:p>
+   <text:p text:style-name="P45"/>
+   <text:p text:style-name="P46">“The conclusions are the consequence, not the essence.” - Stephen Jay Gould</text:p>
+   <text:p text:style-name="P45"/>
+   <text:p text:style-name="P45"><text:tab/>I have a time obsession. There’s only so much available time in a day, and I constantly feel a need to optimize my time such that the time spent doing enjoyable things is maximized. Why should I do any more work than the most optimal, efficient way I can find? <text:s/>There are so many movies that can enthrall me for the entire runtime, so why would I waste my time with anything starring Adam Sandler?</text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T131"><text:tab/>Of course, constant time-appraisal becomes far more encumbering when I have</text:span><text:span text:style-name="T132"> to convince myself to </text:span><text:span text:style-name="T135">do</text:span><text:span text:style-name="T132"> something I don’t want to. Any amount of physical or mental effort requires proportional payoff.</text:span><text:span text:style-name="T134"> </text:span><text:span text:style-name="T131">Is the effort and time spent palletizing totes for the forklift operator to move </text:span><text:span text:style-name="T134">really</text:span><text:span text:style-name="T132"> worth the twenty-two-and-a-half cents QVC will pay me for the next minute of work? Maybe I’ll just take a 5 minute mental health break in the bathroom afterwards to even things out.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T132"><text:tab/>In the past, the problem I’ve had with writing is it’s always been </text:span><text:span text:style-name="T135">a lot of effort for marginal payoff</text:span><text:span text:style-name="T132">. Perhaps it was the teachers I’ve had in the past. In eleventh</text:span><text:span text:style-name="T138"> grade, I lost 5% of my course grade due to an improper citation on the final essay.</text:span><text:span text:style-name="T132"> In Ms. Nichols’ class, she would cap your grade at a 70 if she spotted any contractions. It was considered a mortal sin to start any two sentences with the same word. Everyone was always focused on </text:span><text:span text:style-name="T133">superficial perfection of the final product rather than refining the core composition</text:span><text:span text:style-name="T132">.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T132"><text:tab/>My first college essay was about </text:span><text:span text:style-name="T135">Gandhi and his influence</text:span><text:span text:style-name="T132"> on India’s independence movement. The requirements were unbearably rigid. I had to use precisely two primary and three secondary sources. My final product was an immaculately formatted and extensively sourced recounting of Gandhi’s life, death, and influence (from a third-person omniscient point of view, of course). I got a decent grade for a STEM major, but loathed every second of it. While writing the Gandhi paper, I had to constantly remind myself: I&apos;m writing this essay to get a good grade to maintain a high GPA to have a better chance to land an interview </text:span><text:span text:style-name="T135">and score</text:span><text:span text:style-name="T132"> a job that can feed, clothe, and shelter me while being as enjoyable (or at least painless) as possible. I&apos;m writing to stay alive. But of course that&apos;s ridiculous, there&apos;s no masked </text:span><text:span text:style-name="T133">S</text:span><text:span text:style-name="T132">ith lord waiting to force-choke me to death at the first sign of a sub-par report. So, maybe the stakes aren&apos;t quite that high. More likely, an essay keeps me alive about as much as actually waiting for the cross walk to let me know that it is indeed, finally the appropriate time to cross Forbes Avenue. So why</text:span><text:span text:style-name="T134"> was</text:span><text:span text:style-name="T132"> I writing the paper? The only things I learned from it were how to summarize and follow arbitrary rules. It wasn’t even worth my time to proofread before submitting.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T131"><text:tab/>In </text:span><text:span text:style-name="T134">Sex, Drugs, Disasters, and the Extinction of Dinosaurs</text:span><text:span text:style-name="T131">, Gould laments the failure of science writers to convey the </text:span><text:span text:style-name="T134">process</text:span><text:span text:style-name="T132"> of science in favor of dramatic interpretations of its conclusions. In attempt to appeal to as many readers as possible, they put all the emphasis on making the product as appealing as possible. </text:span><text:span text:style-name="T131">Everybody wants to read about Jurassic Armageddon, nobody cares about a comparing iridium concentrations. </text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T131"><text:tab/>Of course this couldn’t be further from reality, and Gould goes on to masterfully prove them wrong by writing the compelling narrative of three incompatible stories for dinosaur extinction, involving overheating testicles, </text:span><text:span text:style-name="T137">prehistoric drug trips</text:span><text:span text:style-name="T131">, and </text:span><text:span text:style-name="T137">celestial collisions</text:span><text:span text:style-name="T131">. The key word here is </text:span><text:span text:style-name="T134">compelling, </text:span><text:span text:style-name="T132">as nobody would care about his perceived injustice of the scientific process unless he showed that the process is just as interesting and engaging as depictions of the conclusion.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T132"><text:tab/>Gould’s story of the Alvarez hypothesis reminds me of the time I first understood the big bang theory. It started with a simple observation, and the natural follow-up question: </text:span><text:span text:style-name="T135">Why does every galaxy in the night sky look red?</text:span><text:span text:style-name="T132"> They look red because they’re all speeding away from us, literally stretching out the wavelength of the beams of light they send our direction. If they’re all moving away, in the past they must have all been closer together. When they were close together it must have taken an extremely powerful, primordial “explosion” to overcome gravitational attraction. It all just makes sense, an </text:span><text:soft-page-break/><text:span text:style-name="T132">inevitable, elegant conclusion. It was such a</text:span><text:span text:style-name="T135">n impactful </text:span><text:span text:style-name="T132">realization that </text:span><text:span text:style-name="T135">I spent years pursuing a career as a physicist</text:span><text:span text:style-name="T132">. Perhaps if quantum mechanics calculations made as much sense as the big bang it would have worked out. </text:span></text:p>
+   <text:p text:style-name="P44"><text:tab/>Unfortunately, the same way I learned writing is the same way most schoolchildren learn about the big bang theory or how the dinosaurs died: just focusing on the conclusion, not the process of getting there.</text:p>
+   <text:p text:style-name="P45"><text:tab/><text:span text:style-name="T139">Returning to the idea from the beginning of this essay:</text:span></text:p>
+   <text:p text:style-name="P45"/>
+   <text:p text:style-name="P46">“The conclusions are the consequence, not the essence.” - Stephen Jay Gould</text:p>
+   <text:p text:style-name="P48"><text:span text:style-name="T131"><text:line-break/><text:tab/>What is the essence of writing? Every time I stumble upon the word &quot;essence,&quot; I think of tuna sandwiches. Something about a philosophy class and Plato imagining people with blinders on so they only ever see the shadows cast on a cave wall rather than the objects themselves. If all they ever see is the shadow, how could they understand what a tree is? As my professor explained, reaching into his lunchbox, it’s the same thing with tuna sandwiches. You can eat a tuna sandwich. You can see it, touch it, and describe the spot on the underside that I</text:span><text:span text:style-name="T134"> </text:span><text:span text:style-name="T132">expected was a spot of mold. However, t</text:span><text:span text:style-name="T131">he true </text:span><text:span text:style-name="T134">essence</text:span><text:span text:style-name="T132"> of a tuna sandwich, what makes a tuna sandwich a tuna sandwich, it’s</text:span><text:span text:style-name="T134"> tuna-sandwichity</text:span><text:span text:style-name="T132"> if you will</text:span><text:span text:style-name="T134">, </text:span><text:span text:style-name="T132">is something far more complex. </text:span><text:span text:style-name="T131">So, what&apos;s the essence of writing? I don’t know, s</text:span><text:span text:style-name="T137">omething to do with tuna sandwiches, I guess.</text:span><text:span text:style-name="T131"><text:line-break/><text:tab/>Just like the men in the cave seeing shadows instead of the actual objects, I think in the past I’ve missed the essence of writing for the </text:span><text:span text:style-name="T134">product</text:span><text:span text:style-name="T131"> of writing. While the products I’ve worked on creating have been so formulaic to be devoid of any actual thought, the readings that I find most interesting always have something personal</text:span><text:span text:style-name="T132"> that is worth learning at their core. Coates’ “Between The World and Me,” a recounting of his childhood experiences on the streets of Baltimore, doesn’t seem at first glance to have anything I can relate to. However, during Coates’ experience of living on the streets, then escaping and becoming a writer he implicitly learned how the same person in two drastically different situations can have very different outlooks on life and society. It’s worth knowing. And through effective writing, he can take readers (like myself) who don’t have the same life experiences on a parallel, reverse journey back to the Baltimore streets of his youth.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T132"><text:tab/>If I’m writing a piece, how could I expect the reader to pick up something valuable if I don’t learn or experience something valuable during the process of writing it? Therefore, reading something worth reading always follows the author first learning something worth learning. That’s the difference between something worth reading and something that isn’t, the reason I hated mechanically recounting the timeline of events in Gandhi’s life. I didn’t learn anything about </text:span><text:span text:style-name="T135">the world</text:span><text:span text:style-name="T132"> or about myself, I just regurgitated facts.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T131"><text:tab/>The only thing I’ve ever written that was worth my time was about </text:span><text:span text:style-name="T134">Real Women Have Bodies</text:span><text:span text:style-name="T132"> by Carmen Maria Machado, a queer, existential, sci-fi love story heavily centered around female identity. Despite lacking an identity connection, the short story encapsulated my own passions, attitudes, beliefs, and fears in a way that no written work ever has. Reading it over and over again was an incredibly personal, emotional experience.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T132"><text:tab/></text:span><text:span text:style-name="T135">Although it was obvious how significant the story was to me, I found it extremely difficult to put into words exactly </text:span><text:span text:style-name="T136">why</text:span><text:span text:style-name="T135"> it was so important when it came time to actually write about it. In </text:span><text:span text:style-name="T136">Into the Woods</text:span><text:span text:style-name="T135">, I think Cheryl Strayed has a similar relationship with the Pacific Crest Trail as I did with </text:span><text:span text:style-name="T136">Real Women Have Bodies</text:span><text:span text:style-name="T135">.</text:span><text:span text:style-name="T131"><text:tab/>In “Into The Woods,” Cheryl Strayed abandons her life following her mother’s death to hike the Pacific Crest Trail. She doesn’t even fully realize why she’s doing it, she just starts before fully grasping the commitment she has made. To an outsider, she seems completely insane. To me personally, her actions couldn’t be more different from how I live, constantly evaluating if everything I do is worth my time. However, by leaping first then evaluating later, I think Strayed stumbled across the essence of writing: inquiry.<text:line-break/></text:span><text:soft-page-break/><text:span text:style-name="T131"><text:tab/>How would walking the Pacific Crest Trail bring closure following her mother’s death? Why did I see so much of myself in this queer, </text:span><text:span text:style-name="T137">intensely feminist dystopia so far removed from my own experience</text:span><text:span text:style-name="T131">? Why was the </text:span><text:span text:style-name="T137">journey </text:span><text:span text:style-name="T131">more important than her happy marriage? Why </text:span><text:span text:style-name="T137">did I need to share Machado’s work with anyone in my life who might be remotely interested</text:span><text:span text:style-name="T131">? Admittedly, in my case the stakes were significantly lower, but felt just as urgent.</text:span></text:p>
+   <text:p text:style-name="P45"><text:tab/>In order to find answers, Cheryl Strayed had to walk the trail. In order to find answers, I had to write. It wasn’t something either of us fully understood, but it was something both of us knew was mandatory.</text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T131"><text:tab/>I don’t know if the final paper was something worth reading, but for the first time ever that wasn’t </text:span><text:span text:style-name="T137">something that mattered</text:span><text:span text:style-name="T131">. It was worth </text:span><text:span text:style-name="T134">writing</text:span><text:span text:style-name="T132">. The process, not the product, was worth my time. Most of the writing process didn’t even occur in front of a </text:span><text:span text:style-name="T135">word document</text:span><text:span text:style-name="T132"> or even while reading the story, but in the shower or laying awake at night thinking about how to articulate </text:span><text:span text:style-name="T135">what I already knew</text:span><text:span text:style-name="T132">. As I dug deeper in to the story and what I loved about it, I was also digging deeper into </text:span><text:span text:style-name="T135">myself and my place in the world</text:span><text:span text:style-name="T132">. It was cathartic, and one of those seminal life moments that dot everyone’s experience.</text:span></text:p>
+   <text:p text:style-name="P47"><text:span text:style-name="T131"><text:tab/>Reading </text:span><text:span text:style-name="T137">about the girl on fire in</text:span><text:span text:style-name="T131"> </text:span><text:span text:style-name="T134">The Five People you meet in Heaven</text:span><text:span text:style-name="T131">. Watching Neil don the crown of thorns</text:span><text:span text:style-name="T132"> in</text:span><text:span text:style-name="T134"> </text:span><text:span text:style-name="T131">Dead Poets Society</text:span><text:span text:style-name="T132">. The first real relationship, and the first breakup. Seeing Inception alone in theater 11 of Movies at Midway; the ticket stub </text:span><text:span text:style-name="T135">hid</text:span><text:span text:style-name="T132"> in my wallet until it became so faded nobody else could read it. The death of a mother. Hiding in my apartment for weeks on end at peak depersonalization. Watching Bo Burnham’s </text:span><text:span text:style-name="T135">anxiety-</text:span><text:span text:style-name="T132">centered </text:span><text:span text:style-name="T135">stand-up show</text:span><text:span text:style-name="T134"> Make Happy.</text:span><text:span text:style-name="T132"> Finalizing a divorce from a happy marriage. Walking out on the job I couldn’t take for even one more hour, unable to even </text:span><text:span text:style-name="T135">muster an explanation</text:span><text:span text:style-name="T132">. Leaving a happy marriage to walk the Pacific Crest Trail. Finding the reason to go back to school. Writing the </text:span><text:span text:style-name="T134">Real Women Have Bodies</text:span><text:span text:style-name="T132"> paper.</text:span></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"><text:tab/>It’s not possible to predict life’s next paradigm shift. It’s not something anyone can give to you, nor is it something you can prepare for. I cannot hand someone a copy of Machado’s book and expect it to have the same impact on them as it did on me, and just as likely if I watched their favorite movie, read their favorite book, or had their same </text:span><text:span text:style-name="T135">core </text:span><text:span text:style-name="T132">experience it wouldn’t </text:span><text:span text:style-name="T135">mean the same thing to me as it does to them. Every story we’ve read in class, and indeed every story worth reading about has an experience worth understanding at its core. When these important,</text:span><text:span text:style-name="T136"> human </text:span><text:span text:style-name="T135">moments arrive in our own lives, self reflection and</text:span><text:span text:style-name="T132"> inquiry through writing can help us understand to ourselves and our place in the world better.</text:span></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P42"><text:span text:style-name="T132"/></text:p>
+   <text:p text:style-name="P43"><text:soft-page-break/><text:span text:style-name="T132">READING JOURNAL</text:span></text:p>
+   <text:p text:style-name="P39">8/30<text:line-break/>&quot;Girl&quot; by Jamaica Kincaid<text:line-break/>1. The girl is growing up in a culture seemingly obsessed with traditional gender roles and conservative values, constantly warning the girl about appearing like a slut for the most innocent infractions. Although the speaker only seems to speak in her *true voice* twice during the italic sections, the first section &quot;but I don&apos;t sing benna on Sundays at all and never in Sunday school&quot; outs her as only mildly displeased with the actual values being enforced (she still refrains from singing suggestive songs on Sundays), but more upset with the constant ordering and nagging that comes with those values. Kincaid&apos;s form consists of a constant barrage of insults and commands (likely from her mother) with little punctuation other than a semicolon between sentences. With the entire passage being a single paragraph, the reader is completely swept away by a flow of things the girl cannot or should not do. It&apos;s difficult to pinpoint exactly what the girl is thinking or what Kincaid&apos;s ultimate purpose is since the main character barely has a voice, but the constant hammering of what&apos;s wrong with the girl is certainly seen as a negative, and the reader is free to fill the narrative void with their own interpretations. Personally, I see this piece as a rejection of the notion that every person should morph into some idealized version of what society expects them to be; here a form of the mid-20th century housewife.<text:line-break/></text:p>
+   <text:p text:style-name="P39"/>
+   <text:p text:style-name="P39">8/31<text:line-break/>&quot;Girl&quot; contd.<text:line-break/>2. <text:line-break/>this is how to find the product bin; this is how you find the matching product in the bin; this is how to scan the bin barcode; this is how to scan the product SKU; this is where to send it down the line to shipping; search; scan; send; search; scan; send; okay now just do that eighty-seven times an hour until you can leave; search; eighty-seven times ten is eight hundred seventy; carry the bins to the end; send; everyone thinks they can slack off just because the company is moving and everyone is getting laid off soon; scan; bell rings; send; walk to lunch; ohbythewaytheyextendedmandatoryovertimeagain; bell rings, return from lunch; only five more months; scan; try not to think about killing yourself; search; cry in the bathroom; scan; again; again; finally time to go home; home; you can&apos;t skip therapy again; it&apos;s all in your head; take these pills; *well, yeah, where else would mental illness be*; drive to therapy; don&apos;t make friends with *those* people, they&apos;rebrokenpeople; don&apos;t play video games with your friends; games are just timewasters; *I&apos;m broken people*; apply for college; you can&apos;t afford college; you need to make more money; we just want the best for you; go to sleep you&apos;re working ten hours again tomorrow; again tomorrow<text:line-break/><text:line-break/>Imitating Kincaid allowed me to condense all of the (often contradicting) complaints and demands into a form that matched my state of mind at the time. I went for an approach that used different speakers at work and at home, as well as a more internal voice, but I&apos;m not sure how well it came across. I think if I did a rewrite I&apos;d focus more on just one voice and flesh it out more dynamically. <text:line-break/>Although my version didn&apos;t focus on education specifically, the biggest theme I though about when writing was how different environments and having a lot of insults or unhelpful words spoken at you can influence your thoughts and inner monologue and lead to negative self-talk.<text:line-break/><text:line-break/>9/6<text:line-break/>&quot;Between the World and Me&quot; by Ta-Nahisi Coates<text:line-break/>1. Since the focus of Coates&apos; passage is the vast separation between his young life in Baltimore and the life of someone growing up in present day, he risks very little by framing his past as a world separated almost entirely from both the present and from any semblance of safety and security. The prompt <text:soft-page-break/>includes the quote: &quot;Somewhere out there beyond the firmament, past the asteroid belt, there were other worlds where children did not regularly fear for their bodies.&quot; I&apos;m glad this quote was used in the prompt because it was certainly the most memorable part of the passage for me upon first reading. I took it literally the first time, and imagined alien life on other worlds and pondered if they have similar versions of institutionalized racism or animosity between social classes. Then, upon realizing Coates only meant that safety felt galaxies away I read the sentence again, an it cemented the feeling of isolation and desparate helplessness Coates felt while just trying to survive Baltimore.<text:line-break/>When learning French in school, Coates writes: &quot;France was a rock rotating in another galaxy, around another sun, in another sky that I would never cross. Why, precisely, was I sitting in this classrooom?&quot; Picking back up the extended metaphor of his experiences being light-years away from civilization and safety, this sentence really resonated with me. My middle school regularly sent students taking French to Quebec to talk to native speakers and learn some of the culture. I didn&apos;t take French, but this sentence made me consider an aspect of my privilege that I&apos;d never really examined before; a chance to travel to learn French and travel to Quebec was something I had taken for granted so much that I turned it down just to learn another language, while many people might never have a chance for an experience like that.<text:line-break/>Near the end of the passage Coates describes growing up in Baltimore in terms more akin to a septic battlefield. He writes: &quot;The ground we walked was trip-wired. The air we breathed was toxic. the water stunted our growth.&quot; Again, obviously none of these statements are literal, but the metaphor instead provides the reader with an alternative view of life on the streets. Here, rather than feeling a galaxy away from safety and security, Coates draws the reader into the feeling of anxiety that comes with constantly fearing for your life, much like a war in the trenches.<text:line-break/><text:line-break/>2. <text:line-break/> <text:s/>While reading the passage without this knowledge I&apos;ll admit I felt a bit uncomfortable about the number of assumptions about my life and beliefs that Coates seemed to make. When I though the piece was directed at me, the parts that weren&apos;t perfect matches with my experiences felt like flaws or accusations. For instance, &quot;You have some acquaintance with the old rules, but they are not as essential to you as they were to me.&quot; However, when the piece is directed at Coates&apos; son, it instead transforms into a more gentle piece about different experiences with a lot of experiences and perceptions I could closely relate to.<text:line-break/> <text:s/>The Trayvon Martin killing and subsequent Zimmerman trial is the instance in my mind that stands out as the first public race-related issue I was old enough to live through and witness the vastly different opinions of. Certainly both the deaths of Trayvon Martin and Michael Brown are events that most people in America who are old enough to remember the instances can also remember the varying reactions of the people around them to the incidents as well as their own reactions.<text:line-break/><text:line-break/>9/9 &quot;Sex, Drugs, Disasters, and the Extinction of Dinosaurs&quot; by Gould<text:line-break/>One tactic Gould uses a lot is to foreshadow in a sense. He sets up three competing hypotheses, but spoils that two of them are unscientific and don&apos;t hold water before diving into the details of them.<text:line-break/><text:line-break/>9/12 Brian Doyle short stories<text:line-break/>1. &quot;Dawn and Mary&quot;<text:line-break/>&quot;(we heard pop-pop-pop, said one of the staffers later)&quot;<text:line-break/>This inclusion at the end of the first paragraph immediately grabbed my attention. I don&apos;t know if there&apos;s a word for this kind of tactic, it seems adjacent to foreshadowing, but is far more obvious to the reader since they know that whatever happened is something people will all be talking about in the future.<text:line-break/><text:line-break/><text:soft-page-break/>&quot;She had two daughters. Her husband had proposed to her five times before she&apos;d finally said yes, and that had been married for ten years.&quot;<text:line-break/>An extremely concise way to introduce a character and have the raeder immediately care about her, especially since her life is already in danger. Mary&apos;s paragraph is similar.<text:line-break/><text:line-break/>&quot;You and I have been in that hallway.&quot;<text:line-break/>wow<text:line-break/><text:line-break/>2. &quot;His Last Game&quot;<text:line-break/>This story (and especially the first few paragraphs) made liberal use of run-on sentences with only commas for punctuation. In my opinion, this tactic effectively enforces the stream of consciousness style.<text:line-break/><text:line-break/>3. &quot;The First Sports Team I Remember&quot;<text:line-break/>Again Doyle starts the story with an excessively long run-on sentence that draws the reader in to his meandering style of rambling about a topic.<text:line-break/><text:line-break/>9/13<text:line-break/>Although I also adored &quot;His Last Game,&quot; Doyle&apos;s &quot;Dawn and Mary&quot; is the most memorable short story I&apos;ve read in a long time, especially considering how much impact the story has over such a short length. Doyle introduces Dawn with: &quot;She had two daughters. Her husband had proposed to her five times before she&apos;d finally said yes, and that had been married for ten years.&quot; His choice to condense Dawn&apos;s life into a single obituary-like paragraph did more to make me care about Dawn as a character than some books or movies were able to do with a full backstory and dialogue. Mary&apos;s characterization is similarly concise, the only reason I found it less effective was because it happens just after Dawn so pulling the same trick twice wasn&apos;t quite as memorable. <text:line-break/>I think Doyle&apos;s choice to introduce the characters only after the setting of a school shooting was established also enhanced the story in a way that I find difficult to describe. If the first pair of paragraphs was swapped with the next pair (introducing Dawn and Mary), the story would make just as much sense, but would&apos;ve had a far less impact on my reading experience. Perhaps the reason is that the current structure makes it implicitly clear how Dawn and Mary never asked to be in their situation, they just happened to be people around when the opportunity to do something selfless and heroic happened.<text:line-break/>Finally, Doyle hits the reader with &quot;You and I have been in that hallway,&quot;</text:p>
+   <text:p text:style-name="P39"><text:s/>which suddenly brings the reader into the reality of the situation and forces them to consider what they would do if such a shooting happened when they were in school. After setting the scene at a school shooting in Connecticut, I assumed the story was about Sandy Hook and that knowledge made it easier to have a more objective, outside approach to the story; this sentence broke down that barrier between me and what happens to the characters.<text:line-break/><text:line-break/>9/28 &quot;On Dumpster Diving&quot; - Lars Eighner<text:line-break/>1. When I first started reading I expected a more direct narrative on the state of mind Eighner was in while being homeless, but he instead writes almost exclusively about how to efficiently pick through a dumpster, and only sprinkles in his thoughts about homelessness itself.<text:line-break/>2. I thought a lot about waste and logistics while reading. There&apos;s plenty of excess that gets thrown away rather than donated to someone else because of social stigma or because it&apos;s not easy to do. I imagine most restaurants would be okay with their trash instead feeding the hungry, but they don&apos;t because they don&apos;t want a line of homeless outside their restaurant at all times.<text:line-break/>3. In my opinion, Eighner&apos;s biggest strength is his ability to lead the reader to conclusions without stating them directly. For example, &quot;homeless people are still people&quot; and &quot;I went to college and still <text:soft-page-break/>wound up homeless&quot; were both clearly conveyed without being explicitly stated. In fact, these ideas would&apos;ve felt less compelling if the reader wasn&apos;t organically led to them.<text:line-break/><text:line-break/>10/5 &quot;Small Change&quot; Malcolm Gladwell<text:line-break/>The most interesting thing Eighner does in &quot;On Dumpster Diving&quot; is to focus on the contents of dumpsters rather than the more abstract concepts of poverty and homelessness. Instead, the reader is left to infer much of the mental state of Eighner and his homeless partners from small snippets of conversation and thoughts in between sections of digging through trash. This serves to draw the reader in by de-familiarizing them by showing them a different way to look at garbage.<text:line-break/>Gladwell, on the other hand, directly attacks the paradigm by providing specific counterarguments to his overall point and discussing them at length (as an aside, Gladwell&apos;s paper reads much like a modern philosophy paper, using counterexample + rebuttle pairs). This technique initially confuses the reader a bit as the counterarguments are more familiar, but Gladwell&apos;s distinction of hard and soft ties prove to be a superior model for social motivation throughout the essay.<text:line-break/><text:line-break/>10/12 &quot;self-esteem&quot;<text:line-break/>1. I&apos;ll be honest, I didn&apos;t find Slater&apos;s essay to be all that compelling. Of course, I don&apos;t mean that I think it&apos;s &quot;objectively&quot; bad or anything, but rather my personal reading experience wasn&apos;t all that great. The times in my life when my self-esteem wasn&apos;t the highest didn&apos;t cause me to magically become self-destructive or violent, so I was already on board with Slater&apos;s conclusion (self esteem correlating to happiness seems reasonable in my mind, but low self esteem alone causing violence and drug abuse I find ridiculous). Much of the beginning of the essay felt like she just strung together a list of studies and thoughts of psychologists and essayists on the subject. As a scientist I appreciate a good study that challenges preconceived notions, but as a reader I wasn&apos;t really engaged and didn&apos;t feel like I learned anything new. <text:line-break/>With that being said, I found the most interesting part by far to be when Slater was considering if there should be treatment for having too high of a self-esteem. This idea I found completely novel, and Slater effectively expands on the idea by exploring what such a treatment might look like, and I spent a lot of time wondering how you&apos;d even convince people to seek such treatment without a court order.<text:line-break/>2. I think the form of this essay is pretty similar to Gladwell&apos;s essay, but where Slater&apos;s references to what other people think felt (to me, at least) pretty mechanical and not very engaging, Gladwell gave vivid descriptions of events before and after the rise of social media that drew me in and made me imagine how I might act under such circumstances.<text:line-break/><text:line-break/>10/19<text:line-break/>1. Gatto&apos;s essay relies mostly on personal experience to convince the reader that public schooling trains obedience and conformity rather than growth and curiosity. Kipnis, on the other hand, uses almost no personal experience in her essay, instead focusing on shared experience and assumes the reader knows the societal expectations about love in order to rationally examine those norms.<text:line-break/>2. Kipnis reframes committing adultery as a logical re-examination of the societal contract between personal desire and societal gratification. I found this technique to be a refreshingly interesting and logical take on a normally indefensible action, and I hope to use something similar in my own essay.<text:line-break/>3. I have several smaller ideas that might not be able to be fleshed out into a full essay, but also I&apos;m thinking about writing about family, funerals, or social hierarchy.</text:p>
+   <text:p text:style-name="P39"/>
+   <text:p text:style-name="P23">10/21</text:p>
+   <text:p text:style-name="P23">The Naked Truth: I quite enjoyed reading this essay, but by far the biggest issue I find with this essay is the failure of the writer to tackle even the most simple of counterarguments. The last paragraph I find extremely childlike in the amount of thought that went in: surely if we all went around naked every day <text:soft-page-break/>the novelty would wear off over time. With that being said, the tone was pretty whimsical throughout, and a pretty fun read. B-</text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P23">Goodbye Google: It’s hard as a computer science major to find a lot of flaws that non-tech people wouldn’t see. For instance, the writer fails to mention firefox, duckduckgo, or any other means of protecting your privacy while browsing online. In addition, I have a hard time finding any problem turning to web browsers when looking up very quick facts, like who stars in a certain movie or dates of events. B+</text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P23">The Shitty Stigma of Swearing: I find this essay to be by far the most humorous and self-aware of the 3 essays. The writer makes several well thought-out points and has a light tone throughout. There’s a moment when the writer mentions that people find swearing interesting in presentations, and I was thinking that they could add a fourth wall break and mention how this essay is more interesting since it contains swearing. I don’t know if I’d have the confidence in my writing to pull something like that off, but it would be interesting.</text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P23">11/4 <text:span text:style-name="T140">&amp; 11/9</text:span></text:p>
+   <text:p text:style-name="P51"><text:span text:style-name="T141">Adam Karl: </text:span>I think I did pretty well picking a controversial topic, but I also think it was a bit of my downfall because I felt I had to treat it extremely carefully to not offend anyone. Honestly by the time I submitted I wished I picked a less important topic and was able to focus completely on nailing the execution instead of spreading myself a bit too thin between trying to manage the reader&apos;s perception of me while also trying to make my point.</text:p>
+   <text:p text:style-name="P50">Casey Mulcahy: I find the beginning half of this essay pretty impeccable, and the history of dress codes is extremely efficiently written. By the end, it loses a bit of focus, but was still interesting and thought provoking.</text:p>
+   <text:p text:style-name="P50">For a specific example, I think the paragraph with &quot;boys will be boys&quot; has the potential to be an absolute slam dunk, and I thought you were going to hammer home that if boys are distracted by girls&apos; bodies/clothes, the blame should be on the boys for not focusing rather than the girls. Instead, going for two double standards (&quot;evil triumphs when good men do nothing,&quot; and the lack of support for &quot;girls will be girls&quot;) in my opinion compromised the focus a bit at a crucial part of the essay.</text:p>
+   <text:p text:style-name="P50">Eddie Chen: As others have said, the research and history in this essay is presented really well, and the biggest drawback is the relative lack of personal voice. I&apos;ll be honest, I find it difficult to give any more feedback outside of that, since I agreed with you from the start but the topic also begs the question &quot;what about all the other consumer goods outside of clothing which equally exploit developing companies?&quot; which is outside the scope of the essay.</text:p>
+   <text:p text:style-name="P50">Madeline Kuzdzal: I think your essay is very interesting and well written as is, but could use just one or two more strong points to turn it into a phenomenal essay.</text:p>
+   <text:p text:style-name="P50">I felt like you held back a bit on discussing religion/higher power angle (totally understandable since it&apos;s so controversial, I held back on discussing religion in my essay as well), but since &quot;God works in mysterious ways&quot; is functionally identical to &quot;everything happens for a reason,&quot; I at least expected you to mention it more than just in passing.</text:p>
+   <text:p text:style-name="P50">Also, are there any studies on whether people who think &quot;everything happens for a reason&quot; happier? If so, one could make the argument that such an outlook is useful regardless of whether it&apos;s true. If not (as I suspect), it would be a invaluable to your argument as a &quot;final nail in the coffin.&quot;</text:p>
+   <text:p text:style-name="P23">11/11</text:p>
+   <text:p text:style-name="P23"><text:soft-page-break/>As for the subject, I’m slightly disappointed in how restricted the topic is. I much preferred the last two topics where I was able to write about just about anything I wanted, which allowed me to pour more passion into the pieces. I also have no idea what proposal I’m going to do, and it doesn’t help that both examples are about air pollution, which was the first thing I though of. It seems like I won’t be able to rely on my topic choice to set myself apart.</text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P23">O2 Joy: My biggest issue with this essay is that so much emphasis is put on the sacrifices and changes individuals could make, when the problem is described as being the fault of a few gigantic companies. It seems unfair that private citizens have to right the wrongs of a few extremely wealthy corporations. I also think a bit more could be said about the roots of the problem, although that’s only obvious since the next essay does it so well.</text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P23">Living in Pittsburgh Takes Years Off Your Life: The history of the steel industry and pollution is remarkably well done in this essay, as well as their criticism of worker’s safety. The statistic of Allegheny County being in the top 2% of cancer risk really got to me. I do think the writer would benefit by adding more reasonable solutions to the problem, as the CityTree filters seem a bit far-fetched and unlikely for my liking. However, that’s a small issue on an immaculately well-researched paper.</text:p>
+   <text:p text:style-name="P23"/>
+   <text:p text:style-name="P24">11/18</text:p>
+   <text:p text:style-name="P41"><text:span text:style-name="T132">I’ll admit I didn’t have as much time to browse the resources as I would’ve liked, but the logistics part of me really liked the plan to most efficiently reroute traffic through and around Pitt’s campus. It’s probably just the nature of Forbes Avenue that it’ll always be busy to a certain degree, but the plan Pitt laid out for foot, bike, and motor vehicle traffic was something I found fascinating. Perhaps next they could focus on public transportation, I wish the system was robust and reliable enough that students and other residents felt that they didn’t need cars. Having fewer people owning cars would have a compounding effect that cleared roads, in turn making public transportation even more effective. Additionally, parking in my neighborhood is an absolute nightmare, and people constantly block the fire hydrants and dumpsters because they can’t find a viable spot.</text:span></text:p>
   </office:text>
  </office:body>
 </office:document>
